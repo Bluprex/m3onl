@@ -1,10 +1,17 @@
 ﻿workflows:
   metin3-ios-test:
-    name: Metin3 iOS Test
+    name: Metin3 iOS TestFlight
     instance_type: mac_mini_m2
     max_build_duration: 60
 
+    integrations:
+      app_store_connect: "Metin 3 Beta"
+
     environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.metin3online
+
       xcode: latest
 
     scripts:
@@ -12,11 +19,6 @@
         script: |
           git lfs install
           git lfs pull
-
-      - name: Xcode proje kontrolü
-        script: |
-          ls -la
-          xcodebuild -list -project Unity-iPhone.xcodeproj
 
       - name: Unity script izinlerini düzelt
         script: |
@@ -26,18 +28,29 @@
           chmod +x usymtoolarm64
           find . -type f -name "*.sh" -exec chmod +x {} \;
 
-      - name: Metin3 iOS unsigned build
+      - name: Build numarasını ayarla
         script: |
-          xcodebuild \
-            -project Unity-iPhone.xcodeproj \
-            -scheme Unity-iPhone \
-            -configuration Release \
-            -sdk iphoneos \
-            CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGNING_REQUIRED=NO \
-            build
+          /usr/libexec/PlistBuddy \
+            -c "Set :CFBundleVersion $BUILD_NUMBER" \
+            "$CM_BUILD_DIR/Info.plist"
+
+      - name: iOS imzalama ayarlarını uygula
+        script: |
+          xcode-project use-profiles \
+            --project "$CM_BUILD_DIR/Unity-iPhone.xcodeproj"
+
+      - name: Metin3 IPA oluştur
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/Unity-iPhone.xcodeproj" \
+            --scheme "Unity-iPhone"
 
     artifacts:
+      - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
+    publishing:
+      app_store_connect:
+        auth: integration
