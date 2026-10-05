@@ -1,0 +1,199 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415D (void);
+extern void VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E (void);
+extern void VideoClip__ctor_m0D5152E4073E1D970B8A947BC16309696AAF084A (void);
+extern void VideoClip_get_width_mC4F4AB7B71F65B0086F2DD9BFFA6789B50A94DAD (void);
+extern void VideoClip_get_height_m425279B19CB8EB25DD480DC888DFB7B7108788B4 (void);
+extern void VideoClip_get_width_Injected_m387F82C781B41BAE673A6A793BDBB31936D9E727 (void);
+extern void VideoClip_get_height_Injected_m9788245848A3954A811B5EAFE26C9CE818556F16 (void);
+extern void VideoPlayer_set_source_m31B8A16AF9B6FE58D5DCF549614BE6B53DE53052 (void);
+extern void VideoPlayer_set_clip_m85C09C15E184E9AAE117C1A534D8AC25175C8DC9 (void);
+extern void VideoPlayer_set_renderMode_m22880E02710AF2C055E27CDE2C96EAC8BA4CEFC0 (void);
+extern void VideoPlayer_set_targetTexture_mCFEE8D0342A11CD20CF51A3C467BA745BEB49E02 (void);
+extern void VideoPlayer_Prepare_mC0EF4CC2E5A6B7C04F9F810DD9406A6146BEE6EA (void);
+extern void VideoPlayer_set_waitForFirstFrame_m43D97D5C3971060018A9BF5D04B9CEDDBA1056AA (void);
+extern void VideoPlayer_set_playOnAwake_m658E574E0109125AD1754D61FE81DD7BB02411A0 (void);
+extern void VideoPlayer_Play_m8E99607F39F1D214BDD704F3E130DD2418787ACE (void);
+extern void VideoPlayer_Stop_m1F2DE73183E042998140A56FF69432A200430BF1 (void);
+extern void VideoPlayer_set_isLooping_m37563E7D24110FDBBBB4E48EA90E639BE778264E (void);
+extern void VideoPlayer_set_skipOnDrop_m3AF58ACDD78E0331942DA2C82075EE09D824B6B9 (void);
+extern void VideoPlayer_set_audioOutputMode_mB6388A630434913121DD37D2E48CF66E81BF8574 (void);
+extern void VideoPlayer_add_prepareCompleted_m4DB8843A3E3E3CFF7E361E70EA51983AF457183B (void);
+extern void VideoPlayer_remove_prepareCompleted_mDA77FE81F97195666D407DBB5689F8289A0513DF (void);
+extern void VideoPlayer_add_errorReceived_mDB5EB3E78A571249C101BF6A7CB394A8AF7C0B6A (void);
+extern void VideoPlayer_remove_errorReceived_m419AC4C19034B872B7DB82B59B4E61302213FA2A (void);
+extern void VideoPlayer_InvokePrepareCompletedCallback_Internal_mF483B141E9AF0B553FF87B32A0EE54E40BE21EFD (void);
+extern void VideoPlayer_InvokeFrameReadyCallback_Internal_mF5F02FE6BBEA70C62108F3FD836E1B378CB9F5E7 (void);
+extern void VideoPlayer_InvokeLoopPointReachedCallback_Internal_m090FD00BB12721EB3CEB337E30687D5DE6B1EBD6 (void);
+extern void VideoPlayer_InvokeStartedCallback_Internal_mBDD186C95E57DD264CD0957FA46D9F65728C67EF (void);
+extern void VideoPlayer_InvokeFrameDroppedCallback_Internal_m6E6B6353404AF76AB16D1433B8553659B0744DC0 (void);
+extern void VideoPlayer_InvokeErrorReceivedCallback_Internal_m91E59ED70189824AB2C5D0AEB47742130EE98574 (void);
+extern void VideoPlayer_InvokeSeekCompletedCallback_Internal_m62AEB9826ACE95B88CC60220375C1C7EF5EEEE1F (void);
+extern void VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m743B8421E9538761141364EBDCEBC673BA58D8C6 (void);
+extern void VideoPlayer__ctor_m309536693DD1F20C0D1E6ABBF5FC48858746C6B6 (void);
+extern void VideoPlayer_set_source_Injected_m4E38E5A67DD6BB9746C481CEEED0608E75A1DDD1 (void);
+extern void VideoPlayer_set_clip_Injected_m4B305EC48C31024B66AD6C641DF75F79AA9BE2C7 (void);
+extern void VideoPlayer_set_renderMode_Injected_m10EA4CC1A5F79D0BB472031B5C413FFB2AB53FAE (void);
+extern void VideoPlayer_set_targetTexture_Injected_m6B6934A931A38D42F7F070755F46584D2AEE1B26 (void);
+extern void VideoPlayer_Prepare_Injected_m946CDD19D59354A22257F58821F870E0E6BE3066 (void);
+extern void VideoPlayer_set_waitForFirstFrame_Injected_mBE8CF7E0550AEC37CD903277AB8997A6E2058855 (void);
+extern void VideoPlayer_set_playOnAwake_Injected_m8AEA7124AD5AB3A9C1DFF7833C32F4D1587B801D (void);
+extern void VideoPlayer_Play_Injected_m6AB297C015723C8F94E805F269EF8A03D1E7835A (void);
+extern void VideoPlayer_Stop_Injected_mD404E9FE0EE18FE42FAE2D9D927D211F18A934E7 (void);
+extern void VideoPlayer_set_isLooping_Injected_mDFF375EC3EA1A2167C2589C9D52836677A63F46D (void);
+extern void VideoPlayer_set_skipOnDrop_Injected_mD7771E4E8505EC86B4F7BE52936A6546C7491303 (void);
+extern void VideoPlayer_set_audioOutputMode_Injected_m6356A028F8B855EADF191119F34DEB41A38E058C (void);
+extern void EventHandler__ctor_mFCF62E0BB29DD3D2B2F1306BD8657E374CF60903 (void);
+extern void EventHandler_Invoke_m8A3288B6DF1FE2699A58EA22D0B830BB20E94E15 (void);
+extern void ErrorEventHandler__ctor_m78073CD72C64AAFAF54A01702919A847185F4C58 (void);
+extern void ErrorEventHandler_Invoke_m0601D855B85F5053A0A10A0166A8CE469D4672C5 (void);
+extern void FrameReadyEventHandler__ctor_mD875F736BCA2A2128427AB0546B5081ED3B22D56 (void);
+extern void FrameReadyEventHandler_Invoke_m73FF71F81A620194421226D8A98C64FB82E7B235 (void);
+extern void TimeEventHandler__ctor_m7BF78A616C8FF71B3A7CA62B1A03446A5C581309 (void);
+extern void TimeEventHandler_Invoke_m2327761543815FB7181FFF73E87FC5EC0F84349D (void);
+static Il2CppMethodPointer s_methodPointers[52] = 
+{
+	VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415D,
+	VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E,
+	VideoClip__ctor_m0D5152E4073E1D970B8A947BC16309696AAF084A,
+	VideoClip_get_width_mC4F4AB7B71F65B0086F2DD9BFFA6789B50A94DAD,
+	VideoClip_get_height_m425279B19CB8EB25DD480DC888DFB7B7108788B4,
+	VideoClip_get_width_Injected_m387F82C781B41BAE673A6A793BDBB31936D9E727,
+	VideoClip_get_height_Injected_m9788245848A3954A811B5EAFE26C9CE818556F16,
+	VideoPlayer_set_source_m31B8A16AF9B6FE58D5DCF549614BE6B53DE53052,
+	VideoPlayer_set_clip_m85C09C15E184E9AAE117C1A534D8AC25175C8DC9,
+	VideoPlayer_set_renderMode_m22880E02710AF2C055E27CDE2C96EAC8BA4CEFC0,
+	VideoPlayer_set_targetTexture_mCFEE8D0342A11CD20CF51A3C467BA745BEB49E02,
+	VideoPlayer_Prepare_mC0EF4CC2E5A6B7C04F9F810DD9406A6146BEE6EA,
+	VideoPlayer_set_waitForFirstFrame_m43D97D5C3971060018A9BF5D04B9CEDDBA1056AA,
+	VideoPlayer_set_playOnAwake_m658E574E0109125AD1754D61FE81DD7BB02411A0,
+	VideoPlayer_Play_m8E99607F39F1D214BDD704F3E130DD2418787ACE,
+	VideoPlayer_Stop_m1F2DE73183E042998140A56FF69432A200430BF1,
+	VideoPlayer_set_isLooping_m37563E7D24110FDBBBB4E48EA90E639BE778264E,
+	VideoPlayer_set_skipOnDrop_m3AF58ACDD78E0331942DA2C82075EE09D824B6B9,
+	VideoPlayer_set_audioOutputMode_mB6388A630434913121DD37D2E48CF66E81BF8574,
+	VideoPlayer_add_prepareCompleted_m4DB8843A3E3E3CFF7E361E70EA51983AF457183B,
+	VideoPlayer_remove_prepareCompleted_mDA77FE81F97195666D407DBB5689F8289A0513DF,
+	VideoPlayer_add_errorReceived_mDB5EB3E78A571249C101BF6A7CB394A8AF7C0B6A,
+	VideoPlayer_remove_errorReceived_m419AC4C19034B872B7DB82B59B4E61302213FA2A,
+	VideoPlayer_InvokePrepareCompletedCallback_Internal_mF483B141E9AF0B553FF87B32A0EE54E40BE21EFD,
+	VideoPlayer_InvokeFrameReadyCallback_Internal_mF5F02FE6BBEA70C62108F3FD836E1B378CB9F5E7,
+	VideoPlayer_InvokeLoopPointReachedCallback_Internal_m090FD00BB12721EB3CEB337E30687D5DE6B1EBD6,
+	VideoPlayer_InvokeStartedCallback_Internal_mBDD186C95E57DD264CD0957FA46D9F65728C67EF,
+	VideoPlayer_InvokeFrameDroppedCallback_Internal_m6E6B6353404AF76AB16D1433B8553659B0744DC0,
+	VideoPlayer_InvokeErrorReceivedCallback_Internal_m91E59ED70189824AB2C5D0AEB47742130EE98574,
+	VideoPlayer_InvokeSeekCompletedCallback_Internal_m62AEB9826ACE95B88CC60220375C1C7EF5EEEE1F,
+	VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m743B8421E9538761141364EBDCEBC673BA58D8C6,
+	VideoPlayer__ctor_m309536693DD1F20C0D1E6ABBF5FC48858746C6B6,
+	VideoPlayer_set_source_Injected_m4E38E5A67DD6BB9746C481CEEED0608E75A1DDD1,
+	VideoPlayer_set_clip_Injected_m4B305EC48C31024B66AD6C641DF75F79AA9BE2C7,
+	VideoPlayer_set_renderMode_Injected_m10EA4CC1A5F79D0BB472031B5C413FFB2AB53FAE,
+	VideoPlayer_set_targetTexture_Injected_m6B6934A931A38D42F7F070755F46584D2AEE1B26,
+	VideoPlayer_Prepare_Injected_m946CDD19D59354A22257F58821F870E0E6BE3066,
+	VideoPlayer_set_waitForFirstFrame_Injected_mBE8CF7E0550AEC37CD903277AB8997A6E2058855,
+	VideoPlayer_set_playOnAwake_Injected_m8AEA7124AD5AB3A9C1DFF7833C32F4D1587B801D,
+	VideoPlayer_Play_Injected_m6AB297C015723C8F94E805F269EF8A03D1E7835A,
+	VideoPlayer_Stop_Injected_mD404E9FE0EE18FE42FAE2D9D927D211F18A934E7,
+	VideoPlayer_set_isLooping_Injected_mDFF375EC3EA1A2167C2589C9D52836677A63F46D,
+	VideoPlayer_set_skipOnDrop_Injected_mD7771E4E8505EC86B4F7BE52936A6546C7491303,
+	VideoPlayer_set_audioOutputMode_Injected_m6356A028F8B855EADF191119F34DEB41A38E058C,
+	EventHandler__ctor_mFCF62E0BB29DD3D2B2F1306BD8657E374CF60903,
+	EventHandler_Invoke_m8A3288B6DF1FE2699A58EA22D0B830BB20E94E15,
+	ErrorEventHandler__ctor_m78073CD72C64AAFAF54A01702919A847185F4C58,
+	ErrorEventHandler_Invoke_m0601D855B85F5053A0A10A0166A8CE469D4672C5,
+	FrameReadyEventHandler__ctor_mD875F736BCA2A2128427AB0546B5081ED3B22D56,
+	FrameReadyEventHandler_Invoke_m73FF71F81A620194421226D8A98C64FB82E7B235,
+	TimeEventHandler__ctor_m7BF78A616C8FF71B3A7CA62B1A03446A5C581309,
+	TimeEventHandler_Invoke_m2327761543815FB7181FFF73E87FC5EC0F84349D,
+};
+extern void VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415D_AdjustorThunk (void);
+extern void VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x06000001, VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415D_AdjustorThunk },
+	{ 0x06000002, VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[52] = 
+{
+	13906,
+	7664,
+	14083,
+	14063,
+	14063,
+	22990,
+	22990,
+	10606,
+	10667,
+	10606,
+	10667,
+	14083,
+	10473,
+	10473,
+	14083,
+	14083,
+	10473,
+	10473,
+	10606,
+	10667,
+	10667,
+	10667,
+	10667,
+	23140,
+	20521,
+	23140,
+	23140,
+	23140,
+	20528,
+	23140,
+	20513,
+	14083,
+	20360,
+	20361,
+	20360,
+	20361,
+	23138,
+	20358,
+	20358,
+	23138,
+	23138,
+	20358,
+	20358,
+	20360,
+	5342,
+	10667,
+	5342,
+	5350,
+	5342,
+	5341,
+	5342,
+	5329,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule = 
+{
+	"UnityEngine.VideoModule.dll",
+	52,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
