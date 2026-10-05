@@ -210140,6 +210140,12 @@ void RuntimeInvoker_FalseDateTime_t66193957C73913903DDAD89FEDC46139BCA5802D (Il2
 	*((DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)returnAddress) = ((Func)methodPointer)(methodMetadata);
 }
 
+void RuntimeInvoker_FalseDateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
+{
+	typedef DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 (*Func)(const RuntimeMethod* method);
+	*((DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4*)returnAddress) = ((Func)methodPointer)(methodMetadata);
+}
+
 void RuntimeInvoker_FalseDepthState_t798415D2C1D9202E555FEE5D4C5FDF6B3A077255 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
 {
 	typedef DepthState_t798415D2C1D9202E555FEE5D4C5FDF6B3A077255 (*Func)(const RuntimeMethod* method);
@@ -211245,7 +211251,7 @@ void RuntimeInvoker_FalseMonoScriptData_t7C1EFF89409588A65507FDF01648DD5646A1DA3
 }
 
 IL2CPP_EXTERN_C const InvokerMethod g_Il2CppInvokerPointers[];
-const InvokerMethod g_Il2CppInvokerPointers[24550] = 
+const InvokerMethod g_Il2CppInvokerPointers[24551] = 
 {
 	RuntimeInvoker_F57671A1A271362DE5576D4120520430DEAD6EAE,
 	RuntimeInvoker_7C7502B48E2131BE322E25A4A5423517C2046CC6,
@@ -235613,6 +235619,7 @@ const InvokerMethod g_Il2CppInvokerPointers[24550] =
 	RuntimeInvoker_FalseCookie_tA61BB2790E12D696A65444ACF3E636B3EF2AC3A0,
 	RuntimeInvoker_FalseCursor_t24C3B5095F65B86794C4F7EA168E324DFDA9EE82,
 	RuntimeInvoker_FalseDateTime_t66193957C73913903DDAD89FEDC46139BCA5802D,
+	RuntimeInvoker_FalseDateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4,
 	RuntimeInvoker_FalseDepthState_t798415D2C1D9202E555FEE5D4C5FDF6B3A077255,
 	RuntimeInvoker_FalseDisableDeviceCommand_t974D69BE0CA6623C190CC3FA2EB8371165042BAD,
 	RuntimeInvoker_FalseDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F,
