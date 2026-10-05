@@ -822,6 +822,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AssetBundle_LoadFromFileAsync_Internal_Injected();
 		Register_UnityEngine_AssetBundle_LoadFromFileAsync_Internal_Injected();
 
+		//System.String[] UnityEngine.AssetBundle::GetAllAssetNames_Injected(System.IntPtr)
+		void Register_UnityEngine_AssetBundle_GetAllAssetNames_Injected();
+		Register_UnityEngine_AssetBundle_GetAllAssetNames_Injected();
+
 		//System.String[] UnityEngine.AssetBundle::GetAllScenePaths_Injected(System.IntPtr)
 		void Register_UnityEngine_AssetBundle_GetAllScenePaths_Injected();
 		Register_UnityEngine_AssetBundle_GetAllScenePaths_Injected();
@@ -829,6 +833,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.AssetBundle::Unload_Injected(System.IntPtr,System.Boolean)
 		void Register_UnityEngine_AssetBundle_Unload_Injected();
 		Register_UnityEngine_AssetBundle_Unload_Injected();
+
+		//UnityEngine.Object[] UnityEngine.AssetBundle::LoadAssetWithSubAssets_Internal_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,System.Type)
+		void Register_UnityEngine_AssetBundle_LoadAssetWithSubAssets_Internal_Injected();
+		Register_UnityEngine_AssetBundle_LoadAssetWithSubAssets_Internal_Injected();
 
 	//End Registrations for type : UnityEngine.AssetBundle
 
