@@ -18,6 +18,14 @@
           ls -la
           xcodebuild -list -project Unity-iPhone.xcodeproj
 
+      - name: Unity script izinlerini düzelt
+        script: |
+          chmod +x process_symbols.sh
+          chmod +x process_symbols_il2cpp.sh
+          chmod +x usymtool
+          chmod +x usymtoolarm64
+          find . -type f -name "*.sh" -exec chmod +x {} \;
+
       - name: Metin3 iOS unsigned build
         script: |
           xcodebuild \
