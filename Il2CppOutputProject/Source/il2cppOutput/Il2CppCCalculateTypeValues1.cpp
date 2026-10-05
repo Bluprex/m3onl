@@ -43331,12 +43331,7 @@ struct Metin2MobileActionButton_tE6C0F0018BE6BA990DE9D5022B403FF7406400F3  : pub
 struct Metin2MobileCameraLookArea_t26F4F2BFAAF70110B9B2505976A5863B28AF5325  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	float ___sensitivity;
-	float ___minimumPitch;
-	float ___maximumPitch;
 	Metin2GameplayCamera_tF8C4CCA5CF5681119B31D6F2892CA85514170B82* ___cameraController;
-	FieldInfo_t* ___yawField;
-	FieldInfo_t* ___pitchField;
-	FieldInfo_t* ___rotationSpeedField;
 };
 struct Metin2MobileGameplayUI_t489006D0EE45111D2D937872E85EFD753C71B911  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -43861,9 +43856,6 @@ struct MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714  : public 
 	bool ___attackWasQueued;
 	float ___nextAttackPulse;
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ___gameplayCamera;
-	FieldInfo_t* ___cameraYawField;
-	FieldInfo_t* ___cameraPitchField;
-	FieldInfo_t* ___cameraRotationSpeedField;
 	MethodInfo_t* ___cameraToggleViewMethod;
 	MethodInfo_t* ___cameraAdjustZoomMethod;
 };

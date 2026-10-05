@@ -775,6 +775,7 @@ extern void Metin2GameplayCamera_ConfigureInitialThirdPerson_mB8FEBDD8815A36774D
 extern void Metin2GameplayCamera_Follow_m50CDF375A823679754E8724CE1E6F3BD05481300 (void);
 extern void Metin2GameplayCamera_ToggleView_mEEEE6FE7D5AE8E1FC25B048D8C3764618C90F9BC (void);
 extern void Metin2GameplayCamera_AdjustThirdPersonDistance_m1900BCA785DB6A1E912B7E312BF7488A8140D056 (void);
+extern void Metin2GameplayCamera_RotateView_m9B457471A335B708D7A68964ED65CF8C27B64193 (void);
 extern void Metin2GameplayCamera_SetFirstPersonHiddenRenderers_m1D00AF60D7BABF7A77FE4DA0A26E0554DB8A697C (void);
 extern void Metin2GameplayCamera_ApplyFirstPersonRendererVisibility_m3B0C93217A9EFDF9E8A8ECB895C04DF30EAE9C45 (void);
 extern void Metin2GameplayCamera_LateUpdate_mCB1A2D3823F8D2FA57D9FF9611830854B89B1386 (void);
@@ -3148,7 +3149,7 @@ extern void Metin2LoginBackground_Release_m99161D56FE7B12E1F97D0EC7F074CBF9181BE
 extern void Metin2LoginBackground__ctor_mCF5135BBA2DE00DBA4ABF3404EE35DB36B71CA83 (void);
 extern void Metin3OpeningScreen__ctor_m58B783515727FB1A5C79DB585EA8CE92490293EB (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (void);
-static Il2CppMethodPointer s_methodPointers[3152] = 
+static Il2CppMethodPointer s_methodPointers[3153] = 
 {
 	Metin2Camera_Awake_m1D89B241FDF90A37C1493673F38B4562EBC7B73F,
 	Metin2Camera_LateUpdate_m96569ED298A8D7DDE0C7EC23EE48B049599AC9F0,
@@ -3921,6 +3922,7 @@ static Il2CppMethodPointer s_methodPointers[3152] =
 	Metin2GameplayCamera_Follow_m50CDF375A823679754E8724CE1E6F3BD05481300,
 	Metin2GameplayCamera_ToggleView_mEEEE6FE7D5AE8E1FC25B048D8C3764618C90F9BC,
 	Metin2GameplayCamera_AdjustThirdPersonDistance_m1900BCA785DB6A1E912B7E312BF7488A8140D056,
+	Metin2GameplayCamera_RotateView_m9B457471A335B708D7A68964ED65CF8C27B64193,
 	Metin2GameplayCamera_SetFirstPersonHiddenRenderers_m1D00AF60D7BABF7A77FE4DA0A26E0554DB8A697C,
 	Metin2GameplayCamera_ApplyFirstPersonRendererVisibility_m3B0C93217A9EFDF9E8A8ECB895C04DF30EAE9C45,
 	Metin2GameplayCamera_LateUpdate_mCB1A2D3823F8D2FA57D9FF9611830854B89B1386,
@@ -6308,9 +6310,9 @@ extern void Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk 
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
 	{ 0x06000076, EquipmentSlotDef__ctor_m78665D4B0178E9D6F4E0AEC5E4834739AC7B0FA6_AdjustorThunk },
-	{ 0x06000924, Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk },
+	{ 0x06000925, Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[3152] = 
+static const int32_t s_InvokerIndices[3153] = 
 {
 	14143,
 	14143,
@@ -7083,6 +7085,7 @@ static const int32_t s_InvokerIndices[3152] =
 	2394,
 	14143,
 	10809,
+	10898,
 	10716,
 	14143,
 	14143,
@@ -9470,13 +9473,13 @@ static const Il2CppTokenRangePair s_rgctxIndices[10] =
 	{ 0x06000042, { 0, 2 } },
 	{ 0x060000B0, { 2, 3 } },
 	{ 0x060000F0, { 5, 2 } },
-	{ 0x06000327, { 7, 2 } },
-	{ 0x060003EE, { 9, 2 } },
-	{ 0x06000795, { 11, 2 } },
-	{ 0x0600097E, { 13, 3 } },
-	{ 0x0600097F, { 16, 8 } },
-	{ 0x06000B9E, { 24, 5 } },
-	{ 0x06000B9F, { 29, 3 } },
+	{ 0x06000328, { 7, 2 } },
+	{ 0x060003EF, { 9, 2 } },
+	{ 0x06000796, { 11, 2 } },
+	{ 0x0600097F, { 13, 3 } },
+	{ 0x06000980, { 16, 8 } },
+	{ 0x06000B9F, { 24, 5 } },
+	{ 0x06000BA0, { 29, 3 } },
 };
 extern const uint32_t g_rgctx_T_t7A408E3556C6760AB7149E84F3E68AAE791A734A;
 extern const uint32_t g_rgctx_Component_GetComponent_TisT_t7A408E3556C6760AB7149E84F3E68AAE791A734A_m700767ACA5DAFF51B175C2E1A5217E92E3B7F20C;
@@ -9549,7 +9552,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	3152,
+	3153,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,
