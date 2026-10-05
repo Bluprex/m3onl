@@ -656,6 +656,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisAnimato
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m287ADF5F07E86A6244D9ECA16D1D0E5D6EE8EC18_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_mCD150641BDF618D1F8BB68C7C0C50E581D7B725A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mEA427FC769777823ABF038FF8E80D5F1F0F8B839_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_mD55CB49D4CD051960893F94D4E116F1E94D71E9D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisMobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_m643E68ABA23713F836DAFA36ECAEE7FBBAE47EFD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var;
@@ -6349,7 +6350,7 @@ inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* MobileHUDStatusAndMinimap
 	return ((  Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* (*) (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, String_t*, const RuntimeMethod*))MobileHUDStatusAndMinimap_Resolve_TisRuntimeObject_mB1B0B81D3F2C7748D3DA397B37B3C6D4F1143C32_gshared)(___0_current, ___1_root, ___2_name, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetSiblingIndex_m8A3B81F08B93991C05BFA89ADA2146836C4FC4B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_AlignToScreenCorner_m2D3575FD25A42D15B70FB27733DCFA0F86441EE0 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, bool ___1_right, const RuntimeMethod* method) ;
 inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___0_current, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_root, String_t* ___2_name, const RuntimeMethod* method)
 {
 	return ((  RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* (*) (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, String_t*, const RuntimeMethod*))MobileHUDStatusAndMinimap_Resolve_TisRuntimeObject_mB1B0B81D3F2C7748D3DA397B37B3C6D4F1143C32_gshared)(___0_current, ___1_root, ___2_name, method);
@@ -6357,6 +6358,20 @@ inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* MobileHUDStatusAndMin
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_BindAtlasButton_m85DD5EE04A0FE1045A3540DDFD3132AABE5ABC5E (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) ;
+inline Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Canvas_get_rootCanvas_m74DEA02014963B54DF651BE14284BDAFDA61DDFE (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_anchorMin_mD85363930BE38EC188F933B9F4D58320CAB72F03 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_ReleaseMinimapCamera_m442B3601A06B5A2C3AC5F17C84ED79FB1C127196 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMinimap_m16C0AD44F1627BC62578DD2D6C800FC47544586C (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) ;
@@ -19514,7 +19529,7 @@ IL_0017:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_1;
 		float L_12 = __this->___sensitivity;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
-		L_13 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_11, ((float)(L_12/(0.119999997f))), NULL);
+		L_13 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_11, ((float)(L_12/(0.360000014f))), NULL);
 		int32_t L_14;
 		L_14 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
 		int32_t L_15;
@@ -23548,8 +23563,12 @@ IL_0069:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = PointerEventData_get_delta_m7DC87C01EAE1D10282C37842ED215FDBFE2C1C5B_inline(L_13, NULL);
 		float L_15 = L_14.___y;
+		int32_t L_16;
+		L_16 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		int32_t L_17;
+		L_17 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_16, NULL);
 		NullCheck(G_B11_0);
-		MobileHUDInputBridge_AdjustCameraZoom_mC694B5EC2923800A756316410E369B627C4880AB(G_B11_0, L_15, NULL);
+		MobileHUDInputBridge_AdjustCameraZoom_mC694B5EC2923800A756316410E369B627C4880AB(G_B11_0, ((float)il2cpp_codegen_multiply(L_15, ((float)((1080.0f)/((float)L_17))))), NULL);
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:641>
 		return;
 	}
@@ -27055,292 +27074,487 @@ IL_0678:
 		L_159 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_158, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_159)
 		{
-			goto IL_07c7;
+			goto IL_076d;
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:127>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:126>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_160 = __this->___topStatus;
-		NullCheck(L_160);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_161;
-		L_161 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_160, NULL);
-		float L_162 = L_161.___x;
-		if ((((float)L_162) < ((float)(0.0f))))
-		{
-			goto IL_06b7;
-		}
-	}
-	{
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_163 = __this->___topStatus;
-		NullCheck(L_163);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_164;
-		L_164 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_163, NULL);
-		float L_165 = L_164.___y;
-		if ((!(((float)L_165) > ((float)(0.0f)))))
-		{
-			goto IL_06f0;
-		}
-	}
-
-IL_06b7:
-	{
+		MobileHUDStatusAndMinimap_AlignToScreenCorner_m2D3575FD25A42D15B70FB27733DCFA0F86441EE0(__this, L_160, (bool)0, NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:127>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_161 = __this->___hpFill;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_162 = __this->___topStatus;
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_163;
+		L_163 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_161, L_162, _stringLiteral49DFE30ECE060FAD95895A012DA06B07596BA03C, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
+		__this->___hpFill = L_163;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpFill), (void*)L_163);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:128>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_164 = __this->___spFill;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_165 = __this->___topStatus;
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_166;
+		L_166 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_164, L_165, _stringLiteralF1B6FE5283770C871A6F9AFB5B2B1D4E329B9943, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
+		__this->___spFill = L_166;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___spFill), (void*)L_166);
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:129>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_166 = __this->___topStatus;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_167;
-		memset((&L_167), 0, sizeof(L_167));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_167), (32.0f), (-32.0f), NULL);
-		NullCheck(L_166);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_166, L_167, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:130>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_167 = __this->___staminaFill;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_168 = __this->___topStatus;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_169;
-		memset((&L_169), 0, sizeof(L_169));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_169), (1.39999998f), (1.39999998f), (1.0f), NULL);
-		NullCheck(L_168);
-		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_168, L_169, NULL);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_169;
+		L_169 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_167, L_168, _stringLiteralCDC9CA8B1E057F153472A5356E06136B547DE701, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
+		__this->___staminaFill = L_169;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___staminaFill), (void*)L_169);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:130>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_170 = __this->___hpText;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_171 = __this->___topStatus;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_172;
+		L_172 = MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074(L_170, L_171, _stringLiteral5132A54A4FE3F7F525AE1C3E1B1BB6DF91BDED12, MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074_RuntimeMethod_var);
+		__this->___hpText = L_172;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpText), (void*)L_172);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:131>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_173 = __this->___spText;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_174 = __this->___topStatus;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_175;
+		L_175 = MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074(L_173, L_174, _stringLiteral2F9F8B060D186F00A6E7F4182669405B41A4BF94, MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074_RuntimeMethod_var);
+		__this->___spText = L_175;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___spText), (void*)L_175);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:132>
+		V_15 = 0;
+		goto IL_0761;
 	}
 
-IL_06f0:
+IL_0727:
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:133>
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_176 = __this->___experienceFills;
+		int32_t L_177 = V_15;
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_178 = __this->___experienceFills;
+		int32_t L_179 = V_15;
+		NullCheck(L_178);
+		int32_t L_180 = L_179;
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_181 = (L_178)->GetAt(static_cast<il2cpp_array_size_t>(L_180));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_182 = __this->___topStatus;
+		int32_t L_183 = V_15;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_183, 1));
+		String_t* L_184;
+		L_184 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_9), NULL);
+		String_t* L_185;
+		L_185 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7FF8C37146176C8078430EAA51E6CE65A0981CF1, L_184, NULL);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_186;
+		L_186 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_181, L_182, L_185, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
+		NullCheck(L_176);
+		ArrayElementTypeCheck (L_176, L_186);
+		(L_176)->SetAt(static_cast<il2cpp_array_size_t>(L_177), (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179*)L_186);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:132>
+		int32_t L_187 = V_15;
+		V_15 = ((int32_t)il2cpp_codegen_add(L_187, 1));
+	}
+
+IL_0761:
 	{
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:132>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_170 = __this->___hpFill;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_171 = __this->___topStatus;
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_172;
-		L_172 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_170, L_171, _stringLiteral49DFE30ECE060FAD95895A012DA06B07596BA03C, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
-		__this->___hpFill = L_172;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpFill), (void*)L_172);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:133>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_173 = __this->___spFill;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_174 = __this->___topStatus;
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_175;
-		L_175 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_173, L_174, _stringLiteralF1B6FE5283770C871A6F9AFB5B2B1D4E329B9943, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
-		__this->___spFill = L_175;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___spFill), (void*)L_175);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:134>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_176 = __this->___staminaFill;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_177 = __this->___topStatus;
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_178;
-		L_178 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_176, L_177, _stringLiteralCDC9CA8B1E057F153472A5356E06136B547DE701, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
-		__this->___staminaFill = L_178;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___staminaFill), (void*)L_178);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:135>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_179 = __this->___hpText;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_180 = __this->___topStatus;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_181;
-		L_181 = MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074(L_179, L_180, _stringLiteral5132A54A4FE3F7F525AE1C3E1B1BB6DF91BDED12, MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074_RuntimeMethod_var);
-		__this->___hpText = L_181;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpText), (void*)L_181);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:136>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_182 = __this->___spText;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_183 = __this->___topStatus;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_184;
-		L_184 = MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074(L_182, L_183, _stringLiteral2F9F8B060D186F00A6E7F4182669405B41A4BF94, MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074_RuntimeMethod_var);
-		__this->___spText = L_184;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___spText), (void*)L_184);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:137>
-		V_15 = 0;
-		goto IL_07bb;
-	}
-
-IL_0781:
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:138>
-		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_185 = __this->___experienceFills;
-		int32_t L_186 = V_15;
-		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_187 = __this->___experienceFills;
 		int32_t L_188 = V_15;
-		NullCheck(L_187);
-		int32_t L_189 = L_188;
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_190 = (L_187)->GetAt(static_cast<il2cpp_array_size_t>(L_189));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_191 = __this->___topStatus;
-		int32_t L_192 = V_15;
-		V_9 = ((int32_t)il2cpp_codegen_add(L_192, 1));
-		String_t* L_193;
-		L_193 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_9), NULL);
-		String_t* L_194;
-		L_194 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7FF8C37146176C8078430EAA51E6CE65A0981CF1, L_193, NULL);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_195;
-		L_195 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_190, L_191, L_194, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
-		NullCheck(L_185);
-		ArrayElementTypeCheck (L_185, L_195);
-		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(L_186), (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179*)L_195);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:137>
-		int32_t L_196 = V_15;
-		V_15 = ((int32_t)il2cpp_codegen_add(L_196, 1));
-	}
-
-IL_07bb:
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:137>
-		int32_t L_197 = V_15;
-		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_198 = __this->___experienceFills;
-		NullCheck(L_198);
-		if ((((int32_t)L_197) < ((int32_t)((int32_t)(((RuntimeArray*)L_198)->max_length)))))
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_189 = __this->___experienceFills;
+		NullCheck(L_189);
+		if ((((int32_t)L_188) < ((int32_t)((int32_t)(((RuntimeArray*)L_189)->max_length)))))
 		{
-			goto IL_0781;
+			goto IL_0727;
 		}
 	}
 
-IL_07c7:
+IL_076d:
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:135>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_190 = __this->___minimapRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_191;
+		L_191 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_190, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_191)
+		{
+			goto IL_07e9;
+		}
+	}
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:137>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_192 = __this->___minimapRoot;
+		MobileHUDStatusAndMinimap_AlignToScreenCorner_m2D3575FD25A42D15B70FB27733DCFA0F86441EE0(__this, L_192, (bool)1, NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:138>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_193 = __this->___minimapView;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_194 = __this->___minimapRoot;
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_195;
+		L_195 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_193, L_194, _stringLiteral6284D2B39D2960845758986AB0DBA2258D827D3A, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
+		__this->___minimapView = L_195;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapView), (void*)L_195);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:139>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_196 = __this->___playerMarker;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_197;
+		L_197 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_196, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_197)
+		{
+			goto IL_07cd;
+		}
+	}
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:139>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_198 = __this->___minimapRoot;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_199;
+		L_199 = MobileHUDStatusAndMinimap_FindDeep_m1877B29AA482DE2E78CBA272F4898FBA50D0E5F6(L_198, _stringLiteral172D809D84F8C7F234C4040600F17A31DFD828D9, NULL);
+		__this->___playerMarker = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_199, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerMarker), (void*)((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_199, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)));
+	}
+
+IL_07cd:
 	{
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:140>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_199 = __this->___minimapRoot;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_200;
-		L_200 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_199, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_200)
-		{
-			goto IL_08a0;
-		}
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_200 = __this->___mapNameText;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_201 = __this->___minimapRoot;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_202;
+		L_202 = MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074(L_200, L_201, _stringLiteralBF2BE979A1136B7EBBE35A801846EAF6CF59CE16, MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074_RuntimeMethod_var);
+		__this->___mapNameText = L_202;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mapNameText), (void*)L_202);
 	}
+
+IL_07e9:
 	{
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:142>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_201 = __this->___minimapRoot;
-		NullCheck(L_201);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_202;
-		L_202 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_201, NULL);
-		float L_203 = L_202.___x;
-		if ((((float)L_203) > ((float)(0.0f))))
-		{
-			goto IL_0806;
-		}
-	}
-	{
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_204 = __this->___minimapRoot;
-		NullCheck(L_204);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_205;
-		L_205 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_204, NULL);
-		float L_206 = L_205.___y;
-		if ((!(((float)L_206) > ((float)(0.0f)))))
-		{
-			goto IL_083f;
-		}
-	}
-
-IL_0806:
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:144>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_207 = __this->___minimapRoot;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_208;
-		memset((&L_208), 0, sizeof(L_208));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_208), (-32.0f), (-32.0f), NULL);
-		NullCheck(L_207);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_207, L_208, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:145>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_209 = __this->___minimapRoot;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_210;
-		memset((&L_210), 0, sizeof(L_210));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_210), (1.60000002f), (1.60000002f), (1.0f), NULL);
-		NullCheck(L_209);
-		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_209, L_210, NULL);
-	}
-
-IL_083f:
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:147>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_211 = __this->___minimapView;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_212 = __this->___minimapRoot;
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_213;
-		L_213 = MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED(L_211, L_212, _stringLiteral6284D2B39D2960845758986AB0DBA2258D827D3A, MobileHUDStatusAndMinimap_Resolve_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m9F6591D92E96E488287C2C9EEB8E3972B7B59EED_RuntimeMethod_var);
-		__this->___minimapView = L_213;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapView), (void*)L_213);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:148>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_214 = __this->___playerMarker;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_215;
-		L_215 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_214, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_215)
-		{
-			goto IL_0884;
-		}
-	}
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:148>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_216 = __this->___minimapRoot;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_217;
-		L_217 = MobileHUDStatusAndMinimap_FindDeep_m1877B29AA482DE2E78CBA272F4898FBA50D0E5F6(L_216, _stringLiteral172D809D84F8C7F234C4040600F17A31DFD828D9, NULL);
-		__this->___playerMarker = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_217, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerMarker), (void*)((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_217, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)));
-	}
-
-IL_0884:
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:149>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_218 = __this->___mapNameText;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_219 = __this->___minimapRoot;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_220;
-		L_220 = MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074(L_218, L_219, _stringLiteralBF2BE979A1136B7EBBE35A801846EAF6CF59CE16, MobileHUDStatusAndMinimap_Resolve_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m6EA4BA6530EC64D610DD7D80E5B657019F92D074_RuntimeMethod_var);
-		__this->___mapNameText = L_220;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mapNameText), (void*)L_220);
-	}
-
-IL_08a0:
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:151>
 		MobileHUDStatusAndMinimap_BindAtlasButton_m85DD5EE04A0FE1045A3540DDFD3132AABE5ABC5E(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:152>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:143>
 		MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:153>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:144>
 		MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:154>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:145>
 		return;
 	}
 }
 // Method Definition Index: 38729
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Configure_m58F46A6DE3761650A0A255EB72C6D61DCA71CD17 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_status, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___1_hp, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___2_sp, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___3_stamina, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___4_hpValue, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___5_spValue, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___6_mapRoot, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___7_mapView, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___8_marker, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___9_mapName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_AlignToScreenCorner_m2D3575FD25A42D15B70FB27733DCFA0F86441EE0 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, bool ___1_right, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* V_0 = NULL;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* V_1 = NULL;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* V_2 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B5_0 = NULL;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B10_0 = NULL;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B9_0 = NULL;
+	float G_B11_0 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B11_1 = NULL;
+	float G_B13_0 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B13_1 = NULL;
+	float G_B12_0 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B12_1 = NULL;
+	float G_B14_0 = 0.0f;
+	float G_B14_1 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B14_2 = NULL;
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:151>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:151>
+		return;
+	}
+
+IL_0008:
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:152>
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1;
+		L_1 = Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3(__this, Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var);
+		V_0 = L_1;
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:153>
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_3)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		G_B5_0 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)(NULL));
+		goto IL_002b;
+	}
+
+IL_001b:
+	{
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = V_0;
+		NullCheck(L_4);
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5;
+		L_5 = Canvas_get_rootCanvas_m74DEA02014963B54DF651BE14284BDAFDA61DDFE(L_4, NULL);
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_5, NULL);
+		G_B5_0 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_6, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+	}
+
+IL_002b:
+	{
+		V_1 = G_B5_0;
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:154>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = ___0_rect;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_7, NULL);
+		V_2 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_8, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:155>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_10)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_004b;
+		}
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:155>
+		return;
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:156>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:157>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = V_1;
+		bool L_14 = ___1_right;
+		if (L_14)
+		{
+			G_B10_0 = L_13;
+			goto IL_0060;
+		}
+		G_B9_0 = L_13;
+	}
+	{
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = V_1;
+		NullCheck(L_15);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_16;
+		L_16 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_15, NULL);
+		V_7 = L_16;
+		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		float L_17;
+		L_17 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&V_7), NULL);
+		G_B11_0 = L_17;
+		G_B11_1 = G_B9_0;
+		goto IL_006f;
+	}
+
+IL_0060:
+	{
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18 = V_1;
+		NullCheck(L_18);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_19;
+		L_19 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_18, NULL);
+		V_7 = L_19;
+		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		float L_20;
+		L_20 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline((&V_7), NULL);
+		G_B11_0 = L_20;
+		G_B11_1 = G_B10_0;
+	}
+
+IL_006f:
+	{
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = V_1;
+		NullCheck(L_21);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_22;
+		L_22 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_21, NULL);
+		V_7 = L_22;
+		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		float L_23;
+		L_23 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_7), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		memset((&L_24), 0, sizeof(L_24));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_24), G_B11_0, L_23, (0.0f), NULL);
+		NullCheck(G_B11_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(G_B11_1, L_24, NULL);
+		V_3 = L_25;
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:158>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_3;
+		NullCheck(L_26);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_26, L_27, NULL);
+		V_4 = L_28;
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:159>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_29 = V_2;
+		NullCheck(L_29);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_30;
+		L_30 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_29, NULL);
+		V_7 = L_30;
+		float L_31;
+		L_31 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&V_7), NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_32 = V_2;
+		NullCheck(L_32);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_33;
+		L_33 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_32, NULL);
+		V_7 = L_33;
+		float L_34;
+		L_34 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline((&V_7), NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_35 = ___0_rect;
+		NullCheck(L_35);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36;
+		L_36 = RectTransform_get_anchorMin_mD85363930BE38EC188F933B9F4D58320CAB72F03(L_35, NULL);
+		float L_37 = L_36.___x;
+		float L_38;
+		L_38 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_31, L_34, L_37, NULL);
+		V_5 = L_38;
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:160>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_status;
-		__this->___topStatus = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___topStatus), (void*)L_0);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_39 = V_2;
+		NullCheck(L_39);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_40;
+		L_40 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_39, NULL);
+		V_7 = L_40;
+		float L_41;
+		L_41 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&V_7), NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_42 = V_2;
+		NullCheck(L_42);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_43;
+		L_43 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_42, NULL);
+		V_7 = L_43;
+		float L_44;
+		L_44 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_7), NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_45 = ___0_rect;
+		NullCheck(L_45);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_46;
+		L_46 = RectTransform_get_anchorMin_mD85363930BE38EC188F933B9F4D58320CAB72F03(L_45, NULL);
+		float L_47 = L_46.___y;
+		float L_48;
+		L_48 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_41, L_44, L_47, NULL);
+		V_6 = L_48;
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:161>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_1 = ___1_hp;
-		__this->___hpFill = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpFill), (void*)L_1);
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:162>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = ___2_sp;
-		__this->___spFill = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___spFill), (void*)L_2);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_49 = ___0_rect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_4;
+		float L_51 = L_50.___x;
+		float L_52 = V_5;
+		bool L_53 = ___1_right;
+		if (L_53)
+		{
+			G_B13_0 = ((float)il2cpp_codegen_subtract(L_51, L_52));
+			G_B13_1 = L_49;
+			goto IL_010c;
+		}
+		G_B12_0 = ((float)il2cpp_codegen_subtract(L_51, L_52));
+		G_B12_1 = L_49;
+	}
+	{
+		G_B14_0 = (32.0f);
+		G_B14_1 = G_B12_0;
+		G_B14_2 = G_B12_1;
+		goto IL_0111;
+	}
+
+IL_010c:
+	{
+		G_B14_0 = (-32.0f);
+		G_B14_1 = G_B13_0;
+		G_B14_2 = G_B13_1;
+	}
+
+IL_0111:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_4;
+		float L_55 = L_54.___y;
+		float L_56 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_57;
+		memset((&L_57), 0, sizeof(L_57));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_57), ((float)il2cpp_codegen_add(G_B14_1, G_B14_0)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_55, L_56)), (32.0f))), NULL);
+		NullCheck(G_B14_2);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(G_B14_2, L_57, NULL);
 		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:163>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_3 = ___3_stamina;
-		__this->___staminaFill = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___staminaFill), (void*)L_3);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:164>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = ___4_hpValue;
-		__this->___hpText = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpText), (void*)L_4);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:165>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = ___5_spValue;
-		__this->___spText = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___spText), (void*)L_5);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:166>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = ___6_mapRoot;
-		__this->___minimapRoot = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapRoot), (void*)L_6);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:167>
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_7 = ___7_mapView;
-		__this->___minimapView = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapView), (void*)L_7);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:168>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = ___8_marker;
-		__this->___playerMarker = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerMarker), (void*)L_8);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:169>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = ___9_mapName;
-		__this->___mapNameText = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mapNameText), (void*)L_9);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:170>
-		MobileHUDStatusAndMinimap_BindAtlasButton_m85DD5EE04A0FE1045A3540DDFD3132AABE5ABC5E(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:171>
-		MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:172>
-		MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:173>
 		return;
 	}
 }
 // Method Definition Index: 38730
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Configure_m58F46A6DE3761650A0A255EB72C6D61DCA71CD17 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_status, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___1_hp, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___2_sp, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___3_stamina, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___4_hpValue, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___5_spValue, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___6_mapRoot, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___7_mapView, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___8_marker, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___9_mapName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:169>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_status;
+		__this->___topStatus = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___topStatus), (void*)L_0);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:170>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_1 = ___1_hp;
+		__this->___hpFill = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpFill), (void*)L_1);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:171>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = ___2_sp;
+		__this->___spFill = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___spFill), (void*)L_2);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:172>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_3 = ___3_stamina;
+		__this->___staminaFill = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___staminaFill), (void*)L_3);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:173>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = ___4_hpValue;
+		__this->___hpText = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpText), (void*)L_4);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:174>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = ___5_spValue;
+		__this->___spText = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___spText), (void*)L_5);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:175>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = ___6_mapRoot;
+		__this->___minimapRoot = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapRoot), (void*)L_6);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:176>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_7 = ___7_mapView;
+		__this->___minimapView = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapView), (void*)L_7);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:177>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = ___8_marker;
+		__this->___playerMarker = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerMarker), (void*)L_8);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:178>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = ___9_mapName;
+		__this->___mapNameText = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mapNameText), (void*)L_9);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:179>
+		MobileHUDStatusAndMinimap_BindAtlasButton_m85DD5EE04A0FE1045A3540DDFD3132AABE5ABC5E(__this, NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:180>
+		MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C(__this, NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:181>
+		MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065(__this, NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:182>
+		return;
+	}
+}
+// Method Definition Index: 38731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_BindAtlasButton_m85DD5EE04A0FE1045A3540DDFD3132AABE5ABC5E (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27358,7 +27572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_BindAtlasButto
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* V_1 = NULL;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:177>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:186>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -27380,18 +27594,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_BindAtlasButto
 
 IL_0015:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:177>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:186>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:178>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:187>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___minimapRoot;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = MobileHUDStatusAndMinimap_FindDeep_m1877B29AA482DE2E78CBA272F4898FBA50D0E5F6(L_3, _stringLiteral21A37364A401FFD02F98826ACD153DA90D2D84FF, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:179>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:188>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -27418,7 +27632,7 @@ IL_0033:
 IL_0039:
 	{
 		V_1 = G_B6_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:180>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:189>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -27429,13 +27643,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:180>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:189>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:181>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:190>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = V_1;
 		NullCheck(L_11);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_12;
@@ -27444,7 +27658,7 @@ IL_0044:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_13, NULL, (intptr_t)((void*)Metin2GameplayUI_ToggleAtlasWindow_m0F48EE666096E34F39858648F4954131CD7B2692_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_12, L_13, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:182>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:191>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = V_1;
 		NullCheck(L_14);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_15;
@@ -27453,11 +27667,11 @@ IL_0044:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_16, NULL, (intptr_t)((void*)Metin2GameplayUI_ToggleAtlasWindow_m0F48EE666096E34F39858648F4954131CD7B2692_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_15, L_16, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:183>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 38731
+// Method Definition Index: 38732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnEnable_mB5B80EEE30CBCC99929DA002BB7FC473DD7A5CDB (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27469,22 +27683,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnEnable_mB5B8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:187>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:196>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_0 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)MobileHUDStatusAndMinimap_OnSceneLoaded_m01021F4F23650BAACF5F2A908197C9CF908173AC_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:188>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:197>
 		MobileHUDStatusAndMinimap_EnsureHierarchy_mBBE9AAACBBB2E59BDA5B62A49852A7425B531A67(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:189>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:198>
 		MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:190>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:199>
 		MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:191>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:200>
 		return;
 	}
 }
-// Method Definition Index: 38732
+// Method Definition Index: 38733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnDisable_mF3E6F1F543180218A9C3D3FCDBE3FF03841A1F95 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27496,33 +27710,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnDisable_mF3E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:195>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:204>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_0 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)MobileHUDStatusAndMinimap_OnSceneLoaded_m01021F4F23650BAACF5F2A908197C9CF908173AC_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978(L_0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:196>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:205>
 		MobileHUDStatusAndMinimap_ReleaseMinimapCamera_m442B3601A06B5A2C3AC5F17C84ED79FB1C127196(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:197>
-		return;
-	}
-}
-// Method Definition Index: 38733
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnSceneLoaded_m01021F4F23650BAACF5F2A908197C9CF908173AC (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:201>
-		__this->___player = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:202>
-		__this->___nextPlayerSearchAt = (0.0f);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:203>
-		MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:204>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:206>
 		return;
 	}
 }
 // Method Definition Index: 38734
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnSceneLoaded_m01021F4F23650BAACF5F2A908197C9CF908173AC (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:210>
+		__this->___player = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:211>
+		__this->___nextPlayerSearchAt = (0.0f);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:212>
+		MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065(__this, NULL);
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:213>
+		return;
+	}
+}
+// Method Definition Index: 38735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Update_m7AC92963E8754E6D86126FD9FB0D81F22AE17FFE (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27532,9 +27746,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Update_m7AC929
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:208>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:217>
 		MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:209>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:218>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -27544,17 +27758,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Update_m7AC929
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:210>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:219>
 		MobileHUDStatusAndMinimap_UpdateMinimap_m16C0AD44F1627BC62578DD2D6C800FC47544586C(__this, NULL);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:211>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:220>
 		return;
 	}
 }
-// Method Definition Index: 38735
+// Method Definition Index: 38736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27583,29 +27797,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMeters_m
 	float G_B16_0 = 0.0f;
 	float G_B26_0 = 0.0f;
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:215>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:224>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_0;
 		L_0 = Metin2PlayerState_get_Local_mCBE41F3CC4D8B3DC11016EC72B1EA8C212859074_inline(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:216>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:225>
 		int32_t L_1;
 		L_1 = Metin2GameplaySession_get_Level_mAB1DE7AD160346994B70FD709F5093E5A696E608_inline(NULL);
 		int32_t L_2;
 		L_2 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:217>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:226>
 		int32_t L_3;
 		L_3 = Metin2GameplaySession_get_Vitality_mD84EB0D44511BD01319F6C85AF8260C233723582_inline(NULL);
 		int32_t L_4;
 		L_4 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_3, NULL);
 		V_2 = L_4;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:218>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:227>
 		int32_t L_5;
 		L_5 = Metin2GameplaySession_get_Intelligence_mAF64DB7F984661165855D754E85770567367FCC6_inline(NULL);
 		int32_t L_6;
 		L_6 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_5, NULL);
 		V_3 = L_6;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:219>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:228>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -27634,7 +27848,7 @@ IL_004c:
 IL_0053:
 	{
 		V_4 = G_B3_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:220>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:229>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -27663,7 +27877,7 @@ IL_0077:
 IL_007e:
 	{
 		V_5 = G_B6_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:221>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:230>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_19 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -27691,7 +27905,7 @@ IL_008d:
 IL_0094:
 	{
 		V_6 = G_B9_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:222>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:231>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_24 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -27719,7 +27933,7 @@ IL_00a3:
 IL_00aa:
 	{
 		V_7 = G_B12_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:223>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:232>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_29 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
@@ -27762,20 +27976,20 @@ IL_00c5:
 IL_00d4:
 	{
 		V_8 = G_B16_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:224>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:233>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_37 = __this->___hpFill;
 		float L_38 = V_6;
 		float L_39 = V_4;
 		float L_40;
 		L_40 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((1.0f), L_39, NULL);
 		MobileHUDStatusAndMinimap_SetHorizontalFill_mB52EEAD7AE8C13E08A9ACCA9C9D64E3680427243(L_37, (95.0f), ((float)(L_38/L_40)), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:225>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:234>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_41 = __this->___hpFill;
 		Metin2PotionGaugePreview_Ensure_mD6519840D57586DEC4372184F13829DBD081C6C6(L_41, (bool)0, (95.0f), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:226>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:235>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_42 = __this->___spFill;
 		Metin2PotionGaugePreview_Ensure_mD6519840D57586DEC4372184F13829DBD081C6C6(L_42, (bool)1, (95.0f), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:227>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:236>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_43 = __this->___hpFill;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_44;
@@ -27786,7 +28000,7 @@ IL_00d4:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:227>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:236>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_45 = __this->___hpFill;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
@@ -27797,18 +28011,18 @@ IL_00d4:
 
 IL_0149:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:228>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:237>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_47 = __this->___spFill;
 		float L_48 = V_7;
 		float L_49 = V_5;
 		float L_50;
 		L_50 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((1.0f), L_49, NULL);
 		MobileHUDStatusAndMinimap_SetHorizontalFill_mB52EEAD7AE8C13E08A9ACCA9C9D64E3680427243(L_47, (95.0f), ((float)(L_48/L_50)), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:229>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:238>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_51 = __this->___staminaFill;
 		float L_52 = V_8;
 		MobileHUDStatusAndMinimap_SetHorizontalFill_mB52EEAD7AE8C13E08A9ACCA9C9D64E3680427243(L_51, (95.0f), L_52, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:230>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:239>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_53 = __this->___hpText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_54;
@@ -27819,7 +28033,7 @@ IL_0149:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:230>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:239>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_55 = __this->___hpText;
 		float L_56 = V_6;
 		int32_t L_57;
@@ -27841,7 +28055,7 @@ IL_0149:
 
 IL_01bd:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:231>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:240>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_63 = __this->___spText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_64;
@@ -27852,7 +28066,7 @@ IL_01bd:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:231>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:240>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_65 = __this->___spText;
 		float L_66 = V_7;
 		int32_t L_67;
@@ -27874,7 +28088,7 @@ IL_01bd:
 
 IL_0200:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:232>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:241>
 		Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* L_73 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_74;
@@ -27917,14 +28131,14 @@ IL_0219:
 IL_0228:
 	{
 		V_9 = G_B26_0;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:233>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:242>
 		V_11 = 0;
 		goto IL_0279;
 	}
 
 IL_022f:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:234>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:243>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_81 = __this->___experienceFills;
 		int32_t L_82 = V_11;
 		NullCheck(L_81);
@@ -27939,7 +28153,7 @@ IL_022f:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:235>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:244>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_86 = __this->___experienceFills;
 		int32_t L_87 = V_11;
 		NullCheck(L_86);
@@ -27958,14 +28172,14 @@ IL_022f:
 
 IL_0273:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:233>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:242>
 		int32_t L_94 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_94, 1));
 	}
 
 IL_0279:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:233>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:242>
 		int32_t L_95 = V_11;
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_96 = __this->___experienceFills;
 		NullCheck(L_96);
@@ -27975,11 +28189,11 @@ IL_0279:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:236>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:245>
 		return;
 	}
 }
-// Method Definition Index: 38736
+// Method Definition Index: 38737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_SetHorizontalFill_mB52EEAD7AE8C13E08A9ACCA9C9D64E3680427243 (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___0_image, float ___1_fullWidth, float ___2_ratio, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27991,7 +28205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_SetHorizontalF
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:240>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:249>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = ___0_image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28002,38 +28216,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_SetHorizontalF
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:240>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:249>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:241>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:250>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = ___0_image;
 		NullCheck(L_2);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3;
 		L_3 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_2, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:242>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:251>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = L_3;
 		NullCheck(L_4);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
 		L_5 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:243>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:252>
 		float L_6 = ___1_fullWidth;
 		float L_7 = ___2_ratio;
 		float L_8;
 		L_8 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_7, NULL);
 		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_6, L_8));
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:244>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:253>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		NullCheck(L_4);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_4, L_9, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:245>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:254>
 		return;
 	}
 }
-// Method Definition Index: 38737
+// Method Definition Index: 38738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28047,7 +28261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMapName_
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:249>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:258>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___mapNameText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28058,13 +28272,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMapName_
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:249>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:258>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:250>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:259>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_2;
 		L_2 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -28072,18 +28286,18 @@ IL_000f:
 		String_t* L_3;
 		L_3 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_1), NULL);
 		V_0 = L_3;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:251>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:260>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___mapNameText;
 		String_t* L_5 = V_0;
 		String_t* L_6;
 		L_6 = Metin2MapNames_Display_m63EAA3F74AA24D18BB08717985258F25B1F5FE84(L_5, NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, L_6);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:252>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:261>
 		return;
 	}
 }
-// Method Definition Index: 38738
+// Method Definition Index: 38739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMinimap_m16C0AD44F1627BC62578DD2D6C800FC47544586C (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28095,7 +28309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMinimap_
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:256>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:265>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___minimapRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28131,13 +28345,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMinimap_
 
 IL_002e:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:257>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:266>
 		return;
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:258>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:267>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -28157,11 +28371,11 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:260>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:269>
 		float L_11;
 		L_11 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		__this->___nextPlayerSearchAt = ((float)il2cpp_codegen_add(L_11, (0.5f)));
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:261>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:270>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = MobileHUDStatusAndMinimap_FindPlayer_m62C1BD6BA66769E1BC2F723BA36C12B52DA1E59E(NULL);
 		__this->___player = L_12;
@@ -28170,7 +28384,7 @@ IL_002f:
 
 IL_0066:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:263>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:272>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -28181,15 +28395,15 @@ IL_0066:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:263>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:272>
 		return;
 	}
 
 IL_0075:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:264>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:273>
 		MobileHUDStatusAndMinimap_EnsureMinimapCamera_m79626753D2F281FF5E569CD06446276EA493AF92(__this, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:265>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:274>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15 = __this->___minimapCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -28200,21 +28414,21 @@ IL_0075:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:265>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:274>
 		return;
 	}
 
 IL_008a:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:267>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:276>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___player;
 		NullCheck(L_17);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
 		V_0 = L_18;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:268>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:269>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:270>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:277>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:278>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:279>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_19 = __this->___minimapCamera;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -28233,12 +28447,12 @@ IL_008a:
 		L_29 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((90.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_20);
 		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_20, L_28, L_29, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:271>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:280>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_30 = __this->___minimapCamera;
 		float L_31 = __this->___visibleWorldRadius;
 		NullCheck(L_30);
 		Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C(L_30, L_31, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:272>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:281>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_32 = __this->___playerMarker;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -28249,7 +28463,7 @@ IL_008a:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:273>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:282>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_34 = __this->___playerMarker;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = __this->___player;
 		NullCheck(L_35);
@@ -28264,7 +28478,7 @@ IL_008a:
 
 IL_0122:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:274>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:283>
 		float L_39;
 		L_39 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		float L_40 = __this->___nextMinimapRenderAt;
@@ -28274,14 +28488,14 @@ IL_0122:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:276>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:285>
 		float L_41;
 		L_41 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		float L_42 = __this->___minimapFramesPerSecond;
 		float L_43;
 		L_43 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((2.0f), L_42, NULL);
 		__this->___nextMinimapRenderAt = ((float)il2cpp_codegen_add(L_41, ((float)((1.0f)/L_43))));
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:277>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:286>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_44 = __this->___minimapCamera;
 		NullCheck(L_44);
 		Camera_Render_m6089001EB6710DA9A21C87185D65922F13A24509(L_44, NULL);
@@ -28289,11 +28503,11 @@ IL_0122:
 
 IL_015c:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:279>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:288>
 		return;
 	}
 }
-// Method Definition Index: 38739
+// Method Definition Index: 38740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_EnsureMinimapCamera_m79626753D2F281FF5E569CD06446276EA493AF92 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28314,7 +28528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_EnsureMinimapC
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	Metin2MinimapNpcMarkers_t00E4367BA7206CE783D801DE186B7DAAD0FA88B2* V_2 = NULL;
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:283>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:292>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___minimapCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28325,23 +28539,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_EnsureMinimapC
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:283>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:292>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:284>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:293>
 		int32_t L_2 = __this->___textureResolution;
 		int32_t L_3;
 		L_3 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_2, ((int32_t)64), ((int32_t)512), NULL);
 		V_0 = L_3;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:285>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:286>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:287>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:288>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:289>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:290>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:294>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:295>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:296>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:297>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:298>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:299>
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_0;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
@@ -28357,99 +28571,99 @@ IL_000f:
 		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_9, 1, NULL);
 		__this->___minimapTexture = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapTexture), (void*)L_9);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:291>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:300>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = __this->___minimapTexture;
 		NullCheck(L_10);
 		bool L_11;
 		L_11 = RenderTexture_Create_mA6E4D3CCC84AC3F68E85AA0D6609E1692C672AD2(L_10, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:293>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:302>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_12, _stringLiteralBBECFB2C9BE347AA9872795BC06F1D3C9B3601D0, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:294>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:303>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_1;
 		NullCheck(L_13);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_13, ((int32_t)61), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:295>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:304>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
 		NullCheck(L_14);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15;
 		L_15 = GameObject_AddComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m0933BC50E883CDEF6FA83FE190DA37CCB2802142(L_14, GameObject_AddComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m0933BC50E883CDEF6FA83FE190DA37CCB2802142_RuntimeMethod_var);
 		__this->___minimapCamera = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapCamera), (void*)L_15);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:296>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:305>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_16 = __this->___minimapCamera;
 		NullCheck(L_16);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_16, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:297>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:306>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = __this->___minimapCamera;
 		NullCheck(L_17);
 		Camera_set_orthographic_m64915C0840A68E526830A69F1C40257206185020(L_17, (bool)1, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:298>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:307>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_18 = __this->___minimapCamera;
 		float L_19 = __this->___visibleWorldRadius;
 		NullCheck(L_18);
 		Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C(L_18, L_19, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:299>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:308>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_20 = __this->___minimapCamera;
 		NullCheck(L_20);
 		Camera_set_clearFlags_m66541D9CC43CBAA5FE7364A50D43CA5569FD4D93(L_20, 2, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:300>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:309>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_21 = __this->___minimapCamera;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
 		memset((&L_22), 0, sizeof(L_22));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_22), (0.0250000004f), (0.0350000001f), (0.0250000004f), (1.0f), NULL);
 		NullCheck(L_21);
 		Camera_set_backgroundColor_m036FD8C316A93A0B168ACC89AFF16D396B872138(L_21, L_22, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:301>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:310>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_23 = __this->___minimapCamera;
 		NullCheck(L_23);
 		Camera_set_nearClipPlane_m78482B5E4E0CE4C195D9CE0332AA75B2D9CCDDF6(L_23, (0.100000001f), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:302>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:311>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_24 = __this->___minimapCamera;
 		float L_25 = __this->___cameraHeight;
 		float L_26;
 		L_26 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((400.0f), ((float)il2cpp_codegen_add(L_25, (200.0f))), NULL);
 		NullCheck(L_24);
 		Camera_set_farClipPlane_m84EF39B09573168734613481FD979BFF31C60139(L_24, L_26, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:303>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:312>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_27 = __this->___minimapCamera;
 		NullCheck(L_27);
 		Camera_set_depth_m595FA2A4FEBC90E730810BBFB55E4A2C2134066F(L_27, (-100.0f), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:304>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:313>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_28 = __this->___minimapCamera;
 		NullCheck(L_28);
 		Camera_set_allowHDR_m44211153DAF6DF9A51142EC7760A53777C1F3315(L_28, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:305>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:314>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_29 = __this->___minimapCamera;
 		NullCheck(L_29);
 		Camera_set_allowMSAA_m7BE26D3FAAA64202C49DE6CA95C02A85770F8268(L_29, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:306>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:315>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_30 = __this->___minimapCamera;
 		UniversalAdditionalCameraData_t57B5D0F93C2D506E618E23187302C0FADE813B93* L_31;
 		L_31 = CameraExtensions_GetUniversalAdditionalCameraData_m38406768FA69BDC80D45CA7698EC0B8755448604(L_30, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:307>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:316>
 		UniversalAdditionalCameraData_t57B5D0F93C2D506E618E23187302C0FADE813B93* L_32 = L_31;
 		NullCheck(L_32);
 		UniversalAdditionalCameraData_set_renderShadows_m435F35FAAF4700DC51E6A806D2BEF8A01A3A010B_inline(L_32, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:308>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:317>
 		NullCheck(L_32);
 		UniversalAdditionalCameraData_set_renderPostProcessing_mDECCE7AC172D0C20AC42E6393A24D4841AA4E0F6_inline(L_32, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:309>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:318>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_33 = __this->___minimapCamera;
 		NullCheck(L_33);
 		Camera_set_cullingMask_m14F426710530BA8FA53AEC02F79C418AA558CB32(L_33, ((int32_t)-257), NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:310>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:319>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_34 = __this->___minimapCamera;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_35 = __this->___minimapTexture;
 		NullCheck(L_34);
 		Camera_set_targetTexture_mE6C740F21A72DA47FB5B1D31D208710738A836C4(L_34, L_35, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:311>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:320>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_36 = __this->___minimapView;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_37 = __this->___minimapTexture;
 		NullCheck(L_36);
 		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_36, L_37, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:312>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:321>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_38;
 		L_38 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -28459,13 +28673,13 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:314>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:323>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_39 = __this->___minimapView;
 		NullCheck(L_39);
 		Metin2MinimapNpcMarkers_t00E4367BA7206CE783D801DE186B7DAAD0FA88B2* L_40;
 		L_40 = Component_GetComponent_TisMetin2MinimapNpcMarkers_t00E4367BA7206CE783D801DE186B7DAAD0FA88B2_m35F61502784A772454D76451A236BA891FA857F6(L_39, Component_GetComponent_TisMetin2MinimapNpcMarkers_t00E4367BA7206CE783D801DE186B7DAAD0FA88B2_m35F61502784A772454D76451A236BA891FA857F6_RuntimeMethod_var);
 		V_2 = L_40;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:315>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:324>
 		Metin2MinimapNpcMarkers_t00E4367BA7206CE783D801DE186B7DAAD0FA88B2* L_41 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_42;
@@ -28476,7 +28690,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:315>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:324>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_43 = __this->___minimapView;
 		NullCheck(L_43);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44;
@@ -28489,7 +28703,7 @@ IL_000f:
 
 IL_019f:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:316>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:325>
 		Metin2MinimapNpcMarkers_t00E4367BA7206CE783D801DE186B7DAAD0FA88B2* L_46 = V_2;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_47 = __this->___minimapCamera;
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_48 = __this->___minimapView;
@@ -28499,11 +28713,11 @@ IL_019f:
 
 IL_01b1:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:318>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:327>
 		return;
 	}
 }
-// Method Definition Index: 38740
+// Method Definition Index: 38741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MobileHUDStatusAndMinimap_FindPlayer_m62C1BD6BA66769E1BC2F723BA36C12B52DA1E59E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28521,12 +28735,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	String_t* G_B4_0 = NULL;
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:322>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:323>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:331>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:332>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_0;
 		L_0 = Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1(0, 0, Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1_RuntimeMethod_var);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:324>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:333>
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_0061;
@@ -28534,14 +28748,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 
 IL_000c:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:324>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:333>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:326>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:335>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_5 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -28552,7 +28766,7 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:327>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:336>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_7 = V_2;
 		NullCheck(L_7);
 		Type_t* L_8;
@@ -28581,8 +28795,8 @@ IL_000c:
 
 IL_0033:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:328>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:329>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:337>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:338>
 		bool L_14;
 		L_14 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(G_B4_0, _stringLiteral768351BC77032F113E7B9D3EAE86568839EAC3DA, NULL);
 		if (L_14)
@@ -28608,7 +28822,7 @@ IL_0033:
 
 IL_0056:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:330>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:339>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_19 = V_2;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -28624,7 +28838,7 @@ IL_005d:
 
 IL_0061:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:324>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:333>
 		int32_t L_22 = V_1;
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_23 = V_0;
 		NullCheck(L_23);
@@ -28634,11 +28848,11 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:332>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:341>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
-// Method Definition Index: 38741
+// Method Definition Index: 38742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_ReleaseMinimapCamera_m442B3601A06B5A2C3AC5F17C84ED79FB1C127196 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28648,7 +28862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_ReleaseMinimap
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:337>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:346>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->___minimapView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28673,7 +28887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_ReleaseMinimap
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:338>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:347>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_6 = __this->___minimapView;
 		NullCheck(L_6);
 		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_6, (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, NULL);
@@ -28681,7 +28895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_ReleaseMinimap
 
 IL_0032:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:339>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:348>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = __this->___minimapCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -28692,7 +28906,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:340>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:349>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9 = __this->___minimapCamera;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -28702,7 +28916,7 @@ IL_0032:
 
 IL_0050:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:341>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:350>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = __this->___minimapTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -28713,28 +28927,28 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:343>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:352>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_13 = __this->___minimapTexture;
 		NullCheck(L_13);
 		RenderTexture_Release_mE7399D6187A0E38945D2913D0FFB41247143AB1E(L_13, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:344>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:353>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_14 = __this->___minimapTexture;
 		MobileHUDStatusAndMinimap_DestroyRuntimeObject_m50C0D22C40DF0A1619F2B0BE3CB5A0079BDDA51E(L_14, NULL);
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:346>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:355>
 		__this->___minimapCamera = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapCamera), (void*)(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:347>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:356>
 		__this->___minimapTexture = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimapTexture), (void*)(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:348>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:357>
 		return;
 	}
 }
-// Method Definition Index: 38742
+// Method Definition Index: 38743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_DestroyRuntimeObject_m50C0D22C40DF0A1619F2B0BE3CB5A0079BDDA51E (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28745,7 +28959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_DestroyRuntime
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:352>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:361>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28756,13 +28970,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_DestroyRuntime
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:352>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:361>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:353>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:362>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -28772,7 +28986,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:353>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:362>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_3 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
@@ -28781,15 +28995,15 @@ IL_000a:
 
 IL_0018:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:354>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:363>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_4 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_4, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:355>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:364>
 		return;
 	}
 }
-// Method Definition Index: 38744
+// Method Definition Index: 38745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MobileHUDStatusAndMinimap_FindDeep_m1877B29AA482DE2E78CBA272F4898FBA50D0E5F6 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_root, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28806,7 +29020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:366>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:375>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_root;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28817,13 +29031,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:366>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:375>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:367>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:376>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_root;
 		NullCheck(L_2);
 		String_t* L_3;
@@ -28837,14 +29051,14 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:367>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:376>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = ___0_root;
 		return L_6;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:368>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:377>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___0_root;
 		NullCheck(L_7);
 		RuntimeObject* L_8;
@@ -28886,17 +29100,17 @@ IL_005d:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:368>
+				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:377>
 				RuntimeObject* L_12 = V_0;
 				NullCheck(L_12);
 				RuntimeObject* L_13;
 				L_13 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_12);
-				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:370>
+				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:379>
 				String_t* L_14 = ___1_name;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
 				L_15 = MobileHUDStatusAndMinimap_FindDeep_m1877B29AA482DE2E78CBA272F4898FBA50D0E5F6(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_13, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), L_14, NULL);
 				V_1 = L_15;
-				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:371>
+				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:380>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_17;
@@ -28907,7 +29121,7 @@ IL_0024_1:
 				}
 			}
 			{
-				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:371>
+				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:380>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = V_1;
 				V_2 = L_18;
 				goto IL_0060;
@@ -28915,7 +29129,7 @@ IL_0024_1:
 
 IL_0043_1:
 			{
-				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:368>
+				//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:377>
 				RuntimeObject* L_19 = V_0;
 				NullCheck(L_19);
 				bool L_20;
@@ -28937,18 +29151,18 @@ IL_0043_1:
 
 IL_005e:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:373>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:382>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 
 IL_0060:
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:374>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:383>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = V_2;
 		return L_21;
 	}
 }
-// Method Definition Index: 38745
+// Method Definition Index: 38746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* MobileHUDStatusAndMinimap_CreateTopLeft_m2D931F093639EAE2D488BF1AEB821B0FB1BEEB42 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, float ___2_x, float ___3_y, float ___4_width, float ___5_height, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28961,7 +29175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:379>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:388>
 		String_t* L_0 = ___1_name;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)1);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2 = L_1;
@@ -28974,34 +29188,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_5, L_0, L_2, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:380>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:389>
 		NullCheck(L_5);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_5, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:381>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:390>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = L_6;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_parent;
 		NullCheck(L_7);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_7, L_8, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:382>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:391>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = L_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		NullCheck(L_9);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_9, L_10, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:383>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:392>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = L_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 		L_12 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		NullCheck(L_11);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_11, L_12, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:384>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:393>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = L_11;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		NullCheck(L_13);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_13, L_14, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:385>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:394>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_13;
 		float L_16 = ___2_x;
 		float L_17 = ___3_y;
@@ -29010,7 +29224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_18), L_16, ((-L_17)), NULL);
 		NullCheck(L_15);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_15, L_18, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:386>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:395>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_15;
 		float L_20 = ___4_width;
 		float L_21 = ___5_height;
@@ -29019,11 +29233,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_22), L_20, L_21, NULL);
 		NullCheck(L_19);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_19, L_22, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:387>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:396>
 		return L_19;
 	}
 }
-// Method Definition Index: 38746
+// Method Definition Index: 38747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* MobileHUDStatusAndMinimap_CreateTopRight_m4650379EEAB4A6D54757DC800FB09565795FCAE3 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, float ___2_x, float ___3_y, float ___4_width, float ___5_height, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29036,7 +29250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:393>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:402>
 		String_t* L_0 = ___1_name;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)1);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2 = L_1;
@@ -29049,34 +29263,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_5, L_0, L_2, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:394>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:403>
 		NullCheck(L_5);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_5, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:395>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:404>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = L_6;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_parent;
 		NullCheck(L_7);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_7, L_8, (bool)0, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:396>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:405>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = L_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_9);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_9, L_10, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:397>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:406>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = L_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 		L_12 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_11);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_11, L_12, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:398>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:407>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = L_11;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_13);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_13, L_14, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:399>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:408>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_13;
 		float L_16 = ___2_x;
 		float L_17 = ___3_y;
@@ -29085,7 +29299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_18), ((-L_16)), ((-L_17)), NULL);
 		NullCheck(L_15);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_15, L_18, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:400>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:409>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_15;
 		float L_20 = ___4_width;
 		float L_21 = ___5_height;
@@ -29094,11 +29308,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_22), L_20, L_21, NULL);
 		NullCheck(L_19);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_19, L_22, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:401>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:410>
 		return L_19;
 	}
 }
-// Method Definition Index: 38747
+// Method Definition Index: 38748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* MobileHUDStatusAndMinimap_CreateRaw_m439E9B163765EF337EFE3C8BCC28E014909BD77B (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___2_texture, float ___3_x, float ___4_y, float ___5_width, float ___6_height, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___7_uv, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29108,7 +29322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:407>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:416>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
 		String_t* L_1 = ___1_name;
 		float L_2 = ___3_x;
@@ -29117,32 +29331,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8
 		float L_5 = ___6_height;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = MobileHUDStatusAndMinimap_CreateTopLeft_m2D931F093639EAE2D488BF1AEB821B0FB1BEEB42(L_0, L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:408>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:417>
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_8;
 		L_8 = GameObject_AddComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_mF832D1CFB763BE172F50826618A3D458EE451B43(L_7, GameObject_AddComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_mF832D1CFB763BE172F50826618A3D458EE451B43_RuntimeMethod_var);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:409>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:418>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_9 = L_8;
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_10 = ___2_texture;
 		NullCheck(L_9);
 		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_9, L_10, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:410>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:419>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_11 = L_9;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_12 = ___7_uv;
 		NullCheck(L_11);
 		RawImage_set_uvRect_m9DF6BBBC6AC46F7F3290A220ED6F076CAB4BC52F(L_11, L_12, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:411>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:420>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_13 = L_11;
 		NullCheck(L_13);
 		VirtualActionInvoker1< bool >::Invoke(25, L_13, (bool)0);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:412>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:421>
 		return L_13;
 	}
 }
-// Method Definition Index: 38748
+// Method Definition Index: 38749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* MobileHUDStatusAndMinimap_CreateText_mD9908FDDD7035EB4850D2C664D43B92F72B16608 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, float ___2_x, float ___3_y, float ___4_width, float ___5_height, String_t* ___6_value, int32_t ___7_fontSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29155,7 +29369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:418>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:427>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
 		String_t* L_1 = ___1_name;
 		float L_2 = ___2_x;
@@ -29164,48 +29378,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E6
 		float L_5 = ___5_height;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = MobileHUDStatusAndMinimap_CreateTopLeft_m2D931F093639EAE2D488BF1AEB821B0FB1BEEB42(L_0, L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:419>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:428>
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8;
 		L_8 = GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9(L_7, GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9_RuntimeMethod_var);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:420>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:429>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = L_8;
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_10;
 		L_10 = Resources_GetBuiltinResource_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_m3B4545F25A016D36D9AE93723A3449804A127D73(_stringLiteral91EABC919E48AAD7331BDBE21DBB8D4C623A4A25, Resources_GetBuiltinResource_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_m3B4545F25A016D36D9AE93723A3449804A127D73_RuntimeMethod_var);
 		NullCheck(L_9);
 		Text_set_font_mA0D2999281A72029A5BC7294A886C5674F07DC5F(L_9, L_10, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:421>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:430>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = L_9;
 		int32_t L_12 = ___7_fontSize;
 		NullCheck(L_11);
 		Text_set_fontSize_m426338B0A2CDA58609028FFD471EF5F2C9F364D4(L_11, L_12, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:422>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:431>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = L_11;
 		NullCheck(L_13);
 		Text_set_fontStyle_m5ABEF66BFC88E7E0A950E2817E4978FF472F6C1D(L_13, 1, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:423>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:432>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = L_13;
 		NullCheck(L_14);
 		Text_set_alignment_m9FAD6C1C270FA28C610AB1E07414FBF96403157A(L_14, 4, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:424>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:433>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = L_14;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
 		L_16 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		NullCheck(L_15);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_15, L_16);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:425>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:434>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = L_15;
 		String_t* L_18 = ___6_value;
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, L_18);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:426>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:435>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = L_17;
 		NullCheck(L_19);
 		VirtualActionInvoker1< bool >::Invoke(25, L_19, (bool)0);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:427>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:436>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = L_19;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -29218,22 +29432,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E6
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_23), (0.0f), (0.0f), (0.0f), (0.899999976f), NULL);
 		NullCheck(L_22);
 		Shadow_set_effectColor_mCCC5DB6B7D09C5DEE0C677DEB3B9B0C578F05AF1(L_22, L_23, NULL);
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:428>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:437>
 		return L_20;
 	}
 }
-// Method Definition Index: 38749
+// Method Definition Index: 38750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D MobileHUDStatusAndMinimap_FullUv_m30D68298BBE91528FABD407BF8BF9759643D7C5F (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:431>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:440>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_0), (0.0f), (0.0f), (1.0f), (1.0f), NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 38750
+// Method Definition Index: 38751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D MobileHUDStatusAndMinimap_AtlasUv_mAD211214EB697591D7E89EB9C20AC6FAE5F4BFE9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_topLeftPixels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29243,10 +29457,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:435>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:436>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:437>
-		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:438>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:444>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:445>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:446>
+		//<source_info:C:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDStatusAndMinimap.cs:447>
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
 		float L_0;
 		L_0 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline((&___1_topLeftPixels), NULL);
@@ -29280,7 +29494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_13;
 	}
 }
-// Method Definition Index: 38751
+// Method Definition Index: 38752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap__ctor_mD5F35BFBEFA4B48BE167B826F78594978329068B (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29803,7 +30017,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Metin2TaskBarRuntime_set_Ins
 		return;
 	}
 }
-// Method Definition Index: 65086
+// Method Definition Index: 65094
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* Selectable_get_targetGraphic_m659A2940226EC644AAFC2D5CCC326ABEE6384388_inline (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29812,7 +30026,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECF
 		return L_0;
 	}
 }
-// Method Definition Index: 64022
+// Method Definition Index: 64030
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29960,7 +30174,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C72
 		return L_0;
 	}
 }
-// Method Definition Index: 65082
+// Method Definition Index: 65090
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD Selectable_get_spriteState_m7388F8F08AB8A03CB56516A7C9713733A737629A_inline (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29969,7 +30183,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SpriteState_tC8199570BE6337FB5C49
 		return L_0;
 	}
 }
-// Method Definition Index: 65187
+// Method Definition Index: 65195
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_highlightedSprite_mEECDB7C62DE0C6A0B2A7D5D7ADF54EB8CDDB20B0_inline (SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29981,7 +30195,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_highlightedS
 		return;
 	}
 }
-// Method Definition Index: 65191
+// Method Definition Index: 65199
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_selectedSprite_m902ACABEC203C0A2408B4ECD7B74C10DFE7BB340_inline (SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29993,7 +30207,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_selectedSpri
 		return;
 	}
 }
-// Method Definition Index: 65189
+// Method Definition Index: 65197
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_pressedSprite_mD01568B87B1BC1374CCFB5CD190D7CD62A6FDAA3_inline (SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30005,7 +30219,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_pressedSprit
 		return;
 	}
 }
-// Method Definition Index: 65193
+// Method Definition Index: 65201
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteState_set_disabledSprite_m624499C245DC34D314FF0326FE5ADCF35DA28E27_inline (SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30067,7 +30281,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MobileCameraLook_set_LookDel
 		return;
 	}
 }
-// Method Definition Index: 65620
+// Method Definition Index: 65628
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30076,7 +30290,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65618
+// Method Definition Index: 65626
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEventData_get_pointerId_m81DDB468147FE75C1474C9C6C35753BB53A21275_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30164,7 +30378,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_8;
 	}
 }
-// Method Definition Index: 64614
+// Method Definition Index: 64622
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_uiScaleMode_m8E92609E011796E8CC23B1739F95CE7BE2631525_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30173,7 +30387,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_uiScaleM
 		return L_0;
 	}
 }
-// Method Definition Index: 64620
+// Method Definition Index: 64628
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CanvasScaler_get_referenceResolution_m79C03DD8CE6759B045928C5339A3C5E6220276B5_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30182,7 +30396,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 64622
+// Method Definition Index: 64630
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_screenMatchMode_mA07ABCCF6AFE98C16651EBD5AB24BFF08B10F768_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30191,7 +30405,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_screenMa
 		return L_0;
 	}
 }
-// Method Definition Index: 64624
+// Method Definition Index: 64632
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CanvasScaler_get_matchWidthOrHeight_m9C40FBA943172874FD27F3F7B880E2D5D5862C9B_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30200,7 +30414,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CanvasScaler_get_matchWidth
 		return L_0;
 	}
 }
-// Method Definition Index: 64618
+// Method Definition Index: 64626
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CanvasScaler_get_scaleFactor_mB2BFA22B99AEC96F09886F490DA9EE2F825D3431_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30209,7 +30423,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CanvasScaler_get_scaleFacto
 		return L_0;
 	}
 }
-// Method Definition Index: 64616
+// Method Definition Index: 64624
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CanvasScaler_get_referencePixelsPerUnit_mE0A7FECC27003A4A2BE6AE6E70747FAC8C19A008_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30218,7 +30432,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CanvasScaler_get_referenceP
 		return L_0;
 	}
 }
-// Method Definition Index: 64615
+// Method Definition Index: 64623
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_uiScaleMode_m064C83FFA35E2AED4E9FA7D5EC1AD19630D8FC2A_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30229,7 +30443,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_uiScaleMode
 		return;
 	}
 }
-// Method Definition Index: 64623
+// Method Definition Index: 64631
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_screenMatchMode_m926C437B408D2F2CA4900723BEEEE09504A6768F_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30240,7 +30454,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_screenMatch
 		return;
 	}
 }
-// Method Definition Index: 64625
+// Method Definition Index: 64633
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_matchWidthOrHeight_m44635DC3E4424255C312814C325A48E37E6B6E30_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30251,7 +30465,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_matchWidthO
 		return;
 	}
 }
-// Method Definition Index: 64617
+// Method Definition Index: 64625
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_referencePixelsPerUnit_m8817BAEB73BE78DD7C87EAB7D2FE2983B2300628_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30271,7 +30485,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA
 		return L_0;
 	}
 }
-// Method Definition Index: 64887
+// Method Definition Index: 64895
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Navigation_set_mode_m0BEF999F733332AD994CF3CA4AC17B2A47531207_inline (Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30298,7 +30512,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_y_mC733E8D49F3CE21
 		return L_0;
 	}
 }
-// Method Definition Index: 64902
+// Method Definition Index: 64910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813_inline (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30307,7 +30521,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2E
 		return L_0;
 	}
 }
-// Method Definition Index: 64904
+// Method Definition Index: 64912
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D RawImage_get_uvRect_m83D2C4632C6AE437D1DC775904AC2FA8CB83D823_inline (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30316,7 +30530,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8
 		return L_0;
 	}
 }
-// Method Definition Index: 65622
+// Method Definition Index: 65630
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_delta_m7DC87C01EAE1D10282C37842ED215FDBFE2C1C5B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30352,7 +30566,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 38752
+// Method Definition Index: 38753
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 MobileJoystick_get_Direction_mDE66832A76CF2E2DC6660643A987417308AF527A_inline (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30372,7 +30586,41 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))));
 	}
 }
-// Method Definition Index: 40722
+// Method Definition Index: 33870
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___m_XMin;
+		return L_0;
+	}
+}
+// Method Definition Index: 33874
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___m_Width;
+		float L_1 = __this->___m_XMin;
+		return ((float)il2cpp_codegen_add(L_0, L_1));
+	}
+}
+// Method Definition Index: 33876
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___m_Height;
+		float L_1 = __this->___m_YMin;
+		return ((float)il2cpp_codegen_add(L_0, L_1));
+	}
+}
+// Method Definition Index: 33872
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___m_YMin;
+		return L_0;
+	}
+}
+// Method Definition Index: 40724
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* Metin2PlayerState_get_Local_mCBE41F3CC4D8B3DC11016EC72B1EA8C212859074_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30387,7 +30635,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Metin2PlayerState_t0B2F15E774404A
 		return L_0;
 	}
 }
-// Method Definition Index: 39455
+// Method Definition Index: 39456
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get_Level_mAB1DE7AD160346994B70FD709F5093E5A696E608_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30402,7 +30650,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get
 		return L_0;
 	}
 }
-// Method Definition Index: 39459
+// Method Definition Index: 39460
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get_Vitality_mD84EB0D44511BD01319F6C85AF8260C233723582_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30417,7 +30665,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get
 		return L_0;
 	}
 }
-// Method Definition Index: 39461
+// Method Definition Index: 39462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get_Intelligence_mAF64DB7F984661165855D754E85770567367FCC6_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30432,7 +30680,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get
 		return L_0;
 	}
 }
-// Method Definition Index: 40740
+// Method Definition Index: 40742
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_MaxHp_m9FB9E2589E22DFC8A034F0012DEFCCE6C1BD4217_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30441,7 +30689,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Max
 		return L_0;
 	}
 }
-// Method Definition Index: 40742
+// Method Definition Index: 40744
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_MaxSp_m7609A97EE12DCEDBBDB50823C47755D0B10431F5_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30450,7 +30698,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Max
 		return L_0;
 	}
 }
-// Method Definition Index: 40739
+// Method Definition Index: 40741
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_CurrentHp_m1C4C58A2B9313AF95C4626B896B1EA3947772E4E_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30459,7 +30707,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 40741
+// Method Definition Index: 40743
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_CurrentSp_m8C82FA59B7E79B1753D0C19300AE8DBE6CB314FD_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30468,7 +30716,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 40744
+// Method Definition Index: 40746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_MaxStamina_m1476818344C8B6FB8D83462EDF84B37D10BD85C0_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30477,7 +30725,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Max
 		return L_0;
 	}
 }
-// Method Definition Index: 40743
+// Method Definition Index: 40745
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_CurrentStamina_m7D90CECDFD686ACAF026B3FD3ECFBFFF6EEBAD22_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30511,7 +30759,7 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 40738
+// Method Definition Index: 40740
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_NextExperience_m135C5F6B057D5241D0A1FD8B6BCA01A4CB56AB61_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30520,7 +30768,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Nex
 		return L_0;
 	}
 }
-// Method Definition Index: 40737
+// Method Definition Index: 40739
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Experience_mD8AECCC08E26454D0AB2858F9C6D5E22044FACA3_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30529,7 +30777,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Exp
 		return L_0;
 	}
 }
-// Method Definition Index: 53505
+// Method Definition Index: 53513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraData_set_renderShadows_m435F35FAAF4700DC51E6A806D2BEF8A01A3A010B_inline (UniversalAdditionalCameraData_t57B5D0F93C2D506E618E23187302C0FADE813B93* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30539,7 +30787,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraDat
 		return;
 	}
 }
-// Method Definition Index: 53532
+// Method Definition Index: 53540
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraData_set_renderPostProcessing_mDECCE7AC172D0C20AC42E6393A24D4841AA4E0F6_inline (UniversalAdditionalCameraData_t57B5D0F93C2D506E618E23187302C0FADE813B93* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30595,7 +30843,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 70499
+// Method Definition Index: 70507
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
