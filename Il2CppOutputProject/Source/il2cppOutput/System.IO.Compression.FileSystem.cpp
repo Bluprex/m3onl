@@ -422,7 +422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_SetLastWriteTime_mF2647DEE086B5F497
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 73422
+// Method Definition Index: 73424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ZipFile_OpenRead_m82404BAA63D25E027D3D0A472103AA6C20EBCF83 (String_t* ___0_archiveFileName, const RuntimeMethod* method) 
 {
 	{
@@ -432,7 +432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA63
 		return L_1;
 	}
 }
-// Method Definition Index: 73423
+// Method Definition Index: 73425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ZipFile_Open_m6273C047FE6C596112D88B4D7666268E897C7A0F (String_t* ___0_archiveFileName, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	{
@@ -443,7 +443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA63
 		return L_2;
 	}
 }
-// Method Definition Index: 73424
+// Method Definition Index: 73426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ZipFile_Open_m6F83ACFED32799E052503C5CEAE6DD0D145FCC8D (String_t* ___0_archiveFileName, int32_t ___1_mode, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___2_entryNameEncoding, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -565,7 +565,7 @@ IL_005d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 73425
+// Method Definition Index: 73427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFileExtensions_ExtractToFile_m2584E3670B741B08409D95BFB8ABC04AA92B49F2 (ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ___0_source, String_t* ___1_destinationFileName, bool ___2_overwrite, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -733,7 +733,7 @@ IL_0058:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 70615
+// Method Definition Index: 70617
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ZipArchiveEntry_get_LastWriteTime_m98EB193BEB589BE1739A89C6104830F11573AFE9_inline (ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* __this, const RuntimeMethod* method) 
 {
 	{
