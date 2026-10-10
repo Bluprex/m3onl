@@ -3004,6 +3004,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.HDROutputSettings
 
+	//Start Registrations for type : UnityEngine.ImageConversion
+
+		//System.Boolean UnityEngine.ImageConversion::LoadImage_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,System.Boolean)
+		void Register_UnityEngine_ImageConversion_LoadImage_Injected();
+		Register_UnityEngine_ImageConversion_LoadImage_Injected();
+
+	//End Registrations for type : UnityEngine.ImageConversion
+
 	//Start Registrations for type : UnityEngine.Input
 
 		//System.Boolean UnityEngine.Input::CheckDisabled()
@@ -7878,6 +7886,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Texture2D_Internal_CreateImpl_Injected();
 		Register_UnityEngine_Texture2D_Internal_CreateImpl_Injected();
 
+		//System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImplArray_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Texture2D_LoadRawTextureDataImplArray_Injected();
+		Register_UnityEngine_Texture2D_LoadRawTextureDataImplArray_Injected();
+
 		//System.Boolean UnityEngine.Texture2D::ReinitializeImpl_Injected(System.IntPtr,System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_ReinitializeImpl_Injected();
 		Register_UnityEngine_Texture2D_ReinitializeImpl_Injected();
@@ -7925,6 +7937,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Texture2D::SetPixelsImpl_Injected(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_SetPixelsImpl_Injected();
 		Register_UnityEngine_Texture2D_SetPixelsImpl_Injected();
+
+		//UnityEngine.Color32[] UnityEngine.Texture2D::GetPixels32_Injected(System.IntPtr,System.Int32)
+		void Register_UnityEngine_Texture2D_GetPixels32_Injected();
+		Register_UnityEngine_Texture2D_GetPixels32_Injected();
 
 		//UnityEngine.TextureFormat UnityEngine.Texture2D::get_format_Injected(System.IntPtr)
 		void Register_UnityEngine_Texture2D_get_format_Injected();

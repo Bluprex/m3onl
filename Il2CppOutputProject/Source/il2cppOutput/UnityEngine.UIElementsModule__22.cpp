@@ -595,7 +595,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 21886
+// Method Definition Index: 21893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* MultiColumnHeaderColumnResizeHandle_get_dragArea_mAD2E4005E97F7BAB1D51123C330608E8B6CB25F5 (MultiColumnHeaderColumnResizeHandle_t2512E81EB5479A2B0052C77741DB027E107F01C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -603,7 +603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VisualElement_t2667F9D19E62C7A315927506C06F22
 		return L_0;
 	}
 }
-// Method Definition Index: 21887
+// Method Definition Index: 21894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiColumnHeaderColumnResizeHandle__ctor_mEF78D5252757F1DC4EE4D31187C0666D150580B7 (MultiColumnHeaderColumnResizeHandle_t2512E81EB5479A2B0052C77741DB027E107F01C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -640,7 +640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiColumnHeaderColumnResizeHandle__cto
 		return;
 	}
 }
-// Method Definition Index: 21888
+// Method Definition Index: 21895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiColumnHeaderColumnResizeHandle__cctor_m117030BB9B29B074E5D47BDBCB05744E6D4D5446 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -702,7 +702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiColumnHeaderColumnResizeHandle__cct
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 21886
+// Method Definition Index: 21893
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* MultiColumnHeaderColumnResizeHandle_get_dragArea_mAD2E4005E97F7BAB1D51123C330608E8B6CB25F5_inline (MultiColumnHeaderColumnResizeHandle_t2512E81EB5479A2B0052C77741DB027E107F01C2* __this, const RuntimeMethod* method) 
 {
 	{
