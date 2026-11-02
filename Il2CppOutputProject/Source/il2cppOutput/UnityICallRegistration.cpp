@@ -616,6 +616,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AI.NavMeshPath
 
+	//Start Registrations for type : UnityEngine.Animation
+
+		//System.Int32 UnityEngine.Animation::GetStateCount_Injected(System.IntPtr)
+		void Register_UnityEngine_Animation_GetStateCount_Injected();
+		Register_UnityEngine_Animation_GetStateCount_Injected();
+
+		//UnityEngine.AnimationState UnityEngine.Animation::GetStateAtIndex_Injected(System.IntPtr,System.Int32)
+		void Register_UnityEngine_Animation_GetStateAtIndex_Injected();
+		Register_UnityEngine_Animation_GetStateAtIndex_Injected();
+
+	//End Registrations for type : UnityEngine.Animation
+
 	//Start Registrations for type : UnityEngine.AnimationClip
 
 		//System.Single UnityEngine.AnimationClip::get_length_Injected(System.IntPtr)
@@ -1133,6 +1145,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Bounds::IntersectRayAABB(UnityEngine.Ray&,UnityEngine.Bounds&,System.Single&)
 		void Register_UnityEngine_Bounds_IntersectRayAABB();
 		Register_UnityEngine_Bounds_IntersectRayAABB();
+
+		//System.Single UnityEngine.Bounds::Internal_SqrDistance(UnityEngine.Vector3&)
+		void Register_UnityEngine_Bounds_Internal_SqrDistance();
+		Register_UnityEngine_Bounds_Internal_SqrDistance();
 
 	//End Registrations for type : UnityEngine.Bounds
 
@@ -7534,6 +7550,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Terrain_get_allowAutoConnect_Injected();
 		Register_UnityEngine_Terrain_get_allowAutoConnect_Injected();
 
+		//System.Boolean UnityEngine.Terrain::get_drawHeightmap_Injected(System.IntPtr)
+		void Register_UnityEngine_Terrain_get_drawHeightmap_Injected();
+		Register_UnityEngine_Terrain_get_drawHeightmap_Injected();
+
+		//System.Boolean UnityEngine.Terrain::get_drawTreesAndFoliage_Injected(System.IntPtr)
+		void Register_UnityEngine_Terrain_get_drawTreesAndFoliage_Injected();
+		Register_UnityEngine_Terrain_get_drawTreesAndFoliage_Injected();
+
 		//System.Int32 UnityEngine.Terrain::get_groupingID_Injected(System.IntPtr)
 		void Register_UnityEngine_Terrain_get_groupingID_Injected();
 		Register_UnityEngine_Terrain_get_groupingID_Injected();
@@ -7546,6 +7570,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Terrain_SampleHeight_Injected();
 		Register_UnityEngine_Terrain_SampleHeight_Injected();
 
+		//System.Single UnityEngine.Terrain::get_detailObjectDistance_Injected(System.IntPtr)
+		void Register_UnityEngine_Terrain_get_detailObjectDistance_Injected();
+		Register_UnityEngine_Terrain_get_detailObjectDistance_Injected();
+
+		//System.Single UnityEngine.Terrain::get_treeDistance_Injected(System.IntPtr)
+		void Register_UnityEngine_Terrain_get_treeDistance_Injected();
+		Register_UnityEngine_Terrain_get_treeDistance_Injected();
+
 		//System.Void UnityEngine.Terrain::GetPosition_Injected(System.IntPtr,UnityEngine.Vector3&)
 		void Register_UnityEngine_Terrain_GetPosition_Injected();
 		Register_UnityEngine_Terrain_GetPosition_Injected();
@@ -7557,6 +7589,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Terrain::set_detailObjectDistance_Injected(System.IntPtr,System.Single)
 		void Register_UnityEngine_Terrain_set_detailObjectDistance_Injected();
 		Register_UnityEngine_Terrain_set_detailObjectDistance_Injected();
+
+		//System.Void UnityEngine.Terrain::set_drawHeightmap_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_Terrain_set_drawHeightmap_Injected();
+		Register_UnityEngine_Terrain_set_drawHeightmap_Injected();
+
+		//System.Void UnityEngine.Terrain::set_drawTreesAndFoliage_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_Terrain_set_drawTreesAndFoliage_Injected();
+		Register_UnityEngine_Terrain_set_drawTreesAndFoliage_Injected();
 
 		//System.Void UnityEngine.Terrain::set_heightmapPixelError_Injected(System.IntPtr,System.Single)
 		void Register_UnityEngine_Terrain_set_heightmapPixelError_Injected();
@@ -7621,6 +7661,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.TerrainData::Internal_GetTreeInstances_Injected(System.IntPtr,UnityEngine.Bindings.BlittableArrayWrapper&)
 		void Register_UnityEngine_TerrainData_Internal_GetTreeInstances_Injected();
 		Register_UnityEngine_TerrainData_Internal_GetTreeInstances_Injected();
+
+		//System.Void UnityEngine.TerrainData::get_bounds_Injected(System.IntPtr,UnityEngine.Bounds&)
+		void Register_UnityEngine_TerrainData_get_bounds_Injected();
+		Register_UnityEngine_TerrainData_get_bounds_Injected();
 
 		//System.Void UnityEngine.TerrainData::get_heightmapScale_Injected(System.IntPtr,UnityEngine.Vector3&)
 		void Register_UnityEngine_TerrainData_get_heightmapScale_Injected();
