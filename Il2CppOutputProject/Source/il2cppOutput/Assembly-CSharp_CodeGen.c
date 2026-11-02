@@ -1907,6 +1907,20 @@ extern void U3CU3Ec__DisplayClass13_0__ctor_m546C7619D15AD0B2F715CED2ACB8659EF52
 extern void U3CU3Ec__DisplayClass13_0_U3CShowU3Eb__0_mF752D20A542D7D9F86D3439B40527F85377504EF (void);
 extern void U3CU3Ec__DisplayClass13_1__ctor_mC5062C182C0E630DE80FDCE08E21743BA119223F (void);
 extern void U3CU3Ec__DisplayClass13_1_U3CShowU3Eb__1_m15A673909A2C3E703543783100E1C827B235147F (void);
+extern void Metin2GameCursor_get_LeftOrbitDragging_m21BC40DD41D9DC9A80D54592D2F98BF7763EEFE2 (void);
+extern void Metin2GameCursor_get_LeftOrbitFinishedThisFrame_mD075F420CB9E3F7891D83E70A6C0C8C64AA0C663 (void);
+extern void Metin2GameCursor_get_RightOrbitActive_m35C3D1BF4F3C7BD7973F621CC7BDCF18D28B18EA (void);
+extern void Metin2GameCursor_ResetStatics_m4250827B592CFD09BFE48F65769EF4885CABBEFC (void);
+extern void Metin2GameCursor_Install_m118053CB317B5278F5CBF8A4BD5660900BB1B98E (void);
+extern void Metin2GameCursor_Awake_mFC09812B0F1397ED8AD3877ABAADB505FE2A7D8D (void);
+extern void Metin2GameCursor_SceneLoaded_m28EFC77502D922BF4C18157FA946331FBD7DAA44 (void);
+extern void Metin2GameCursor_ClearGesture_m8F90FBA607D17F8F28C13407C5706DF0846CDA30 (void);
+extern void Metin2GameCursor_Update_m138264A4E86D15BB4CFB6EDDCBED81E98CB08E3D (void);
+extern void Metin2GameCursor_ShowOrbit_m4746465997DD50041AA5AF1A22E180FFE0CD5828 (void);
+extern void Metin2GameCursor_Apply_mB46EB947CC0DC811749A0DF256727D8FF588AF0C (void);
+extern void Metin2GameCursor_OnApplicationFocus_m4654B1910BAA5EE0D81B13C064FEA155F5582465 (void);
+extern void Metin2GameCursor_OnDestroy_mD28EB0B41312CDF4F17EBF6CA0987D216BD37DC6 (void);
+extern void Metin2GameCursor__ctor_mA8A0FE1B48FC94C6C3531C541D1EBA14EC347440 (void);
 extern void Metin2GameplayBootstrap_Install_m4F242AB1B6104BB8A7478CF88AF9AC944F76136B (void);
 extern void Metin2GameplayBootstrap_OnEnable_m322918B61D8771F852603680417DE11C58905758 (void);
 extern void Metin2GameplayBootstrap_OnDisable_m7FE588AE48B238D9D70B9072C1DB9DB67D76048F (void);
@@ -5266,7 +5280,7 @@ extern void Metin2FrontendController_IsolateFrontend_mCD287A6F74DEF9C2047968A631
 extern void Metin2FrontendController_CreateEventSystem_m8B9687B14CA25A79B2F95986944AC4EFB8728861 (void);
 extern void Metin2FrontendController_CreateCanvas_m14128FC399B107F907F449F981258F3750D091E7 (void);
 extern void Metin2FrontendController_InstallMobileDesktopLayout_mE09F5E3E1E64B71D0BADE31489ABC49F01BF25F7 (void);
-extern void Metin2FrontendController_UseEditableHierarchy_m319BE43416C37C65146E2C386D2150A4D824C76D (void);
+extern void Metin2FrontendController_UseEditableHierarchy_m3F3AC164E63A361C9B1C58751CD191B1248D8A28 (void);
 extern void Metin2FrontendController_TryShowEditableScreen_mE81F178DC640903CC6A9348A61D8F3941CDA53EC (void);
 extern void Metin2FrontendController_IsEditableScreenName_m5DE843F3CCE312719167D8506376F90E51917D8E (void);
 extern void Metin2FrontendController_BeginScreen_m41DD4291E1B71E53D068DB7C74CDB52BEC8F60D2 (void);
@@ -5492,7 +5506,7 @@ extern void Metin2LoginBackground_Release_m99161D56FE7B12E1F97D0EC7F074CBF9181BE
 extern void Metin2LoginBackground__ctor_mCF5135BBA2DE00DBA4ABF3404EE35DB36B71CA83 (void);
 extern void Metin3OpeningScreen__ctor_m58B783515727FB1A5C79DB585EA8CE92490293EB (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (void);
-static Il2CppMethodPointer s_methodPointers[5497] = 
+static Il2CppMethodPointer s_methodPointers[5511] = 
 {
 	Metin2Camera_Awake_m1D89B241FDF90A37C1493673F38B4562EBC7B73F,
 	Metin2Camera_LateUpdate_m96569ED298A8D7DDE0C7EC23EE48B049599AC9F0,
@@ -7398,6 +7412,20 @@ static Il2CppMethodPointer s_methodPointers[5497] =
 	U3CU3Ec__DisplayClass13_0_U3CShowU3Eb__0_mF752D20A542D7D9F86D3439B40527F85377504EF,
 	U3CU3Ec__DisplayClass13_1__ctor_mC5062C182C0E630DE80FDCE08E21743BA119223F,
 	U3CU3Ec__DisplayClass13_1_U3CShowU3Eb__1_m15A673909A2C3E703543783100E1C827B235147F,
+	Metin2GameCursor_get_LeftOrbitDragging_m21BC40DD41D9DC9A80D54592D2F98BF7763EEFE2,
+	Metin2GameCursor_get_LeftOrbitFinishedThisFrame_mD075F420CB9E3F7891D83E70A6C0C8C64AA0C663,
+	Metin2GameCursor_get_RightOrbitActive_m35C3D1BF4F3C7BD7973F621CC7BDCF18D28B18EA,
+	Metin2GameCursor_ResetStatics_m4250827B592CFD09BFE48F65769EF4885CABBEFC,
+	Metin2GameCursor_Install_m118053CB317B5278F5CBF8A4BD5660900BB1B98E,
+	Metin2GameCursor_Awake_mFC09812B0F1397ED8AD3877ABAADB505FE2A7D8D,
+	Metin2GameCursor_SceneLoaded_m28EFC77502D922BF4C18157FA946331FBD7DAA44,
+	Metin2GameCursor_ClearGesture_m8F90FBA607D17F8F28C13407C5706DF0846CDA30,
+	Metin2GameCursor_Update_m138264A4E86D15BB4CFB6EDDCBED81E98CB08E3D,
+	Metin2GameCursor_ShowOrbit_m4746465997DD50041AA5AF1A22E180FFE0CD5828,
+	Metin2GameCursor_Apply_mB46EB947CC0DC811749A0DF256727D8FF588AF0C,
+	Metin2GameCursor_OnApplicationFocus_m4654B1910BAA5EE0D81B13C064FEA155F5582465,
+	Metin2GameCursor_OnDestroy_mD28EB0B41312CDF4F17EBF6CA0987D216BD37DC6,
+	Metin2GameCursor__ctor_mA8A0FE1B48FC94C6C3531C541D1EBA14EC347440,
 	Metin2GameplayBootstrap_Install_m4F242AB1B6104BB8A7478CF88AF9AC944F76136B,
 	Metin2GameplayBootstrap_OnEnable_m322918B61D8771F852603680417DE11C58905758,
 	Metin2GameplayBootstrap_OnDisable_m7FE588AE48B238D9D70B9072C1DB9DB67D76048F,
@@ -10763,7 +10791,7 @@ static Il2CppMethodPointer s_methodPointers[5497] =
 	Metin2FrontendController_CreateEventSystem_m8B9687B14CA25A79B2F95986944AC4EFB8728861,
 	Metin2FrontendController_CreateCanvas_m14128FC399B107F907F449F981258F3750D091E7,
 	Metin2FrontendController_InstallMobileDesktopLayout_mE09F5E3E1E64B71D0BADE31489ABC49F01BF25F7,
-	Metin2FrontendController_UseEditableHierarchy_m319BE43416C37C65146E2C386D2150A4D824C76D,
+	Metin2FrontendController_UseEditableHierarchy_m3F3AC164E63A361C9B1C58751CD191B1248D8A28,
 	Metin2FrontendController_TryShowEditableScreen_mE81F178DC640903CC6A9348A61D8F3941CDA53EC,
 	Metin2FrontendController_IsEditableScreenName_m5DE843F3CCE312719167D8506376F90E51917D8E,
 	Metin2FrontendController_BeginScreen_m41DD4291E1B71E53D068DB7C74CDB52BEC8F60D2,
@@ -11002,10 +11030,10 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] =
 	{ 0x0600008D, EquipmentSlotDef__ctor_m78665D4B0178E9D6F4E0AEC5E4834739AC7B0FA6_AdjustorThunk },
 	{ 0x06000227, Geometry__ctor_m87279C177D6C3981C29A9EEB16C593AE069F0F3C_AdjustorThunk },
 	{ 0x06000228, Geometry_Equals_mEC91B5E86FB75475D415C48FA39E8E8550913304_AdjustorThunk },
-	{ 0x060011D4, Skill_get_Name_m695E21B95A5DCBD238F9AEF93699F405A05411A7_AdjustorThunk },
-	{ 0x060011D5, Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk },
+	{ 0x060011E2, Skill_get_Name_m695E21B95A5DCBD238F9AEF93699F405A05411A7_AdjustorThunk },
+	{ 0x060011E3, Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[5497] = 
+static const int32_t s_InvokerIndices[5511] = 
 {
 	14285,
 	14285,
@@ -12909,6 +12937,20 @@ static const int32_t s_InvokerIndices[5497] =
 	14285,
 	14285,
 	14285,
+	14285,
+	14285,
+	24608,
+	24608,
+	24608,
+	24763,
+	24763,
+	14285,
+	5554,
+	14285,
+	14285,
+	23491,
+	10648,
+	10648,
 	14285,
 	14285,
 	24763,
@@ -16276,7 +16318,7 @@ static const int32_t s_InvokerIndices[5497] =
 	14285,
 	10845,
 	14285,
-	13880,
+	7612,
 	3346,
 	22773,
 	4107,
@@ -16511,13 +16553,13 @@ static const Il2CppTokenRangePair s_rgctxIndices[11] =
 	{ 0x060000C9, { 2, 3 } },
 	{ 0x0600010B, { 5, 2 } },
 	{ 0x06000417, { 7, 6 } },
-	{ 0x060007C3, { 13, 2 } },
-	{ 0x060008B7, { 15, 2 } },
-	{ 0x06000F31, { 17, 2 } },
-	{ 0x060012E1, { 19, 3 } },
-	{ 0x060012E2, { 22, 8 } },
-	{ 0x060014B2, { 30, 5 } },
-	{ 0x060014B3, { 35, 3 } },
+	{ 0x060007D1, { 13, 2 } },
+	{ 0x060008C5, { 15, 2 } },
+	{ 0x06000F3F, { 17, 2 } },
+	{ 0x060012EF, { 19, 3 } },
+	{ 0x060012F0, { 22, 8 } },
+	{ 0x060014C0, { 30, 5 } },
+	{ 0x060014C1, { 35, 3 } },
 };
 extern const uint32_t g_rgctx_T_t7A408E3556C6760AB7149E84F3E68AAE791A734A;
 extern const uint32_t g_rgctx_Component_GetComponent_TisT_t7A408E3556C6760AB7149E84F3E68AAE791A734A_m700767ACA5DAFF51B175C2E1A5217E92E3B7F20C;
@@ -16602,7 +16644,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	5497,
+	5511,
 	s_methodPointers,
 	5,
 	s_adjustorThunks,
