@@ -4286,6 +4286,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Networking.CertificateHandler
 
+		//System.IntPtr UnityEngine.Networking.CertificateHandler::Create(UnityEngine.Networking.CertificateHandler)
+		void Register_UnityEngine_Networking_CertificateHandler_Create();
+		Register_UnityEngine_Networking_CertificateHandler_Create();
+
 		//System.Void UnityEngine.Networking.CertificateHandler::ReleaseFromScripting_Injected(System.IntPtr)
 		void Register_UnityEngine_Networking_CertificateHandler_ReleaseFromScripting_Injected();
 		Register_UnityEngine_Networking_CertificateHandler_ReleaseFromScripting_Injected();
@@ -8958,6 +8962,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Video.VideoPlayer
 
+		//System.Boolean UnityEngine.Video.VideoPlayer::get_isPrepared_Injected(System.IntPtr)
+		void Register_UnityEngine_Video_VideoPlayer_get_isPrepared_Injected();
+		Register_UnityEngine_Video_VideoPlayer_get_isPrepared_Injected();
+
+		//System.UInt32 UnityEngine.Video.VideoPlayer::get_height_Injected(System.IntPtr)
+		void Register_UnityEngine_Video_VideoPlayer_get_height_Injected();
+		Register_UnityEngine_Video_VideoPlayer_get_height_Injected();
+
+		//System.UInt32 UnityEngine.Video.VideoPlayer::get_width_Injected(System.IntPtr)
+		void Register_UnityEngine_Video_VideoPlayer_get_width_Injected();
+		Register_UnityEngine_Video_VideoPlayer_get_width_Injected();
+
 		//System.Void UnityEngine.Video.VideoPlayer::Play_Injected(System.IntPtr)
 		void Register_UnityEngine_Video_VideoPlayer_Play_Injected();
 		Register_UnityEngine_Video_VideoPlayer_Play_Injected();
@@ -8990,6 +9006,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Video_VideoPlayer_set_renderMode_Injected();
 		Register_UnityEngine_Video_VideoPlayer_set_renderMode_Injected();
 
+		//System.Void UnityEngine.Video.VideoPlayer::set_sendFrameReadyEvents_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_Video_VideoPlayer_set_sendFrameReadyEvents_Injected();
+		Register_UnityEngine_Video_VideoPlayer_set_sendFrameReadyEvents_Injected();
+
 		//System.Void UnityEngine.Video.VideoPlayer::set_skipOnDrop_Injected(System.IntPtr,System.Boolean)
 		void Register_UnityEngine_Video_VideoPlayer_set_skipOnDrop_Injected();
 		Register_UnityEngine_Video_VideoPlayer_set_skipOnDrop_Injected();
@@ -9001,6 +9021,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Video.VideoPlayer::set_targetTexture_Injected(System.IntPtr,System.IntPtr)
 		void Register_UnityEngine_Video_VideoPlayer_set_targetTexture_Injected();
 		Register_UnityEngine_Video_VideoPlayer_set_targetTexture_Injected();
+
+		//System.Void UnityEngine.Video.VideoPlayer::set_url_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Video_VideoPlayer_set_url_Injected();
+		Register_UnityEngine_Video_VideoPlayer_set_url_Injected();
 
 		//System.Void UnityEngine.Video.VideoPlayer::set_waitForFirstFrame_Injected(System.IntPtr,System.Boolean)
 		void Register_UnityEngine_Video_VideoPlayer_set_waitForFirstFrame_Injected();
