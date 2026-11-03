@@ -203,6 +203,8 @@ extern void MobileHUDOnly_OnDisable_m44B838BABC74AAE46758700769A59308D0D26417 (v
 extern void MobileHUDOnly_Update_m59F6AFD0F62B646B9AAD3708B96A6F1A8C2F2068 (void);
 extern void MobileHUDOnly_ApplyPlatformVisibilityAndConfigure_mEF12BD67CE7F39306D090A06D499AEC09471F9D9 (void);
 extern void MobileHUDOnly_ShouldShowHud_m78715FBFE39D41E9962A5389FB24D300D4E67ED7 (void);
+extern void MobileHUDOnly_RepairControlGeometry_m78F508D0BC0AF5DFE11E71E85F9DFE0D6AB92784 (void);
+extern void MobileHUDOnly_RestoreScale_m6270C9B38390B6C74B03D232B573B5393BAC37C3 (void);
 extern void MobileHUDOnly_ConfigureExistingHierarchy_mBDA4DA88785CE3F1CF7AA0FE2041290E8B37F010 (void);
 extern void MobileHUDOnly_EnsureCanvasCanReceivePointers_m422D0A47AA357DFDC0178AE51C2E0AEAC356DFBA (void);
 extern void MobileHUDOnly_EnsureInputSystemEventSystem_mFFF2D5D2AA7E7F0BD17F4B8EB6A066175B0DA509 (void);
@@ -220,6 +222,7 @@ extern void MobileHUDOnly__cctor_mA8316FFC670A94A169668593303396B26B085478 (void
 extern void U3CU3Ec__cctor_mE05231698AFE9F8C60D3091370F3E9A13DFDB22F (void);
 extern void U3CU3Ec__ctor_m03B2BC40E1BEE27C77A3A7BD7AA9D735EFC22DDA (void);
 extern void U3CU3Ec_U3CRemoveRuntimeDuplicateHudsU3Eb__24_0_m19AFC0E6733F4C50C70AD4AF4DCE94A0E9439928 (void);
+extern void U3CU3Ec_U3CRemoveRuntimeDuplicateHudsU3Eb__24_1_mC73A52AE82B92F73CBF48AB3E3E9CE503FA7923D (void);
 extern void MobileHUDActionButton_Configure_m3A1A68E1A42D16ADF43C5199F21AD1A068E4D1CD (void);
 extern void MobileHUDActionButton_OnPointerDown_m1077A09B71EFB204A8C879DC36C34F00C17A8DDE (void);
 extern void MobileHUDActionButton_OnDrag_mD2F23AB8A04866EB43741DAEDA34917AF7192F1D (void);
@@ -5563,7 +5566,7 @@ extern void Metin3FrontendSkinFit_LateUpdate_mFE4A6DB2E4E8341796519EB9D3AD90E998
 extern void Metin3FrontendSkinFit__ctor_m172D956A29510CFD006592C8500B0D60DB7E446E (void);
 extern void Metin3OpeningScreen__ctor_m58B783515727FB1A5C79DB585EA8CE92490293EB (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (void);
-static Il2CppMethodPointer s_methodPointers[5568] = 
+static Il2CppMethodPointer s_methodPointers[5571] = 
 {
 	Metin2Camera_Awake_m1D89B241FDF90A37C1493673F38B4562EBC7B73F,
 	Metin2Camera_LateUpdate_m96569ED298A8D7DDE0C7EC23EE48B049599AC9F0,
@@ -5762,6 +5765,8 @@ static Il2CppMethodPointer s_methodPointers[5568] =
 	MobileHUDOnly_Update_m59F6AFD0F62B646B9AAD3708B96A6F1A8C2F2068,
 	MobileHUDOnly_ApplyPlatformVisibilityAndConfigure_mEF12BD67CE7F39306D090A06D499AEC09471F9D9,
 	MobileHUDOnly_ShouldShowHud_m78715FBFE39D41E9962A5389FB24D300D4E67ED7,
+	MobileHUDOnly_RepairControlGeometry_m78F508D0BC0AF5DFE11E71E85F9DFE0D6AB92784,
+	MobileHUDOnly_RestoreScale_m6270C9B38390B6C74B03D232B573B5393BAC37C3,
 	MobileHUDOnly_ConfigureExistingHierarchy_mBDA4DA88785CE3F1CF7AA0FE2041290E8B37F010,
 	MobileHUDOnly_EnsureCanvasCanReceivePointers_m422D0A47AA357DFDC0178AE51C2E0AEAC356DFBA,
 	MobileHUDOnly_EnsureInputSystemEventSystem_mFFF2D5D2AA7E7F0BD17F4B8EB6A066175B0DA509,
@@ -5780,6 +5785,7 @@ static Il2CppMethodPointer s_methodPointers[5568] =
 	U3CU3Ec__cctor_mE05231698AFE9F8C60D3091370F3E9A13DFDB22F,
 	U3CU3Ec__ctor_m03B2BC40E1BEE27C77A3A7BD7AA9D735EFC22DDA,
 	U3CU3Ec_U3CRemoveRuntimeDuplicateHudsU3Eb__24_0_m19AFC0E6733F4C50C70AD4AF4DCE94A0E9439928,
+	U3CU3Ec_U3CRemoveRuntimeDuplicateHudsU3Eb__24_1_mC73A52AE82B92F73CBF48AB3E3E9CE503FA7923D,
 	MobileHUDActionButton_Configure_m3A1A68E1A42D16ADF43C5199F21AD1A068E4D1CD,
 	MobileHUDActionButton_OnPointerDown_m1077A09B71EFB204A8C879DC36C34F00C17A8DDE,
 	MobileHUDActionButton_OnDrag_mD2F23AB8A04866EB43741DAEDA34917AF7192F1D,
@@ -11142,12 +11148,12 @@ extern void Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk 
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] = 
 {
 	{ 0x0600008D, EquipmentSlotDef__ctor_m78665D4B0178E9D6F4E0AEC5E4834739AC7B0FA6_AdjustorThunk },
-	{ 0x06000227, Geometry__ctor_m87279C177D6C3981C29A9EEB16C593AE069F0F3C_AdjustorThunk },
-	{ 0x06000228, Geometry_Equals_mEC91B5E86FB75475D415C48FA39E8E8550913304_AdjustorThunk },
-	{ 0x060011EB, Skill_get_Name_m695E21B95A5DCBD238F9AEF93699F405A05411A7_AdjustorThunk },
-	{ 0x060011EC, Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk },
+	{ 0x0600022A, Geometry__ctor_m87279C177D6C3981C29A9EEB16C593AE069F0F3C_AdjustorThunk },
+	{ 0x0600022B, Geometry_Equals_mEC91B5E86FB75475D415C48FA39E8E8550913304_AdjustorThunk },
+	{ 0x060011EE, Skill_get_Name_m695E21B95A5DCBD238F9AEF93699F405A05411A7_AdjustorThunk },
+	{ 0x060011EF, Skill__ctor_mA49131A0D4260594A651DD60F908348A55CCC608_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[5568] = 
+static const int32_t s_InvokerIndices[5571] = 
 {
 	14290,
 	14290,
@@ -11347,6 +11353,8 @@ static const int32_t s_InvokerIndices[5568] =
 	14290,
 	13885,
 	14290,
+	23510,
+	14290,
 	14290,
 	24771,
 	-1,
@@ -11363,6 +11371,7 @@ static const int32_t s_InvokerIndices[5568] =
 	24771,
 	24771,
 	14290,
+	7615,
 	7615,
 	2411,
 	10850,
@@ -16721,16 +16730,16 @@ static const int32_t s_InvokerIndices[5568] =
 static const Il2CppTokenRangePair s_rgctxIndices[11] = 
 {
 	{ 0x06000058, { 0, 2 } },
-	{ 0x060000C9, { 2, 3 } },
-	{ 0x0600010B, { 5, 2 } },
-	{ 0x0600041F, { 7, 6 } },
-	{ 0x060007D9, { 13, 2 } },
-	{ 0x060008CD, { 15, 2 } },
-	{ 0x06000F48, { 17, 2 } },
-	{ 0x0600130E, { 19, 3 } },
-	{ 0x0600130F, { 22, 8 } },
-	{ 0x060014EB, { 30, 5 } },
-	{ 0x060014EC, { 35, 3 } },
+	{ 0x060000CB, { 2, 3 } },
+	{ 0x0600010E, { 5, 2 } },
+	{ 0x06000422, { 7, 6 } },
+	{ 0x060007DC, { 13, 2 } },
+	{ 0x060008D0, { 15, 2 } },
+	{ 0x06000F4B, { 17, 2 } },
+	{ 0x06001311, { 19, 3 } },
+	{ 0x06001312, { 22, 8 } },
+	{ 0x060014EE, { 30, 5 } },
+	{ 0x060014EF, { 35, 3 } },
 };
 extern const uint32_t g_rgctx_T_t7A408E3556C6760AB7149E84F3E68AAE791A734A;
 extern const uint32_t g_rgctx_Component_GetComponent_TisT_t7A408E3556C6760AB7149E84F3E68AAE791A734A_m700767ACA5DAFF51B175C2E1A5217E92E3B7F20C;
@@ -16815,7 +16824,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	5568,
+	5571,
 	s_methodPointers,
 	5,
 	s_adjustorThunks,

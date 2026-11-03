@@ -7115,7 +7115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mF468A56B3A746EFD80
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22235
+// Method Definition Index: 22238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_ResetState_m2F5CC246CCABAF127B0325250F5F879530F2FC9F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7125,13 +7125,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_ResetState_m2F5C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:697>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:719>
 		((MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_StaticFields*)il2cpp_codegen_static_fields_for(MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_il2cpp_TypeInfo_var))->___sceneLoadInProgress = (bool)0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:698>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:720>
 		return;
 	}
 }
-// Method Definition Index: 22236
+// Method Definition Index: 22239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_TeleportNext_m43A42464EE9D3A3577545DDB3D18408EBA210498 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7167,7 +7167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_TeleportNext_m43
 	Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* G_B19_0 = NULL;
 	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* G_B19_1 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:702>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:724>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -7186,18 +7186,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_TeleportNext_m43
 
 IL_000e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:703>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:725>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:705>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:727>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_2;
 		L_2 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
 		V_0 = L_2;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:706>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:728>
 		bool L_3;
 		L_3 = Scene_IsValid_m0D5200731D3E26ECBBB55803F9242965A14A4599((&V_0), NULL);
 		if (!L_3)
@@ -7216,13 +7216,13 @@ IL_000f:
 
 IL_0027:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:707>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:729>
 		return;
 	}
 
 IL_0028:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:709>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:731>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_5 = V_0;
 		bool L_6;
 		L_6 = MobileMapTestTeleporter_TryTeleportToAuthoredSpawn_mC2D57A5BC5E953E4A3138B716C9BF2F30F3BA3F8(L_5, NULL);
@@ -7232,17 +7232,17 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:710>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:732>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:712>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:734>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_7;
 		L_7 = MobileMapTestTeleporter_FindGameplayMapBuildIndices_mAFB6F1252E1FABC99248D6E4B1881495C3CA1CD3(NULL);
 		V_1 = L_7;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:713>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:735>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_8 = V_1;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -7253,16 +7253,16 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:715>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:737>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral718C9E20E7F5E3C046300F28638246A25A089E3F, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:716>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:738>
 		return;
 	}
 
 IL_004a:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:719>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:741>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_10 = V_1;
 		int32_t L_11;
 		L_11 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E((&V_0), NULL);
@@ -7270,7 +7270,7 @@ IL_004a:
 		int32_t L_12;
 		L_12 = List_1_IndexOf_mC3D1A2CECAC0E3D42C78B43772E1BD3D0333C450(L_10, L_11, List_1_IndexOf_mC3D1A2CECAC0E3D42C78B43772E1BD3D0333C450_RuntimeMethod_var);
 		V_2 = L_12;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:720>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:742>
 		int32_t L_13 = V_2;
 		if ((((int32_t)L_13) >= ((int32_t)0)))
 		{
@@ -7295,14 +7295,14 @@ IL_005f:
 IL_0069:
 	{
 		V_3 = G_B13_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:721>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:743>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_17 = V_1;
 		int32_t L_18 = V_3;
 		NullCheck(L_17);
 		int32_t L_19;
 		L_19 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_17, L_18, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
 		V_4 = L_19;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:722>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:744>
 		int32_t L_20 = V_4;
 		int32_t L_21;
 		L_21 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E((&V_0), NULL);
@@ -7322,29 +7322,29 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:724>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:746>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral594F50821EB2E3CE2A636EBE506BCC3C927C7CD9, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:725>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:747>
 		return;
 	}
 
 IL_0092:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:728>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:750>
 		int32_t L_24 = V_4;
 		String_t* L_25;
 		L_25 = SceneUtility_GetScenePathByBuildIndex_mB0848A585AFBB0C15CB344C43BD7BF79B1FEE860(L_24, NULL);
 		V_5 = L_25;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:729>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:751>
 		((MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_StaticFields*)il2cpp_codegen_static_fields_for(MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_il2cpp_TypeInfo_var))->___sceneLoadInProgress = (bool)1;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:730>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:752>
 		int32_t L_26 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_27;
 		L_27 = SceneManager_LoadSceneAsync_m153C00133E040E2728737D582FA4A95B7728D142(L_26, 0, NULL);
 		V_6 = L_27;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:731>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:753>
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_28 = V_6;
 		if (L_28)
 		{
@@ -7352,21 +7352,21 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:733>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:755>
 		((MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_StaticFields*)il2cpp_codegen_static_fields_for(MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_il2cpp_TypeInfo_var))->___sceneLoadInProgress = (bool)0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:734>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:756>
 		String_t* L_29 = V_5;
 		String_t* L_30;
 		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9DBA79C2C6F0616B861B3EA37D1F5B8768E59D41, L_29, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_30, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:735>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:757>
 		return;
 	}
 
 IL_00c7:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:737>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:759>
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_31 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tEF1918B907255F17CBE3F5C28AE3E42E4EA0E832_il2cpp_TypeInfo_var);
 		Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* L_32 = ((U3CU3Ec_tEF1918B907255F17CBE3F5C28AE3E42E4EA0E832_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tEF1918B907255F17CBE3F5C28AE3E42E4EA0E832_il2cpp_TypeInfo_var))->___U3CU3E9__3_0;
@@ -7396,17 +7396,17 @@ IL_00e8:
 	{
 		NullCheck(G_B20_1);
 		AsyncOperation_add_completed_mD6F21BA8127D6D4B7ABDEFAA995A7A347A20A793(G_B20_1, G_B20_0, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:738>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:760>
 		String_t* L_37 = V_5;
 		String_t* L_38;
 		L_38 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral42B259564E7A80A94C47FA6681FDAE0A36EDC27F, L_37, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_38, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:739>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:761>
 		return;
 	}
 }
-// Method Definition Index: 22237
+// Method Definition Index: 22240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileMapTestTeleporter_TryTeleportToAuthoredSpawn_mC2D57A5BC5E953E4A3138B716C9BF2F30F3BA3F8 (Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7443,12 +7443,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileMapTestTeleporter_TryTeleportToAut
 	int32_t G_B17_0 = 0;
 	int32_t G_B23_0 = 0;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:743>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:765>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0 = ___0_scene;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = MobileMapTestTeleporter_FindPlayer_mB0EDDD8421354267E91C7A5F6B87CEAFF8ACEE7D(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:744>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:766>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -7459,17 +7459,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileMapTestTeleporter_TryTeleportToAut
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:745>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:767>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:747>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:769>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_4 = (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*)il2cpp_codegen_object_new(List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
 		List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268(L_4, List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:748>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:770>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5;
 		L_5 = Scene_GetRootGameObjects_mFDE0BF9EA926F30EC9AE71F33E0AE4D5D4EC5C5B((&___0_scene), NULL);
 		V_8 = L_5;
@@ -7479,20 +7479,20 @@ IL_0012:
 
 IL_0026:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:748>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:770>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = V_8;
 		int32_t L_7 = V_9;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:750>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:772>
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = MobileMapTestTeleporter_FindDeep_mE2C374333C02ABB3E4CF83A84DDBE442CDD01BFE(L_10, _stringLiteral03E95BA997B51D2BF75A1D39E1524D50D19D3B62, NULL);
 		V_10 = L_11;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:751>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:773>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = V_10;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -7503,7 +7503,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:753>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:775>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_10;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_15 = V_1;
 		MobileMapTestTeleporter_CollectSpawnChildren_m624E46DEA88428E6372C583FE28A3C49BE32C284(L_14, L_15, NULL);
@@ -7517,7 +7517,7 @@ IL_004e:
 
 IL_0054:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:748>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:770>
 		int32_t L_17 = V_9;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_18 = V_8;
 		NullCheck(L_18);
@@ -7527,7 +7527,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:755>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:777>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_19 = V_1;
 		NullCheck(L_19);
 		int32_t L_20;
@@ -7538,24 +7538,24 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:756>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:778>
 		return (bool)0;
 	}
 
 IL_0066:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:758>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:780>
 		V_2 = 0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:759>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:781>
 		V_3 = (std::numeric_limits<float>::infinity());
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:760>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:782>
 		V_11 = 0;
 		goto IL_00a7;
 	}
 
 IL_0073:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:762>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:784>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_21 = V_1;
 		int32_t L_22 = V_11;
 		NullCheck(L_21);
@@ -7574,7 +7574,7 @@ IL_0073:
 		float L_28;
 		L_28 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_13), NULL);
 		V_12 = L_28;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:763>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:785>
 		float L_29 = V_12;
 		float L_30 = V_3;
 		if ((((float)L_29) >= ((float)L_30)))
@@ -7583,24 +7583,24 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:765>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:787>
 		float L_31 = V_12;
 		V_3 = L_31;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:766>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:788>
 		int32_t L_32 = V_11;
 		V_2 = L_32;
 	}
 
 IL_00a1:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:760>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:782>
 		int32_t L_33 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_00a7:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:760>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:782>
 		int32_t L_34 = V_11;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_35 = V_1;
 		NullCheck(L_35);
@@ -7612,7 +7612,7 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:769>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:791>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_37 = V_1;
 		NullCheck(L_37);
 		int32_t L_38;
@@ -7640,7 +7640,7 @@ IL_00bd:
 IL_00c7:
 	{
 		V_4 = G_B17_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:770>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:792>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_42 = V_1;
 		NullCheck(L_42);
 		int32_t L_43;
@@ -7658,13 +7658,13 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:771>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:793>
 		return (bool)0;
 	}
 
 IL_00dc:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:773>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:795>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_45 = V_1;
 		int32_t L_46 = V_4;
 		NullCheck(L_45);
@@ -7676,13 +7676,13 @@ IL_00dc:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
 		L_49 = MobileMapTestTeleporter_Ground_m5D80E673394AD7B4147F2B45034E8A94BB704CEC(L_48, NULL);
 		V_5 = L_49;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:774>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:796>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50 = V_0;
 		NullCheck(L_50);
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_51;
 		L_51 = Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040(L_50, Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
 		V_6 = L_51;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:775>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:797>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_52 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_53;
@@ -7709,7 +7709,7 @@ IL_010b:
 IL_010c:
 	{
 		V_7 = (bool)G_B23_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:776>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:798>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_56 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_57;
@@ -7720,7 +7720,7 @@ IL_010c:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:777>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:799>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_58 = V_6;
 		NullCheck(L_58);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_58, (bool)0, NULL);
@@ -7728,7 +7728,7 @@ IL_010c:
 
 IL_0120:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:778>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:800>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_5;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_61 = V_1;
@@ -7741,7 +7741,7 @@ IL_0120:
 		L_64 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_63, NULL);
 		NullCheck(L_59);
 		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_59, L_60, L_64, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:779>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:801>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_65 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_66;
@@ -7752,7 +7752,7 @@ IL_0120:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:780>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:802>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_67 = V_6;
 		bool L_68 = V_7;
 		NullCheck(L_67);
@@ -7761,10 +7761,10 @@ IL_0120:
 
 IL_0148:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:781>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:803>
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		Physics_SyncTransforms_mB88B6B27C24234D18846F614F9AE674976A5F1CA(NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:782>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:804>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_69 = V_1;
 		int32_t L_70 = V_4;
 		NullCheck(L_69);
@@ -7777,11 +7777,11 @@ IL_0148:
 		L_73 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral30992BF208B043A8DCCA64BD6B9F140C756AC28A, L_72, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_73, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:783>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:805>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 22238
+// Method Definition Index: 22241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* MobileMapTestTeleporter_FindGameplayMapBuildIndices_mAFB6F1252E1FABC99248D6E4B1881495C3CA1CD3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7806,36 +7806,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872
 	int32_t G_B4_0 = 0;
 	int32_t G_B4_1 = 0;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:788>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:810>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_0, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:789>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:811>
 		V_1 = 0;
 		goto IL_005e;
 	}
 
 IL_000a:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:791>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:813>
 		int32_t L_1 = V_1;
 		String_t* L_2;
 		L_2 = SceneUtility_GetScenePathByBuildIndex_mB0848A585AFBB0C15CB344C43BD7BF79B1FEE860(L_1, NULL);
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = String_Replace_m86403DC5F422D8D5E1CFAAF255B103CB807EDAAF(L_2, ((int32_t)92), ((int32_t)47), NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:792>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:814>
 		String_t* L_4 = L_3;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_5;
 		L_5 = Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF(L_4, NULL);
 		V_2 = L_5;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:793>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:815>
 		NullCheck(L_4);
 		int32_t L_6;
 		L_6 = String_IndexOf_m490810CB7ADA9230AC0F8D78E213A8EFED129F55(L_4, _stringLiteral8089923E1F42571A420ACD280D5094438A0622D3, 5, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:794>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:795>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:816>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:817>
 		String_t* L_7 = V_2;
 		NullCheck(L_7);
 		bool L_8;
@@ -7866,7 +7866,7 @@ IL_004d:
 IL_004e:
 	{
 		V_3 = (bool)G_B4_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:796>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:818>
 		bool L_11 = V_3;
 		if (!((int32_t)(G_B4_1|(int32_t)L_11)))
 		{
@@ -7874,7 +7874,7 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:797>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:819>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_12 = V_0;
 		int32_t L_13 = V_1;
 		NullCheck(L_12);
@@ -7883,14 +7883,14 @@ IL_004e:
 
 IL_005a:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:789>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:811>
 		int32_t L_14 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_005e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:789>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:811>
 		int32_t L_15 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		int32_t L_16;
@@ -7901,12 +7901,12 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:799>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:821>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_17 = V_0;
 		return L_17;
 	}
 }
-// Method Definition Index: 22239
+// Method Definition Index: 22242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MobileMapTestTeleporter_FindPlayer_mB0EDDD8421354267E91C7A5F6B87CEAFF8ACEE7D (Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7925,7 +7925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* V_3 = NULL;
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* V_4 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:804>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:826>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0;
 		L_0 = Scene_GetRootGameObjects_mFDE0BF9EA926F30EC9AE71F33E0AE4D5D4EC5C5B((&___0_scene), NULL);
 		V_0 = L_0;
@@ -7935,14 +7935,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 
 IL_000c:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:804>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:826>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:805>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:827>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_2;
 		NullCheck(L_5);
 		String_t* L_6;
@@ -7956,7 +7956,7 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:806>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:828>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -7972,7 +7972,7 @@ IL_002a:
 
 IL_002e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:804>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:826>
 		int32_t L_11 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_12 = V_0;
 		NullCheck(L_12);
@@ -7982,12 +7982,12 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:808>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:809>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:830>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:831>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_13;
 		L_13 = Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1(0, 0, Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1_RuntimeMethod_var);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:810>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:832>
 		V_3 = L_13;
 		V_1 = 0;
 		goto IL_009f;
@@ -7995,15 +7995,15 @@ IL_002e:
 
 IL_0040:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:810>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:832>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_14 = V_3;
 		int32_t L_15 = V_1;
 		NullCheck(L_14);
 		int32_t L_16 = L_15;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
 		V_4 = L_17;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:811>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:812>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:833>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:834>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_18 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -8062,7 +8062,7 @@ IL_0040:
 
 IL_0093:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:813>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:835>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_33 = V_4;
 		NullCheck(L_33);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
@@ -8078,7 +8078,7 @@ IL_009b:
 
 IL_009f:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:810>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:832>
 		int32_t L_36 = V_1;
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_37 = V_3;
 		NullCheck(L_37);
@@ -8088,11 +8088,11 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:814>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:836>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
-// Method Definition Index: 22240
+// Method Definition Index: 22243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_CollectSpawnChildren_m624E46DEA88428E6372C583FE28A3C49BE32C284 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_root, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8104,37 +8104,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileMapTestTeleporter_CollectSpawnChil
 	int32_t V_0 = 0;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:819>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:841>
 		V_0 = 0;
 		goto IL_001e;
 	}
 
 IL_0004:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:821>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:843>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_root;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_0, L_1, NULL);
 		V_1 = L_2;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:822>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:844>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_3 = ___1_result;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_1;
 		NullCheck(L_3);
 		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_3, L_4, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:823>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:845>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_1;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_6 = ___1_result;
 		MobileMapTestTeleporter_CollectSpawnChildren_m624E46DEA88428E6372C583FE28A3C49BE32C284(L_5, L_6, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:819>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:841>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_001e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:819>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:841>
 		int32_t L_8 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___0_root;
 		NullCheck(L_9);
@@ -8146,11 +8146,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:825>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:847>
 		return;
 	}
 }
-// Method Definition Index: 22241
+// Method Definition Index: 22244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MobileMapTestTeleporter_FindDeep_mE2C374333C02ABB3E4CF83A84DDBE442CDD01BFE (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_root, String_t* ___1_objectName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8162,7 +8162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	int32_t V_0 = 0;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:829>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:851>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_root;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -8176,21 +8176,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:830>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:852>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_root;
 		return L_4;
 	}
 
 IL_0011:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:831>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:853>
 		V_0 = 0;
 		goto IL_0032;
 	}
 
 IL_0015:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:833>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:855>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_root;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -8200,7 +8200,7 @@ IL_0015:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = MobileMapTestTeleporter_FindDeep_mE2C374333C02ABB3E4CF83A84DDBE442CDD01BFE(L_7, L_8, NULL);
 		V_1 = L_9;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:834>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:856>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -8211,21 +8211,21 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:835>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:857>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = V_1;
 		return L_12;
 	}
 
 IL_002e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:831>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:853>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0032:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:831>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:853>
 		int32_t L_14 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = ___0_root;
 		NullCheck(L_15);
@@ -8237,11 +8237,11 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:837>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:859>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
-// Method Definition Index: 22242
+// Method Definition Index: 22245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MobileMapTestTeleporter_Ground_m5D80E673394AD7B4147F2B45034E8A94BB704CEC (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8253,8 +8253,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:842>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:843>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:864>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:865>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_point;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -8273,7 +8273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:844>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:866>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_0), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -8287,7 +8287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0046:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:845>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:867>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_point;
 		return L_10;
 	}
@@ -8300,7 +8300,7 @@ IL_0046:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22243
+// Method Definition Index: 22246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE22E786F9AD76CE0B908C2AFFA65CE76619DF29B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8317,7 +8317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE22E786F9AD76CE0B908C2AF
 		return;
 	}
 }
-// Method Definition Index: 22244
+// Method Definition Index: 22247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m40AF047334AA432C3F1EE895FE50997D9DA2EAD3 (U3CU3Ec_tEF1918B907255F17CBE3F5C28AE3E42E4EA0E832* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8325,7 +8325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m40AF047334AA432C3F1EE895F
 		return;
 	}
 }
-// Method Definition Index: 22245
+// Method Definition Index: 22248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CTeleportNextU3Eb__3_0_m73384B6A06075D5EDDD8DA57F10CEB709C140F2C (U3CU3Ec_tEF1918B907255F17CBE3F5C28AE3E42E4EA0E832* __this, AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___0__, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8335,7 +8335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CTeleportNextU3Eb__3_0_m73384B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:737>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:759>
 		((MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_StaticFields*)il2cpp_codegen_static_fields_for(MobileMapTestTeleporter_t6F29DFDB04C3F6E3D9CEC419F31E53A832C3677D_il2cpp_TypeInfo_var))->___sceneLoadInProgress = (bool)0;
 		return;
 	}
@@ -8348,27 +8348,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CTeleportNextU3Eb__3_0_m73384B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22246
+// Method Definition Index: 22249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_Configure_mE0E0F681003F66BAE18BAEFB7D0AE3368AB0DD47 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* ___0_joystick, MobileCameraLook_tEA8B2A2EE5B537B5FFEA433F27C669FAB68D8E59* ___1_lookArea, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:868>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:890>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_0 = ___0_joystick;
 		__this->___moveJoystick = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___moveJoystick), (void*)L_0);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:869>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:891>
 		MobileCameraLook_tEA8B2A2EE5B537B5FFEA433F27C669FAB68D8E59* L_1 = ___1_lookArea;
 		__this->___cameraLook = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraLook), (void*)L_1);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:870>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:892>
 		return;
 	}
 }
-// Method Definition Index: 22247
+// Method Definition Index: 22250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_SetAttackHeld_mF6DE15E6783BB93D27B20AE8CB2CFBB0A368A98D (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, bool ___0_held, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:874>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:896>
 		bool L_0 = ___0_held;
 		if (!L_0)
 		{
@@ -8383,35 +8383,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_SetAttackHeld_mF6DE
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:876>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:898>
 		__this->___nextAttackPulse = (0.0f);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:877>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:899>
 		__this->___attackWasQueued = (bool)0;
 	}
 
 IL_001d:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:879>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:901>
 		bool L_2 = ___0_held;
 		__this->___attackHeld = L_2;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:880>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:902>
 		return;
 	}
 }
-// Method Definition Index: 22248
+// Method Definition Index: 22251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ActivateQuickSlot_m8C98B7ED421FB57D96CD823327C348F603A60A85 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:884>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:906>
 		int32_t L_0 = ___0_index;
 		int32_t L_1;
 		L_1 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_0, 0, 7, NULL);
 		__this->___pendingQuickSlot = L_1;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:885>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:907>
 		return;
 	}
 }
-// Method Definition Index: 22249
+// Method Definition Index: 22252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ActivateMenu_mB57FFD036752923DED6372BF21365A6B10BAF081 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, bool ___0_inventory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8427,7 +8427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ActivateMenu_mB57FF
 	int32_t G_B8_0 = 0;
 	MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* G_B8_1 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:889>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:911>
 		bool L_0 = ___0_inventory;
 		if (L_0)
 		{
@@ -8454,13 +8454,13 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:890>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:912>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:891>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:913>
 		bool L_2 = ___0_inventory;
 		if (L_2)
 		{
@@ -8485,11 +8485,11 @@ IL_0021:
 	{
 		NullCheck(G_B8_1);
 		G_B8_1->___pendingMenuKey = G_B8_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:892>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:914>
 		return;
 	}
 }
-// Method Definition Index: 22250
+// Method Definition Index: 22253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ToggleCameraView_m0C4FD9F164540B424B5489A55AA303322D8BBCC9 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8499,9 +8499,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ToggleCameraView_m0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:896>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:918>
 		MobileHUDInputBridge_ResolveGameplayCamera_m08CE57B91DE5091445036DA835052552E22123D9(__this, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:897>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:919>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_0 = __this->___gameplayCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8521,7 +8521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ToggleCameraView_m0
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:898>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:920>
 		MethodInfo_t* L_4 = __this->___cameraToggleViewMethod;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_5 = __this->___gameplayCamera;
 		NullCheck(L_4);
@@ -8531,11 +8531,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ToggleCameraView_m0
 
 IL_0035:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:899>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:921>
 		return;
 	}
 }
-// Method Definition Index: 22251
+// Method Definition Index: 22254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_AdjustCameraZoom_mC694B5EC2923800A756316410E369B627C4880AB (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, float ___0_verticalDragDelta, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8546,9 +8546,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_AdjustCameraZoom_mC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:903>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:925>
 		MobileHUDInputBridge_ResolveGameplayCamera_m08CE57B91DE5091445036DA835052552E22123D9(__this, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:904>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:926>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_0 = __this->___gameplayCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8568,7 +8568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_AdjustCameraZoom_mC
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:905>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:927>
 		MethodInfo_t* L_4 = __this->___cameraAdjustZoomMethod;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_5 = __this->___gameplayCamera;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
@@ -8586,11 +8586,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_AdjustCameraZoom_mC
 
 IL_0043:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:906>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:928>
 		return;
 	}
 }
-// Method Definition Index: 22252
+// Method Definition Index: 22255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileHUDInputBridge_TryInvokeGameplayMenu_mE3B56C1F7A5D4C11443D36BA4FEC9BD356842018 (String_t* ___0_methodName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8606,11 +8606,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileHUDInputBridge_TryInvokeGameplayMe
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* V_2 = NULL;
 	MethodInfo_t* V_3 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:910>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:932>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_0;
 		L_0 = Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1(0, 0, Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1_RuntimeMethod_var);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:911>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:933>
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_005e;
@@ -8618,14 +8618,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileHUDInputBridge_TryInvokeGameplayMe
 
 IL_000c:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:911>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:933>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:913>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:935>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_5 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -8651,9 +8651,9 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:915>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:916>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:917>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:937>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:938>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:939>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_11 = V_2;
 		NullCheck(L_11);
 		Type_t* L_12;
@@ -8665,7 +8665,7 @@ IL_000c:
 		MethodInfo_t* L_15;
 		L_15 = Type_GetMethod_mF3AF3FA3834D7F99592A4CA715FFD2DE12291562(L_12, L_13, ((int32_t)52), (Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235*)NULL, L_14, (ParameterModifierU5BU5D_t685261AD991B1E6582A0E53243DEE3B745E13364*)NULL, NULL);
 		V_3 = L_15;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:918>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:940>
 		MethodInfo_t* L_16 = V_3;
 		bool L_17;
 		L_17 = MethodInfo_op_Equality_m1466AB76300C9F07856E706E7E914062175189D1(L_16, (MethodInfo_t*)NULL, NULL);
@@ -8675,13 +8675,13 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:920>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:942>
 		MethodInfo_t* L_18 = V_3;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_19 = V_2;
 		NullCheck(L_18);
 		RuntimeObject* L_20;
 		L_20 = MethodBase_Invoke_mEEF3218648F111A8C338001A7804091A0747C826(L_18, L_19, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:921>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:943>
 		return (bool)1;
 	}
 
@@ -8693,7 +8693,7 @@ IL_005a:
 
 IL_005e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:911>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:933>
 		int32_t L_22 = V_1;
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_23 = V_0;
 		NullCheck(L_23);
@@ -8703,11 +8703,11 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:923>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:945>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 22253
+// Method Definition Index: 22256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnEnable_m7CE569380D3D76E6D8766AC185E433DE7ED3623B (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8724,7 +8724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnEnable_m7CE569380
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:928>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:950>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -8756,30 +8756,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnEnable_m7CE569380
 
 IL_0021:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:929>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:951>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:930>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:952>
 		((MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_StaticFields*)il2cpp_codegen_static_fields_for(MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_il2cpp_TypeInfo_var))->___activeBridge = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_StaticFields*)il2cpp_codegen_static_fields_for(MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_il2cpp_TypeInfo_var))->___activeBridge), (void*)__this);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:931>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:953>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_5;
 		L_5 = InputSystem_AddDevice_TisKeyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_mFDAE3610EA3A0ED74336C1090BE67CA5E82AF61B(_stringLiteralDC2E5D5613EA4093C3B4980F3D8C89C6CF1E1139, InputSystem_AddDevice_TisKeyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_mFDAE3610EA3A0ED74336C1090BE67CA5E82AF61B_RuntimeMethod_var);
 		__this->___mobileKeyboard = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mobileKeyboard), (void*)L_5);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:932>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:954>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, __this, (intptr_t)((void*)MobileHUDInputBridge_QueueInputState_mBB905FDF64D5F819784276E9BC1DC33F2B12EA88_RuntimeMethod_var), NULL);
 		InputSystem_add_onBeforeUpdate_m022480417EA69F0488F81F112B2D9BED5D65AC5C(L_6, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:933>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:955>
 		return;
 	}
 }
-// Method Definition Index: 22254
+// Method Definition Index: 22257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnDisable_mCDD4DE172FDC7E3A31F18707ED7A1BB129230730 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8793,12 +8793,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnDisable_mCDD4DE17
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:937>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:959>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)MobileHUDInputBridge_QueueInputState_mBB905FDF64D5F819784276E9BC1DC33F2B12EA88_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_remove_onBeforeUpdate_m4BD541DC1AB9FC6C87FB71B35A39CC75223E530C(L_0, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:938>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:960>
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_1 = __this->___mobileKeyboard;
 		if (!L_1)
 		{
@@ -8816,7 +8816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnDisable_mCDD4DE17
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:939>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:961>
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_4 = __this->___mobileKeyboard;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_RemoveDevice_mBA895DEE9FCFC53AC9040DE72860D95ABFB5E858(L_4, NULL);
@@ -8824,16 +8824,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_OnDisable_mCDD4DE17
 
 IL_0031:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:940>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:962>
 		__this->___mobileKeyboard = (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mobileKeyboard), (void*)(Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43*)NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:941>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:963>
 		__this->___attackHeld = (bool)0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:942>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:964>
 		__this->___pendingQuickSlot = (-1);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:943>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:965>
 		__this->___pendingMenuKey = 0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:944>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:966>
 		MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* L_5 = ((MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_StaticFields*)il2cpp_codegen_static_fields_for(MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_il2cpp_TypeInfo_var))->___activeBridge;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -8844,18 +8844,18 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:945>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:967>
 		((MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_StaticFields*)il2cpp_codegen_static_fields_for(MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_il2cpp_TypeInfo_var))->___activeBridge = (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_StaticFields*)il2cpp_codegen_static_fields_for(MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714_il2cpp_TypeInfo_var))->___activeBridge), (void*)(MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714*)NULL);
 	}
 
 IL_0060:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:946>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:968>
 		return;
 	}
 }
-// Method Definition Index: 22255
+// Method Definition Index: 22258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_QueueInputState_mBB905FDF64D5F819784276E9BC1DC33F2B12EA88 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8880,7 +8880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_QueueInputState_mBB
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	int32_t G_B24_0 = 0;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:950>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:972>
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_0 = __this->___mobileKeyboard;
 		if (!L_0)
 		{
@@ -8900,17 +8900,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_QueueInputState_mBB
 
 IL_0015:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:951>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:973>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:953>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:975>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_3 = (List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532*)il2cpp_codegen_object_new(List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532_il2cpp_TypeInfo_var);
 		List_1__ctor_mE9699120DDF6098730B8BA923AAA0F61770F0B0F(L_3, 7, List_1__ctor_mE9699120DDF6098730B8BA923AAA0F61770F0B0F_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:954>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:976>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_4 = __this->___moveJoystick;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8939,7 +8939,7 @@ IL_0032:
 IL_003d:
 	{
 		V_1 = G_B6_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:956>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:978>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_1;
 		float L_10 = L_9.___y;
 		if ((!(((float)L_10) > ((float)(0.119999997f)))))
@@ -8948,7 +8948,7 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:956>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:978>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_11 = V_0;
 		NullCheck(L_11);
 		List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_inline(L_11, ((int32_t)37), List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_RuntimeMethod_var);
@@ -8956,7 +8956,7 @@ IL_003d:
 
 IL_0053:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:957>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:979>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = V_1;
 		float L_13 = L_12.___y;
 		if ((!(((float)L_13) < ((float)(-0.119999997f)))))
@@ -8965,7 +8965,7 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:957>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:979>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_14 = V_0;
 		NullCheck(L_14);
 		List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_inline(L_14, ((int32_t)33), List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_RuntimeMethod_var);
@@ -8973,7 +8973,7 @@ IL_0053:
 
 IL_0068:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:958>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:980>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_1;
 		float L_16 = L_15.___x;
 		if ((!(((float)L_16) > ((float)(0.119999997f)))))
@@ -8982,7 +8982,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:958>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:980>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_17 = V_0;
 		NullCheck(L_17);
 		List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_inline(L_17, ((int32_t)18), List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_RuntimeMethod_var);
@@ -8990,7 +8990,7 @@ IL_0068:
 
 IL_007d:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:959>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:981>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = V_1;
 		float L_19 = L_18.___x;
 		if ((!(((float)L_19) < ((float)(-0.119999997f)))))
@@ -8999,7 +8999,7 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:959>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:981>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_20 = V_0;
 		NullCheck(L_20);
 		List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_inline(L_20, ((int32_t)15), List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_RuntimeMethod_var);
@@ -9007,7 +9007,7 @@ IL_007d:
 
 IL_0092:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:960>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:982>
 		float L_21;
 		L_21 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_1), NULL);
 		if ((!(((float)L_21) > ((float)(0.519999981f)))))
@@ -9016,7 +9016,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:960>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:982>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_22 = V_0;
 		NullCheck(L_22);
 		List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_inline(L_22, ((int32_t)51), List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_RuntimeMethod_var);
@@ -9024,15 +9024,15 @@ IL_0092:
 
 IL_00a8:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:962>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:984>
 		int32_t L_23 = __this->___pendingQuickSlot;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:963>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:985>
 		__this->___pendingQuickSlot = (-1);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:964>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:986>
 		int32_t L_24;
 		L_24 = MobileHUDInputBridge_QuickSlotKey_mA5B9F9A0466488FBE8E463A7DF88ABBE9DEA0B52(L_23, NULL);
 		V_2 = L_24;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:965>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:987>
 		int32_t L_25 = V_2;
 		if (!L_25)
 		{
@@ -9040,7 +9040,7 @@ IL_00a8:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:966>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:988>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_26 = V_0;
 		int32_t L_27 = V_2;
 		NullCheck(L_26);
@@ -9049,12 +9049,12 @@ IL_00a8:
 
 IL_00c5:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:968>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:990>
 		int32_t L_28 = __this->___pendingMenuKey;
 		V_3 = L_28;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:969>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:991>
 		__this->___pendingMenuKey = 0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:970>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:992>
 		int32_t L_29 = V_3;
 		if (!L_29)
 		{
@@ -9062,7 +9062,7 @@ IL_00c5:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:971>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:993>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_30 = V_0;
 		int32_t L_31 = V_3;
 		NullCheck(L_30);
@@ -9071,7 +9071,7 @@ IL_00c5:
 
 IL_00dd:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:973>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:995>
 		bool L_32 = __this->___attackHeld;
 		if (!L_32)
 		{
@@ -9101,7 +9101,7 @@ IL_00ff:
 IL_0100:
 	{
 		V_4 = (bool)G_B24_0;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:974>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:996>
 		bool L_36 = V_4;
 		if (!L_36)
 		{
@@ -9109,11 +9109,11 @@ IL_0100:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:976>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:998>
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_37 = V_0;
 		NullCheck(L_37);
 		List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_inline(L_37, 1, List_1_Add_m2158A940108E2B875A01731E1C6107E8E04AA4F5_RuntimeMethod_var);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:977>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:999>
 		float L_38;
 		L_38 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		__this->___nextAttackPulse = ((float)il2cpp_codegen_add(L_38, (0.0799999982f)));
@@ -9121,10 +9121,10 @@ IL_0100:
 
 IL_011e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:979>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1001>
 		bool L_39 = V_4;
 		__this->___attackWasQueued = L_39;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:981>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1003>
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_40 = __this->___mobileKeyboard;
 		List_1_tFAED1073AF763A2AE6848D16A194F3F0C513E532* L_41 = V_0;
 		NullCheck(L_41);
@@ -9135,11 +9135,11 @@ IL_011e:
 		KeyboardState__ctor_m06346BD84C3DE0C9392359B3ABC584E7B0ED9E0C((&L_43), L_42, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueStateEvent_TisKeyboardState_t0329332A3CC9A0DC406D9E4C59E2C3F1CCCAD28E_m6066E96D2EE31E5BD0FAE717956AE54386FC7425(L_40, L_43, (-1.0), InputSystem_QueueStateEvent_TisKeyboardState_t0329332A3CC9A0DC406D9E4C59E2C3F1CCCAD28E_m6066E96D2EE31E5BD0FAE717956AE54386FC7425_RuntimeMethod_var);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:982>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1004>
 		return;
 	}
 }
-// Method Definition Index: 22256
+// Method Definition Index: 22259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_LateUpdate_m4966D176714809B9470452C6C2FAA30B616796C3 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9153,7 +9153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_LateUpdate_m4966D17
 	memset((&V_0), 0, sizeof(V_0));
 	Metin2GameplayCamera_tF8C4CCA5CF5681119B31D6F2892CA85514170B82* V_1 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:986>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1008>
 		MobileCameraLook_tEA8B2A2EE5B537B5FFEA433F27C669FAB68D8E59* L_0 = __this->___cameraLook;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9164,19 +9164,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_LateUpdate_m4966D17
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:986>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1008>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:987>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1009>
 		MobileCameraLook_tEA8B2A2EE5B537B5FFEA433F27C669FAB68D8E59* L_2 = __this->___cameraLook;
 		NullCheck(L_2);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = MobileCameraLook_ConsumeLookDelta_m2A03296E1528DB4656059CE3704BCE76EA8D5AC7(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:988>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1010>
 		float L_4;
 		L_4 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
 		if ((!(((float)L_4) < ((float)(9.99999975E-05f)))))
@@ -9185,18 +9185,18 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:988>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1010>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:989>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1011>
 		MobileHUDInputBridge_ResolveGameplayCamera_m08CE57B91DE5091445036DA835052552E22123D9(__this, NULL);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:990>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1012>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_5 = __this->___gameplayCamera;
 		V_1 = ((Metin2GameplayCamera_tF8C4CCA5CF5681119B31D6F2892CA85514170B82*)IsInstSealed((RuntimeObject*)L_5, Metin2GameplayCamera_tF8C4CCA5CF5681119B31D6F2892CA85514170B82_il2cpp_TypeInfo_var));
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:991>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1013>
 		Metin2GameplayCamera_tF8C4CCA5CF5681119B31D6F2892CA85514170B82* L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -9207,7 +9207,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:991>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1013>
 		Metin2GameplayCamera_tF8C4CCA5CF5681119B31D6F2892CA85514170B82* L_8 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		NullCheck(L_8);
@@ -9216,11 +9216,11 @@ IL_002a:
 
 IL_004c:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:992>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1014>
 		return;
 	}
 }
-// Method Definition Index: 22257
+// Method Definition Index: 22260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ResolveGameplayCamera_m08CE57B91DE5091445036DA835052552E22123D9 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9239,7 +9239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ResolveGameplayCame
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* V_2 = NULL;
 	Type_t* V_3 = NULL;
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:996>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1018>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_0 = __this->___gameplayCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9250,17 +9250,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge_ResolveGameplayCame
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:997>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1019>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:998>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1020>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_2;
 		L_2 = Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1(0, 0, Object_FindObjectsByType_TisMonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_m400C680E89984F9117B680465E67424AD0164BD1_RuntimeMethod_var);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:999>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1021>
 		V_0 = L_2;
 		V_1 = 0;
 		goto IL_0094;
@@ -9268,14 +9268,14 @@ IL_000f:
 
 IL_001b:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:999>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1021>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_2 = L_6;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1001>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1023>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_7 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -9301,17 +9301,17 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1003>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1025>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_13 = V_2;
 		__this->___gameplayCamera = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___gameplayCamera), (void*)L_13);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1004>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1026>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_14 = V_2;
 		NullCheck(L_14);
 		Type_t* L_15;
 		L_15 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_14, NULL);
 		V_3 = L_15;
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1006>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1028>
 		Type_t* L_16 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_17 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.systemtype_class))->___EmptyTypes;
@@ -9320,8 +9320,8 @@ IL_001b:
 		L_18 = Type_GetMethod_mF3AF3FA3834D7F99592A4CA715FFD2DE12291562(L_16, _stringLiteral0663AD93411A4E576C984D504BFE4ED91B5F7A18, ((int32_t)52), (Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235*)NULL, L_17, (ParameterModifierU5BU5D_t685261AD991B1E6582A0E53243DEE3B745E13364*)NULL, NULL);
 		__this->___cameraToggleViewMethod = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraToggleViewMethod), (void*)L_18);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1007>
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1008>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1029>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1030>
 		Type_t* L_19 = V_3;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_20 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)1);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_21 = L_20;
@@ -9336,7 +9336,7 @@ IL_001b:
 		L_24 = Type_GetMethod_mF3AF3FA3834D7F99592A4CA715FFD2DE12291562(L_19, _stringLiteral16EEAD84289BDB4944F9DABB061C79E84F3EB9DB, ((int32_t)52), (Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235*)NULL, L_21, (ParameterModifierU5BU5D_t685261AD991B1E6582A0E53243DEE3B745E13364*)NULL, NULL);
 		__this->___cameraAdjustZoomMethod = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraAdjustZoomMethod), (void*)L_24);
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1009>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1031>
 		return;
 	}
 
@@ -9348,7 +9348,7 @@ IL_0090:
 
 IL_0094:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:999>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1021>
 		int32_t L_26 = V_1;
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_27 = V_0;
 		NullCheck(L_27);
@@ -9358,11 +9358,11 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1011>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1033>
 		return;
 	}
 }
-// Method Definition Index: 22258
+// Method Definition Index: 22261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobileHUDInputBridge_QuickSlotKey_mA5B9F9A0466488FBE8E463A7DF88ABBE9DEA0B52 (int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -9409,63 +9409,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobileHUDInputBridge_QuickSlotKey_mA5
 
 IL_0028:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1017>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1039>
 		return (int32_t)(((int32_t)41));
 	}
 
 IL_002b:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1018>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1040>
 		return (int32_t)(((int32_t)42));
 	}
 
 IL_002e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1019>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1041>
 		return (int32_t)(((int32_t)43));
 	}
 
 IL_0031:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1020>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1042>
 		return (int32_t)(((int32_t)44));
 	}
 
 IL_0034:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1021>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1043>
 		return (int32_t)(((int32_t)94));
 	}
 
 IL_0037:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1022>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1044>
 		return (int32_t)(((int32_t)95));
 	}
 
 IL_003a:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1023>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1045>
 		return (int32_t)(((int32_t)96));
 	}
 
 IL_003d:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1024>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1046>
 		return (int32_t)(((int32_t)97));
 	}
 
 IL_0040:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1025>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1047>
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 22259
+// Method Definition Index: 22262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge__ctor_m5CAA9B9D201A9812B60E4FCD795BAAD1D9987139 (MobileHUDInputBridge_t56D8A46BB6723977801B69173775E5DDB4E25714* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:858>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:880>
 		__this->___pendingQuickSlot = (-1);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -9479,7 +9479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDInputBridge__ctor_m5CAA9B9D201A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22260
+// Method Definition Index: 22263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHudRecoveryWatcher_Update_mC34764AC262DF2BB4DD8B5D8B29174FE332464FE (MobileHudRecoveryWatcher_tD6EC00BE6521AEB1CCC7F645A95B00E441032D08* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9489,7 +9489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHudRecoveryWatcher_Update_mC34764A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1035>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1057>
 		float L_0;
 		L_0 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		float L_1 = __this->___nextCheck;
@@ -9499,17 +9499,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHudRecoveryWatcher_Update_mC34764A
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1035>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1057>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1036>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1058>
 		float L_2;
 		L_2 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		__this->___nextCheck = ((float)il2cpp_codegen_add(L_2, (1.0f)));
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1037>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1059>
 		il2cpp_codegen_runtime_class_init_inline(MobileHUDOnly_tE35CA10D8C7D392D92DFF79B0D1725F6194D4339_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = MobileHUDOnly_get_IsAnyActive_m9170975A1D5E470A1F27B612B36E6DB479C421E0(NULL);
@@ -9519,18 +9519,18 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1037>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1059>
 		il2cpp_codegen_runtime_class_init_inline(MobileHUDOnly_tE35CA10D8C7D392D92DFF79B0D1725F6194D4339_il2cpp_TypeInfo_var);
 		MobileHUDOnly_RecoverMobileHud_mF4219CC20586A571AEBD3A151C5F8CE2D0CEDFA6(NULL);
 	}
 
 IL_002b:
 	{
-		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1038>
+		//<source_info:D:/Metin4/Metin3 Test/Assets/Map/Assets/Scripts/UI/MobileHUDOnly.cs:1060>
 		return;
 	}
 }
-// Method Definition Index: 22261
+// Method Definition Index: 22264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHudRecoveryWatcher__ctor_m90F6DA8A1F03D3153691BD5FE760A454F2E418D8 (MobileHudRecoveryWatcher_tD6EC00BE6521AEB1CCC7F645A95B00E441032D08* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9546,7 +9546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHudRecoveryWatcher__ctor_m90F6DA8A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22262
+// Method Definition Index: 22265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_EnsureHierarchy_mBBE9AAACBBB2E59BDA5B62A49852A7425B531A67 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10432,7 +10432,7 @@ IL_0878:
 		return;
 	}
 }
-// Method Definition Index: 22263
+// Method Definition Index: 22266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_AlignToScreenCorner_m2D3575FD25A42D15B70FB27733DCFA0F86441EE0 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, bool ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10707,7 +10707,7 @@ IL_0111:
 		return;
 	}
 }
-// Method Definition Index: 22264
+// Method Definition Index: 22267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Configure_m58F46A6DE3761650A0A255EB72C6D61DCA71CD17 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_status, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___1_hp, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___2_sp, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___3_stamina, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___4_hpValue, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___5_spValue, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___6_mapRoot, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___7_mapView, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___8_marker, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___9_mapName, const RuntimeMethod* method) 
 {
 	{
@@ -10761,7 +10761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Configure_m58F
 		return;
 	}
 }
-// Method Definition Index: 22265
+// Method Definition Index: 22268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_BindAtlasButton_m85DD5EE04A0FE1045A3540DDFD3132AABE5ABC5E (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10878,7 +10878,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 22266
+// Method Definition Index: 22269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnEnable_mB5B80EEE30CBCC99929DA002BB7FC473DD7A5CDB (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10905,7 +10905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnEnable_mB5B8
 		return;
 	}
 }
-// Method Definition Index: 22267
+// Method Definition Index: 22270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnDisable_mF3E6F1F543180218A9C3D3FCDBE3FF03841A1F95 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10928,7 +10928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnDisable_mF3E
 		return;
 	}
 }
-// Method Definition Index: 22268
+// Method Definition Index: 22271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnSceneLoaded_m01021F4F23650BAACF5F2A908197C9CF908173AC (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	{
@@ -10943,7 +10943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_OnSceneLoaded_
 		return;
 	}
 }
-// Method Definition Index: 22269
+// Method Definition Index: 22272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_Update_m7AC92963E8754E6D86126FD9FB0D81F22AE17FFE (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10975,7 +10975,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 22270
+// Method Definition Index: 22273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMeters_mEC08F5B73AB99A273BCB5244F517657823E1968C (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11400,7 +11400,7 @@ IL_0279:
 		return;
 	}
 }
-// Method Definition Index: 22271
+// Method Definition Index: 22274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_SetHorizontalFill_mB52EEAD7AE8C13E08A9ACCA9C9D64E3680427243 (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___0_image, float ___1_fullWidth, float ___2_ratio, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11454,7 +11454,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 22272
+// Method Definition Index: 22275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMapName_mC0961324777883ED5C93B610278644DD1AD98065 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11506,7 +11506,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 22273
+// Method Definition Index: 22276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_UpdateMinimap_m16C0AD44F1627BC62578DD2D6C800FC47544586C (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11752,7 +11752,7 @@ IL_01a4:
 		return;
 	}
 }
-// Method Definition Index: 22274
+// Method Definition Index: 22277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_EnsureMinimapCamera_m79626753D2F281FF5E569CD06446276EA493AF92 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11968,7 +11968,7 @@ IL_01c1:
 		return;
 	}
 }
-// Method Definition Index: 22275
+// Method Definition Index: 22278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MobileHUDStatusAndMinimap_FindPlayer_m62C1BD6BA66769E1BC2F723BA36C12B52DA1E59E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12103,7 +12103,7 @@ IL_0061:
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
-// Method Definition Index: 22276
+// Method Definition Index: 22279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_ReleaseMinimapCamera_m442B3601A06B5A2C3AC5F17C84ED79FB1C127196 (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12199,7 +12199,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 22277
+// Method Definition Index: 22280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap_DestroyRuntimeObject_m50C0D22C40DF0A1619F2B0BE3CB5A0079BDDA51E (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12254,7 +12254,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 22279
+// Method Definition Index: 22282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MobileHUDStatusAndMinimap_FindDeep_m1877B29AA482DE2E78CBA272F4898FBA50D0E5F6 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_root, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12413,7 +12413,7 @@ IL_0060:
 		return L_21;
 	}
 }
-// Method Definition Index: 22280
+// Method Definition Index: 22283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* MobileHUDStatusAndMinimap_CreateTopLeft_m2D931F093639EAE2D488BF1AEB821B0FB1BEEB42 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, float ___2_x, float ___3_y, float ___4_width, float ___5_height, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12488,7 +12488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		return L_19;
 	}
 }
-// Method Definition Index: 22281
+// Method Definition Index: 22284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* MobileHUDStatusAndMinimap_CreateTopRight_m4650379EEAB4A6D54757DC800FB09565795FCAE3 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, float ___2_x, float ___3_y, float ___4_width, float ___5_height, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12563,7 +12563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		return L_19;
 	}
 }
-// Method Definition Index: 22282
+// Method Definition Index: 22285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* MobileHUDStatusAndMinimap_CreateRaw_m439E9B163765EF337EFE3C8BCC28E014909BD77B (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___2_texture, float ___3_x, float ___4_y, float ___5_width, float ___6_height, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___7_uv, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12607,7 +12607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8
 		return L_13;
 	}
 }
-// Method Definition Index: 22283
+// Method Definition Index: 22286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* MobileHUDStatusAndMinimap_CreateText_mD9908FDDD7035EB4850D2C664D43B92F72B16608 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, float ___2_x, float ___3_y, float ___4_width, float ___5_height, String_t* ___6_value, int32_t ___7_fontSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12687,7 +12687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E6
 		return L_20;
 	}
 }
-// Method Definition Index: 22284
+// Method Definition Index: 22287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D MobileHUDStatusAndMinimap_FullUv_m30D68298BBE91528FABD407BF8BF9759643D7C5F (const RuntimeMethod* method) 
 {
 	{
@@ -12698,7 +12698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_0;
 	}
 }
-// Method Definition Index: 22285
+// Method Definition Index: 22288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D MobileHUDStatusAndMinimap_AtlasUv_mAD211214EB697591D7E89EB9C20AC6FAE5F4BFE9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_topLeftPixels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12745,7 +12745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_13;
 	}
 }
-// Method Definition Index: 22286
+// Method Definition Index: 22289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap__ctor_mD5F35BFBEFA4B48BE167B826F78594978329068B (MobileHUDStatusAndMinimap_tB5F194F4827396DF7FFBE6218782AE3E351B10E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12779,7 +12779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileHUDStatusAndMinimap__ctor_mD5F35BF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22287
+// Method Definition Index: 22290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 MobileJoystick_get_Direction_mDE66832A76CF2E2DC6660643A987417308AF527A (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12788,7 +12788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_0;
 	}
 }
-// Method Definition Index: 22288
+// Method Definition Index: 22291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_set_Direction_mA47DADBDDE86071AB9C37409F1E690960128F1F7 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -12798,7 +12798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_set_Direction_mA47DADBDDE
 		return;
 	}
 }
-// Method Definition Index: 22289
+// Method Definition Index: 22292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_Configure_m850B6628B90A8E7CB5DB4EE55406FE84CC30F5FE (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_backgroundRect, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___1_handleRect, const RuntimeMethod* method) 
 {
 	{
@@ -12818,7 +12818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_Configure_m850B6628B90A8E
 		return;
 	}
 }
-// Method Definition Index: 22290
+// Method Definition Index: 22293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_Awake_m93A30D8AC4A4171432155BAD87870E6BE56A0808 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12962,7 +12962,7 @@ IL_0086:
 		return;
 	}
 }
-// Method Definition Index: 22291
+// Method Definition Index: 22294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_CacheCanvas_m5872271750F416770129FBBEB4BB36D1C726E194 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13036,7 +13036,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 22292
+// Method Definition Index: 22295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnPointerDown_mB5811DD74EB5A8675168466392D2D09D57A82D53 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -13067,7 +13067,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 22293
+// Method Definition Index: 22296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnDrag_m89CA08034FC681C7D0FE97969A3BD66E877F3083 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13293,7 +13293,7 @@ IL_00e7:
 		return;
 	}
 }
-// Method Definition Index: 22294
+// Method Definition Index: 22297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnPointerUp_mBCD52500415CDFC4473B1BE5C15ECEE819B55F3F (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
@@ -13321,7 +13321,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 22295
+// Method Definition Index: 22298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_ResetJoystick_m8324BB4309BEFFDA22F3BF7B8452B53345EE4939 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13364,7 +13364,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 22296
+// Method Definition Index: 22299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnDisable_m1CB77E6A035CC515FB6FE1D17ED0075D38F40C09 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13374,7 +13374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnDisable_m1CB77E6A035CC5
 		return;
 	}
 }
-// Method Definition Index: 22297
+// Method Definition Index: 22300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnApplicationFocus_m9E32012DA1AEB9E4B53E07292FA14C0F39E70B0C (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, bool ___0_focused, const RuntimeMethod* method) 
 {
 	{
@@ -13396,7 +13396,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 22298
+// Method Definition Index: 22301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick__ctor_mC5F5A111E1879345D5494EB0ED8A1AE565A3F77D (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13418,7 +13418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick__ctor_mC5F5A111E1879345D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22299
+// Method Definition Index: 22302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* PlayerMovement_get_SelectedTarget_mAE8D9B932611864B437BC6AA8EC2A461D2EF79CF (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13427,7 +13427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_0;
 	}
 }
-// Method Definition Index: 22300
+// Method Definition Index: 22303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* PlayerMovement_get_SelectedMob_m2CED6C19A991022D0DD20479BCE6052CC0B4052C (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13436,7 +13436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD
 		return L_0;
 	}
 }
-// Method Definition Index: 22301
+// Method Definition Index: 22304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Awake_m7E8376225AEB5B44C88D56C73B36BD3E3F09CC1F (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13627,7 +13627,7 @@ IL_0103:
 		return;
 	}
 }
-// Method Definition Index: 22302
+// Method Definition Index: 22305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13740,7 +13740,7 @@ IL_0061:
 		return;
 	}
 }
-// Method Definition Index: 22303
+// Method Definition Index: 22306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_HandleCameraInput_mE65CD58AE4CCC0B4E8D8B96FD29D5C7B10FF45A6 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13922,7 +13922,7 @@ IL_00e9:
 		return;
 	}
 }
-// Method Definition Index: 22304
+// Method Definition Index: 22307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_LateUpdate_m2D1340D14FEC0B4AB9BD40A8A9D3214792E3016B (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13932,7 +13932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_LateUpdate_m2D1340D14FEC0
 		return;
 	}
 }
-// Method Definition Index: 22305
+// Method Definition Index: 22308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_ApplyCameraRotation_m06C1D5576CCB790D264322B63138B2BB76198B71 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14013,7 +14013,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 22306
+// Method Definition Index: 22309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerMovement_HandleMobileMovement_mD7219EDAF69DA049C615C4424DAD33A84AE51338 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14169,7 +14169,7 @@ IL_0097:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 22307
+// Method Definition Index: 22310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerMovement_HandleKeyboardMovement_m8F6950E844819E26506666FA4875F24E85F445A5 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -14583,7 +14583,7 @@ IL_017c:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 22308
+// Method Definition Index: 22311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_HandleClickInput_m0079AA334336BE717CC008390E927A1651703B9A (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14885,7 +14885,7 @@ IL_0103:
 		return;
 	}
 }
-// Method Definition Index: 22309
+// Method Definition Index: 22312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_SelectMobTarget_mFCC831974CB1C390A3A4E75FFE6A502171A20501 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* ___0_mob, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15006,7 +15006,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 22310
+// Method Definition Index: 22313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_UpdateTargetCombat_m03E28AE48CD303D72F7CAC94FBCC1C4D9E02B25A (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15258,7 +15258,7 @@ IL_013b:
 		return;
 	}
 }
-// Method Definition Index: 22311
+// Method Definition Index: 22314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_MoveToClickedPoint_m298FDC7874299CD77DE335BC7CAE1CB68A782A3D (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -15353,7 +15353,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 22312
+// Method Definition Index: 22315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_HandleCombatInput_m47FFBC00D6B0335610094BB6221289B0FDBFFAF1 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15627,7 +15627,7 @@ IL_0146:
 		return;
 	}
 }
-// Method Definition Index: 22313
+// Method Definition Index: 22316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_TryAttack_mC1CC902D0C20D757FB4119CAC009A8ACCE6539DD (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, bool ___0_manualAttack, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15793,7 +15793,7 @@ IL_00c7:
 		return;
 	}
 }
-// Method Definition Index: 22314
+// Method Definition Index: 22317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerMovement_DealAttackDamageAfterDelay_m9F8B623EF9941E89CB1EF66AEFBEDD748A0E9989 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* ___0_targetMob, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15817,7 +15817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerMovement_DealAttackDamag
 		return L_2;
 	}
 }
-// Method Definition Index: 22315
+// Method Definition Index: 22318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_TrySkill_mD5DF401BFEAB0F080768DAB033EC726F094C85C9 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, int32_t ___0_triggerHash, bool ___1_parameterExists, float ___2_duration, float ___3_cooldown, float* ___4_nextUseTime, const RuntimeMethod* method) 
 {
 	{
@@ -15884,7 +15884,7 @@ IL_0017:
 		return;
 	}
 }
-// Method Definition Index: 22316
+// Method Definition Index: 22319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_StartAction_m0B10D7BA851BACEE21FFE17D5D568072BF7E5354 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, int32_t ___0_triggerHash, float ___1_duration, bool ___2_cancelTarget, const RuntimeMethod* method) 
 {
 	{
@@ -15932,7 +15932,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 22317
+// Method Definition Index: 22320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_UpdateActionLock_m8167A48453CA8975C2296D09D1A34F03770CAD06 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15965,7 +15965,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 22318
+// Method Definition Index: 22321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_FaceSelectedTargetImmediately_m95DF914EC15C6D89EEE05F1C56A922DFEC3257B2 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16056,7 +16056,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 22319
+// Method Definition Index: 22322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_ValidateSelectedTarget_m6B1721126641490CB8D9C31166949450101EFAE6 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16108,7 +16108,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 22320
+// Method Definition Index: 22323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_ClearSelectedTarget_mA70EF296A2DD303159239D2B591AE2875CD742A9 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16154,7 +16154,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22321
+// Method Definition Index: 22324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_CancelAutomaticMovementAndTarget_m78D5A1F60AD9151C5EB8DB96E44A4860A40A27E4 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16167,7 +16167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_CancelAutomaticMovementAn
 		return;
 	}
 }
-// Method Definition Index: 22322
+// Method Definition Index: 22325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_ResetCombatTriggers_m865E51DE7B66EA4DE48D969824FD4504E645811A (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16299,7 +16299,7 @@ IL_0087:
 		return;
 	}
 }
-// Method Definition Index: 22323
+// Method Definition Index: 22326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_ApplyGravity_m648E7C022331726A4F3879FC17068DDB6C2B6856 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16359,7 +16359,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 22324
+// Method Definition Index: 22327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_UpdateAnimation_mCD9BE90D5289F469C567F750D135CD31121D359C (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16487,7 +16487,7 @@ IL_0073:
 		return;
 	}
 }
-// Method Definition Index: 22325
+// Method Definition Index: 22328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_CacheAnimatorParameters_mC323BD73959E3926891BB1D7E1DCCC9060D28A92 (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16716,7 +16716,7 @@ IL_00c5:
 		return;
 	}
 }
-// Method Definition Index: 22326
+// Method Definition Index: 22329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerMovement_NormalizeAngle_m21A000F5C2802875995C850D20D2A14765D6E282 (float ___0_angle, const RuntimeMethod* method) 
 {
 	{
@@ -16765,7 +16765,7 @@ IL_001e:
 		return L_4;
 	}
 }
-// Method Definition Index: 22327
+// Method Definition Index: 22330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16831,7 +16831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__ctor_mB37559C5B063816187
 		return;
 	}
 }
-// Method Definition Index: 22328
+// Method Definition Index: 22331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__cctor_m4917A2BE6E096019E9CD349E9F8EE65A01C8F130 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16887,7 +16887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__cctor_m4917A2BE6E096019E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22329
+// Method Definition Index: 22332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m78ED22D48F7FCA1C0C112649A8DB7061C6EB4577 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16904,7 +16904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m78ED22D48F7FCA1C0C112649
 		return;
 	}
 }
-// Method Definition Index: 22330
+// Method Definition Index: 22333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m231263499003C3B357FCAA5960A41E6CA482A38A (U3CU3Ec_tFBB61010C33B5302990138A76034652766133806* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16912,7 +16912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m231263499003C3B357FCAA596
 		return;
 	}
 }
-// Method Definition Index: 22331
+// Method Definition Index: 22334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CHandleClickInputU3Eb__77_0_mC8A635A6B92285681CBF92E56F606EE73EE886C7 (U3CU3Ec_tFBB61010C33B5302990138A76034652766133806* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_a, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -16938,7 +16938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CHandleClickInputU3Eb__77_0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22332
+// Method Definition Index: 22335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDealAttackDamageAfterDelayU3Ed__83__ctor_m9C672C0307512383EADC75D83DC6F4048351ED05 (U3CDealAttackDamageAfterDelayU3Ed__83_tB62D6FA7A8911F05E54B5BB4C44A29A947120EF6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -16948,14 +16948,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDealAttackDamageAfterDelayU3Ed__83__c
 		return;
 	}
 }
-// Method Definition Index: 22333
+// Method Definition Index: 22336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDealAttackDamageAfterDelayU3Ed__83_System_IDisposable_Dispose_m7B102B035B97D033BF6725D66DCB0495D380BAFD (U3CDealAttackDamageAfterDelayU3Ed__83_tB62D6FA7A8911F05E54B5BB4C44A29A947120EF6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 22334
+// Method Definition Index: 22337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDealAttackDamageAfterDelayU3Ed__83_MoveNext_m908E3E885E16ED8CB8893E35AD2388BE843ACA7C (U3CDealAttackDamageAfterDelayU3Ed__83_tB62D6FA7A8911F05E54B5BB4C44A29A947120EF6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17141,7 +17141,7 @@ IL_00e3:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 22335
+// Method Definition Index: 22338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDealAttackDamageAfterDelayU3Ed__83_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3C3E5DF1821AE5A98D5753B204A62DD6B69C919D (U3CDealAttackDamageAfterDelayU3Ed__83_tB62D6FA7A8911F05E54B5BB4C44A29A947120EF6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17149,7 +17149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDealAttackDamageAfterDelayU
 		return L_0;
 	}
 }
-// Method Definition Index: 22336
+// Method Definition Index: 22339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDealAttackDamageAfterDelayU3Ed__83_System_Collections_IEnumerator_Reset_m4F17591F382144D6FFCB49F2CAE51BB1E0457996 (U3CDealAttackDamageAfterDelayU3Ed__83_tB62D6FA7A8911F05E54B5BB4C44A29A947120EF6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17158,7 +17158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDealAttackDamageAfterDelayU3Ed__83_Sy
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDealAttackDamageAfterDelayU3Ed__83_System_Collections_IEnumerator_Reset_m4F17591F382144D6FFCB49F2CAE51BB1E0457996_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22337
+// Method Definition Index: 22340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDealAttackDamageAfterDelayU3Ed__83_System_Collections_IEnumerator_get_Current_m80104C1D726B6E1C75232E57FE33097283A18C4D (U3CDealAttackDamageAfterDelayU3Ed__83_tB62D6FA7A8911F05E54B5BB4C44A29A947120EF6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17174,7 +17174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDealAttackDamageAfterDelayU
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22338
+// Method Definition Index: 22341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner_Start_m443B50F8134BD15F2777CA19AA597FA3868651FD (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17201,7 +17201,7 @@ IL_0015:
 		return;
 	}
 }
-// Method Definition Index: 22339
+// Method Definition Index: 22342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner_OnDisable_m3088E2AF2D95EF5760A1F872A6F96D5B739978B0 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17229,7 +17229,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 22340
+// Method Definition Index: 22343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner_Reload_mD05822E6A321D6FDDDFA52CBDE684AC183AFD45F (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17256,7 +17256,7 @@ IL_0015:
 		return;
 	}
 }
-// Method Definition Index: 22341
+// Method Definition Index: 22344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_InitializeAndStartSync_m949A3C6A5A5C61E645C3A801BAE9F31B8BC01286 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17275,7 +17275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_InitializeAndSta
 		return L_1;
 	}
 }
-// Method Definition Index: 22342
+// Method Definition Index: 22345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_LiveSyncLoop_m5F853234250A10AB31317787530BA28C4B807802 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17294,7 +17294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_LiveSyncLoop_m5F
 		return L_1;
 	}
 }
-// Method Definition Index: 22343
+// Method Definition Index: 22346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_ResolveCurrentMapId_mEC25878A6853A256F98D30676E4B923482360F62 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17313,7 +17313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_ResolveCurrentMa
 		return L_1;
 	}
 }
-// Method Definition Index: 22344
+// Method Definition Index: 22347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_SyncNow_mB35E2093C7EEFFFD6A11C028B014A35A3BCDF6A5 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17332,7 +17332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapMobSpawner_SyncNow_mB35E209
 		return L_1;
 	}
 }
-// Method Definition Index: 22345
+// Method Definition Index: 22348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapMobSpawner_BuildSpawnSignature_m4F8063BF3FAE04618BB9345519908706A8C2865A (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, MobSpawnData_t2695DA86D160EB916D08AEA6988BC5CEE67E0442* ___0_spawn, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17564,7 +17564,7 @@ IL_004f:
 		return L_47;
 	}
 }
-// Method Definition Index: 22346
+// Method Definition Index: 22349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MapMobSpawner_SpawnMobGroup_m8DFE13462F6CB7A49A6790B2C0944D410E71A15E (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, MobSpawnData_t2695DA86D160EB916D08AEA6988BC5CEE67E0442* ___0_spawn, String_t* ___1_signature, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18219,7 +18219,7 @@ IL_02c3:
 		return L_168;
 	}
 }
-// Method Definition Index: 22347
+// Method Definition Index: 22350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner_EnsureTargetCollider_m8D220C210A40192971A9143BA807BB23E41A3BFE (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_mob, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18497,7 +18497,7 @@ IL_0064:
 		return;
 	}
 }
-// Method Definition Index: 22348
+// Method Definition Index: 22351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MapMobSpawner_SafeDivide_mE9241844C126CCC450BFC541A590E8B355C8A432 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, float ___0_value, float ___1_divisor, const RuntimeMethod* method) 
 {
 	{
@@ -18527,7 +18527,7 @@ IL_000f:
 		return ((float)(L_3/L_5));
 	}
 }
-// Method Definition Index: 22349
+// Method Definition Index: 22352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner_RemoveSpawnGroup_m8B000108278ABCB6AF2FE3D22535879465CD2149 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, int32_t ___0_spawnId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18654,7 +18654,7 @@ IL_004f:
 		return;
 	}
 }
-// Method Definition Index: 22350
+// Method Definition Index: 22353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner__ctor_mDA9320F53C43C840CDF6FF5EF6C88A0ACC1C2D11 (MapMobSpawner_t0DBD05ED6E05AC26274219D88597548EE64163C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18707,7 +18707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapMobSpawner__ctor_mDA9320F53C43C840CDF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22351
+// Method Definition Index: 22354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnGroupState__ctor_m6E50BD9A382C771BA1E79816D1553231BE2D90E5 (SpawnGroupState_tC27C6F61BD9828B21DCD82C7283FCE7BB42252FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18736,7 +18736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnGroupState__ctor_m6E50BD9A382C771BA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22352
+// Method Definition Index: 22355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListResponse__ctor_m12F81E8F6E582D5DF1A0AA118D9F5FADA3772397 (MapListResponse_t0AF02E302AC4F7A9DDEED98DEE636386F8305662* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18752,7 +18752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListResponse__ctor_m12F81E8F6E582D5DF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22353
+// Method Definition Index: 22356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapInfo__ctor_mDB59A0B3065F8406B566370D793BC66D78BD33D0 (MapInfo_t115D3E5C1718C4AD4E9FEB7764F637B1EC022580* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18768,7 +18768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapInfo__ctor_mDB59A0B3065F8406B566370D7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22354
+// Method Definition Index: 22357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobListResponse__ctor_m29359890F071B6F849C78AFE1178CE144456A39B (MobListResponse_t9BC24F71359185E57EB7733F839C26743D2DEE19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18784,7 +18784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobListResponse__ctor_m29359890F071B6F84
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22355
+// Method Definition Index: 22358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobSpawnData__ctor_m7651F556AE9FDCF680BF7A200F783DF28DA66F66 (MobSpawnData_t2695DA86D160EB916D08AEA6988BC5CEE67E0442* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18800,7 +18800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobSpawnData__ctor_m7651F556AE9FDCF680BF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22356
+// Method Definition Index: 22359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeAndStartSyncU3Ed__18__ctor_mBC4C574114712766DC85C1A060757B073BD84B56 (U3CInitializeAndStartSyncU3Ed__18_t5FC63541A891D44BD04617EBA839AF580FF11FDB* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -18810,14 +18810,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeAndStartSyncU3Ed__18__ctor_
 		return;
 	}
 }
-// Method Definition Index: 22357
+// Method Definition Index: 22360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeAndStartSyncU3Ed__18_System_IDisposable_Dispose_m6E2CA9692035507FA193554956EEAEAC0F730DA8 (U3CInitializeAndStartSyncU3Ed__18_t5FC63541A891D44BD04617EBA839AF580FF11FDB* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 22358
+// Method Definition Index: 22361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeAndStartSyncU3Ed__18_MoveNext_m0A20ABB27B0A60F166B10DC1F6867C523E61083C (U3CInitializeAndStartSyncU3Ed__18_t5FC63541A891D44BD04617EBA839AF580FF11FDB* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18929,7 +18929,7 @@ IL_0086:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 22359
+// Method Definition Index: 22362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeAndStartSyncU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5871BC1D5823629A4032B4C54E278E9C3AFDFD6A (U3CInitializeAndStartSyncU3Ed__18_t5FC63541A891D44BD04617EBA839AF580FF11FDB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18937,7 +18937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeAndStartSyncU3Ed_
 		return L_0;
 	}
 }
-// Method Definition Index: 22360
+// Method Definition Index: 22363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeAndStartSyncU3Ed__18_System_Collections_IEnumerator_Reset_mA569472BC431BE832A427C43848C60DF330C98FF (U3CInitializeAndStartSyncU3Ed__18_t5FC63541A891D44BD04617EBA839AF580FF11FDB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18946,7 +18946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitializeAndStartSyncU3Ed__18_System
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitializeAndStartSyncU3Ed__18_System_Collections_IEnumerator_Reset_mA569472BC431BE832A427C43848C60DF330C98FF_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22361
+// Method Definition Index: 22364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeAndStartSyncU3Ed__18_System_Collections_IEnumerator_get_Current_m775EB324D89938FFEE21DA70F86319576C1D6204 (U3CInitializeAndStartSyncU3Ed__18_t5FC63541A891D44BD04617EBA839AF580FF11FDB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18962,7 +18962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitializeAndStartSyncU3Ed_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22362
+// Method Definition Index: 22365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLiveSyncLoopU3Ed__19__ctor_mB8FFD9D757F97AA57999058C571A7D37215E4D7B (U3CLiveSyncLoopU3Ed__19_t16F09741D3689AE752A4D8D4C7BD32A516A8CC1A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -18972,14 +18972,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLiveSyncLoopU3Ed__19__ctor_mB8FFD9D75
 		return;
 	}
 }
-// Method Definition Index: 22363
+// Method Definition Index: 22366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLiveSyncLoopU3Ed__19_System_IDisposable_Dispose_mBC148A9F454AC50C3F9CCA37A1F3BB0F0E69E075 (U3CLiveSyncLoopU3Ed__19_t16F09741D3689AE752A4D8D4C7BD32A516A8CC1A* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 22364
+// Method Definition Index: 22367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLiveSyncLoopU3Ed__19_MoveNext_m304880CE44D56394186A8F204C99F5815BB3203C (U3CLiveSyncLoopU3Ed__19_t16F09741D3689AE752A4D8D4C7BD32A516A8CC1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19073,7 +19073,7 @@ IL_0071:
 		goto IL_0029;
 	}
 }
-// Method Definition Index: 22365
+// Method Definition Index: 22368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLiveSyncLoopU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA60E074738BCC02E31406C4D65792BE4695782DA (U3CLiveSyncLoopU3Ed__19_t16F09741D3689AE752A4D8D4C7BD32A516A8CC1A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19081,7 +19081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLiveSyncLoopU3Ed__19_System
 		return L_0;
 	}
 }
-// Method Definition Index: 22366
+// Method Definition Index: 22369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLiveSyncLoopU3Ed__19_System_Collections_IEnumerator_Reset_mA700DDA648CDB74BD2738E50ADCE434D1525302C (U3CLiveSyncLoopU3Ed__19_t16F09741D3689AE752A4D8D4C7BD32A516A8CC1A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19090,7 +19090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLiveSyncLoopU3Ed__19_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLiveSyncLoopU3Ed__19_System_Collections_IEnumerator_Reset_mA700DDA648CDB74BD2738E50ADCE434D1525302C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22367
+// Method Definition Index: 22370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLiveSyncLoopU3Ed__19_System_Collections_IEnumerator_get_Current_m3E6ECF9DD9A6E8BEA3CE778A848DE85E59F2F407 (U3CLiveSyncLoopU3Ed__19_t16F09741D3689AE752A4D8D4C7BD32A516A8CC1A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19106,7 +19106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLiveSyncLoopU3Ed__19_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22368
+// Method Definition Index: 22371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResolveCurrentMapIdU3Ed__20__ctor_mA1625F2620BEC823589B989F00FA7C9A00C59927 (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -19116,7 +19116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResolveCurrentMapIdU3Ed__20__ctor_mA1
 		return;
 	}
 }
-// Method Definition Index: 22369
+// Method Definition Index: 22372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResolveCurrentMapIdU3Ed__20_System_IDisposable_Dispose_m1EA0C1B65FCF6FE05D846B0C8752D5D9D554F5AD (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19165,7 +19165,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22370
+// Method Definition Index: 22373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CResolveCurrentMapIdU3Ed__20_MoveNext_m9908EE45A93668462564FA75F93646B1F2716907 (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19475,7 +19475,7 @@ IL_017b:
 		return L_48;
 	}
 }
-// Method Definition Index: 22371
+// Method Definition Index: 22374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResolveCurrentMapIdU3Ed__20_U3CU3Em__Finally1_m8B73D9D93618D026DAB9D2BBC0D7CF78C7C6D452 (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19503,7 +19503,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22372
+// Method Definition Index: 22375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResolveCurrentMapIdU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5147D0973F360CDB57E24D80D7DD91E2A86D291F (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19511,7 +19511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResolveCurrentMapIdU3Ed__20
 		return L_0;
 	}
 }
-// Method Definition Index: 22373
+// Method Definition Index: 22376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResolveCurrentMapIdU3Ed__20_System_Collections_IEnumerator_Reset_m55C5D8DD9D37340628A84CAC07164F302862590B (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19520,7 +19520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResolveCurrentMapIdU3Ed__20_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CResolveCurrentMapIdU3Ed__20_System_Collections_IEnumerator_Reset_m55C5D8DD9D37340628A84CAC07164F302862590B_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22374
+// Method Definition Index: 22377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResolveCurrentMapIdU3Ed__20_System_Collections_IEnumerator_get_Current_mAFF495A5FBC84608D2131DE6505112F4C2FB6CC4 (U3CResolveCurrentMapIdU3Ed__20_tFBE062E8A53CB386E1F0E026B5C7273822BEA694* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19536,7 +19536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResolveCurrentMapIdU3Ed__20
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22375
+// Method Definition Index: 22378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSyncNowU3Ed__21__ctor_m4563814F7AE4C3CCDED125C59A4B7FCB662A42CA (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -19546,7 +19546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSyncNowU3Ed__21__ctor_m4563814F7AE4C3
 		return;
 	}
 }
-// Method Definition Index: 22376
+// Method Definition Index: 22379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSyncNowU3Ed__21_System_IDisposable_Dispose_m2F412CF0C824FDFBBD105AB34E2538B113DCEF54 (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19595,7 +19595,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22377
+// Method Definition Index: 22380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSyncNowU3Ed__21_MoveNext_mE2085DAFE0D2C714EC5797A7B409FEE778E7E406 (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20252,7 +20252,7 @@ IL_02be:
 		return L_103;
 	}
 }
-// Method Definition Index: 22378
+// Method Definition Index: 22381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSyncNowU3Ed__21_U3CU3Em__Finally1_m62437E21BE7C907926A7F6D58EE102751B9F07B5 (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20280,7 +20280,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22379
+// Method Definition Index: 22382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSyncNowU3Ed__21_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m43A186EF7965F15F078B039FF05CA525D24B4C90 (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20288,7 +20288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSyncNowU3Ed__21_System_Coll
 		return L_0;
 	}
 }
-// Method Definition Index: 22380
+// Method Definition Index: 22383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSyncNowU3Ed__21_System_Collections_IEnumerator_Reset_m7186133090767589E192CFE73A0FE554D17126DA (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20297,7 +20297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSyncNowU3Ed__21_System_Collections_IE
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSyncNowU3Ed__21_System_Collections_IEnumerator_Reset_m7186133090767589E192CFE73A0FE554D17126DA_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22381
+// Method Definition Index: 22384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSyncNowU3Ed__21_System_Collections_IEnumerator_get_Current_mAFC2D332823E54BA2E5D07C58AFE9BB47556C1DB (U3CSyncNowU3Ed__21_t7EACB19ABE6EE1EB4F39EB7CF31ED22927EB5606* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20313,7 +20313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSyncNowU3Ed__21_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22382
+// Method Definition Index: 22385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapRegistryClient_Start_m1AAA7D5B80D5C356B8784C1E9BD2AD510B53B822 (MapRegistryClient_t6F1B8FAD47391B63DBC3DA18A5688CD449087567* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20335,7 +20335,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 22383
+// Method Definition Index: 22386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapRegistryClient_RegisterCurrentMap_m7F48D289FC82B0A1F87E6C2ACB25E085E9B3DC4A (MapRegistryClient_t6F1B8FAD47391B63DBC3DA18A5688CD449087567* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20394,7 +20394,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 22384
+// Method Definition Index: 22387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapRegistryClient_SendMapToServer_m6094BD9EFCBA390B3C613DA887A867760841806F (MapRegistryClient_t6F1B8FAD47391B63DBC3DA18A5688CD449087567* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20418,7 +20418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MapRegistryClient_SendMapToSer
 		return L_2;
 	}
 }
-// Method Definition Index: 22385
+// Method Definition Index: 22388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapRegistryClient__ctor_m9DD7AE37F5E1B04EA4823FD443BF70581A0919FD (MapRegistryClient_t6F1B8FAD47391B63DBC3DA18A5688CD449087567* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20446,7 +20446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapRegistryClient__ctor_m9DD7AE37F5E1B04
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22386
+// Method Definition Index: 22389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapRegisterRequest__ctor_mA3DAC2573224C4E86A1765B1C98CBA71EA49E852 (MapRegisterRequest_t025F7173724D9BDF519C7E6715751081DE617CBE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20462,7 +20462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapRegisterRequest__ctor_mA3DAC2573224C4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22387
+// Method Definition Index: 22390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendMapToServerU3Ed__4__ctor_mCCF2935FB1C3F9480766ED1E20673DA3BB744751 (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -20472,7 +20472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendMapToServerU3Ed__4__ctor_mCCF2935
 		return;
 	}
 }
-// Method Definition Index: 22388
+// Method Definition Index: 22391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendMapToServerU3Ed__4_System_IDisposable_Dispose_m2C73CD80B1094305023622D224F7D6CF8F0EBA4A (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -20521,7 +20521,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22389
+// Method Definition Index: 22392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSendMapToServerU3Ed__4_MoveNext_m992067F2ADAE3B877D9D367A0C81E1AABCCF1064 (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20737,7 +20737,7 @@ IL_012e:
 		return L_32;
 	}
 }
-// Method Definition Index: 22390
+// Method Definition Index: 22393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendMapToServerU3Ed__4_U3CU3Em__Finally1_mE9E2507B15CD0A00AEE9B2063651CF1C10D6037A (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20765,7 +20765,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22391
+// Method Definition Index: 22394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSendMapToServerU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDA98CBAF84F510535AACBE8FBC2173B270EC275E (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20773,7 +20773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSendMapToServerU3Ed__4_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 22392
+// Method Definition Index: 22395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendMapToServerU3Ed__4_System_Collections_IEnumerator_Reset_mDAC2FFF6BDCF48FAD50AF0CC77BE18D35C93244E (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20782,7 +20782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendMapToServerU3Ed__4_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSendMapToServerU3Ed__4_System_Collections_IEnumerator_Reset_mDAC2FFF6BDCF48FAD50AF0CC77BE18D35C93244E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22393
+// Method Definition Index: 22396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSendMapToServerU3Ed__4_System_Collections_IEnumerator_get_Current_m51BA40893D44CDD6E19BDD6A6534FE3F5BFB96BF (U3CSendMapToServerU3Ed__4_tD8DBAF191DFE4F6F7AEBC3FD27B8613778FADD53* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20798,7 +20798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSendMapToServerU3Ed__4_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22394
+// Method Definition Index: 22397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobDatabase_Awake_m5DEA0D2EA9518055D778454961C28881D06EA38C (MobDatabase_t162129B4B51E552B39FC9A5FBF88B824EACB6DCC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20951,7 +20951,7 @@ IL_0091:
 		return;
 	}
 }
-// Method Definition Index: 22395
+// Method Definition Index: 22398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* MobDatabase_GetPrefab_m9A83ACF30BCEE817240A0E464CE533D72FE8F207 (MobDatabase_t162129B4B51E552B39FC9A5FBF88B824EACB6DCC* __this, int32_t ___0_mobId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20998,7 +20998,7 @@ IL_001a:
 		return (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 	}
 }
-// Method Definition Index: 22396
+// Method Definition Index: 22399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobDatabase__ctor_mC779687019A90A34F78EF11D0BF0908EED2FCA52 (MobDatabase_t162129B4B51E552B39FC9A5FBF88B824EACB6DCC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21027,7 +21027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobDatabase__ctor_mC779687019A90A34F78EF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22397
+// Method Definition Index: 22400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobEntry__ctor_m4843376677DA95F2B1CD16ABC7800E0A24EF8963 (MobEntry_t3310B0A135125295AAF76A23B07ABF12129E749E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21043,7 +21043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobEntry__ctor_m4843376677DA95F2B1CD16AB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22398
+// Method Definition Index: 22401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* MobPrefabResolver_ResolvePrefab_mA96E50E90ADA7991203EB9681A8427C65E183C9F (MobPrefabResolver_t3D47BE363941E3F53FEE603572D75A84C3B5D54B* __this, String_t* ___0_baseFolder, String_t* ___1_clientFolder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21294,7 +21294,7 @@ IL_00d9:
 		return L_38;
 	}
 }
-// Method Definition Index: 22399
+// Method Definition Index: 22402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* MobPrefabResolver_ResolvePrefab_m5234AC5D4B5DB9F31744B39305B99E3DE78C93A3 (MobPrefabResolver_t3D47BE363941E3F53FEE603572D75A84C3B5D54B* __this, String_t* ___0_folderName, const RuntimeMethod* method) 
 {
 	{
@@ -21309,7 +21309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_2;
 	}
 }
-// Method Definition Index: 22400
+// Method Definition Index: 22403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MobPrefabResolver_NormalizeName_mEE7475129345272EC97CB9687EF011A7DAAA10C2 (MobPrefabResolver_t3D47BE363941E3F53FEE603572D75A84C3B5D54B* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21404,7 +21404,7 @@ IL_004d:
 		return L_15;
 	}
 }
-// Method Definition Index: 22401
+// Method Definition Index: 22404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobPrefabResolver__ctor_mFBC134EB4D9428FFE3CA51F5D176C006C1FE851B (MobPrefabResolver_t3D47BE363941E3F53FEE603572D75A84C3B5D54B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21452,7 +21452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobPrefabResolver__ctor_mFBC134EB4D9428F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22402
+// Method Definition Index: 22405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FolderOverride__ctor_m9E6B1689DE49441C38602073C69250F4D3411375 (FolderOverride_t2F0DD6F5265DD1E70B19895EAEEC197CC240B439* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21468,7 +21468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FolderOverride__ctor_m9E6B1689DE49441C38
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22403
+// Method Definition Index: 22406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobRuntimeData_get_CurrentHp_mD16FABA5A90919B22128323581586A52F9106F17 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21477,7 +21477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobRuntimeData_get_CurrentHp_mD16FABA
 		return L_0;
 	}
 }
-// Method Definition Index: 22404
+// Method Definition Index: 22407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobRuntimeData_get_MaxHp_m18C10B2A4B3729768EEBC66B0D7E1AE57C8A1E2F (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21491,7 +21491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobRuntimeData_get_MaxHp_m18C10B2A4B3
 		return L_1;
 	}
 }
-// Method Definition Index: 22405
+// Method Definition Index: 22408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobRuntimeData_get_IsDead_m2F6F99A956AB6FCF43AC7E2299D0452F5C9B2EAB (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21500,7 +21500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobRuntimeData_get_IsDead_m2F6F99A956AB6
 		return L_0;
 	}
 }
-// Method Definition Index: 22406
+// Method Definition Index: 22409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_Heal_m88D1876DABB991F165F4485588E2B618CE9578F5 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, int32_t ___0_amount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21548,7 +21548,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 22407
+// Method Definition Index: 22410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobRuntimeData_get_HpRatio_mA10EA5D1DA2D964E5F571A87451E54D9E845B768 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21568,7 +21568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobRuntimeData_get_HpRatio_mA10EA5D1DA2
 		return L_3;
 	}
 }
-// Method Definition Index: 22408
+// Method Definition Index: 22411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_Apply_m78EDCB60C2341AFADB75A9C6E20B732D0E16CB43 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, MobSpawnData_t2695DA86D160EB916D08AEA6988BC5CEE67E0442* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21722,7 +21722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_Apply_m78EDCB60C2341AFADB
 		return;
 	}
 }
-// Method Definition Index: 22409
+// Method Definition Index: 22412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_SetSelected_mD3A358522F31861D0566E045EB1F67927CAEEFC0 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, bool ___0_selected, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21821,7 +21821,7 @@ IL_0064:
 		return;
 	}
 }
-// Method Definition Index: 22410
+// Method Definition Index: 22413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_TakeDamage_m683104E6B8B954E80BFB974C017FB923CA14268A (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, int32_t ___0_rawDamage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21928,7 +21928,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 22411
+// Method Definition Index: 22414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_Die_mF396152B211D7A33379FF8E3C4DDA75B720E44D1 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22094,7 +22094,7 @@ IL_008b:
 		return;
 	}
 }
-// Method Definition Index: 22412
+// Method Definition Index: 22415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_Revive_m5DBEA7724AFA6B05DA46831D3C03A365F9EE2960 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22250,7 +22250,7 @@ IL_008d:
 		return;
 	}
 }
-// Method Definition Index: 22413
+// Method Definition Index: 22416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_OnDestroy_m067D6EF3E12F5B146D37B351EA572E5836E1D37E (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22306,7 +22306,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 22414
+// Method Definition Index: 22417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_EnsureSharedTargetUi_m9AFFF67E2833F476873FC108139B2A9798FB7165 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23373,7 +23373,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 22415
+// Method Definition Index: 22418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* MobRuntimeData_CreateText_mA0C64950C0DA13EBB0A631CF1787D4C3E7582382 (String_t* ___0_objectName, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, int32_t ___2_fontSize, int32_t ___3_fontStyle, int32_t ___4_alignment, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___5_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23489,7 +23489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E6
 		return L_18;
 	}
 }
-// Method Definition Index: 22416
+// Method Definition Index: 22419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_BuildOriginalTargetFrame_m6AE80629CA8BB81F72BEC0F828DF104F07DE25D0 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_size, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23601,7 +23601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_BuildOriginalTargetFrame_
 		return;
 	}
 }
-// Method Definition Index: 22417
+// Method Definition Index: 22420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_AddFramePart_m0F659D65DADA5F6E429AD4BA7260718219D61EC2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, String_t* ___2_resource, float ___3_x, float ___4_y, float ___5_width, float ___6_height, int32_t ___7_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23716,7 +23716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_AddFramePart_m0F659D65DAD
 		return;
 	}
 }
-// Method Definition Index: 22418
+// Method Definition Index: 22421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_ApplySharedUiLayout_m84944AE2A6E4C90CBEC47523D9863E0D53CF37C3 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23766,7 +23766,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 22419
+// Method Definition Index: 22422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData_RefreshSharedTargetUi_m9725A2BAB1BD9711EADA905538DACA2123C9FAF5 (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23932,7 +23932,7 @@ IL_00bf:
 		return;
 	}
 }
-// Method Definition Index: 22420
+// Method Definition Index: 22423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData__ctor_mD54905B290D97F3FE9E61069B9BF04035E5B878B (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23963,7 +23963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobRuntimeData__ctor_mD54905B290D97F3FE9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22421
+// Method Definition Index: 22424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TorchLightFlicker_Awake_m057F33D23F6963959EA7CE4F3AF69F3F7750A74C (TorchLightFlicker_t682EA5233D5C65FF0B0D660A74B02AFDFAE4B2BB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24002,7 +24002,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 22422
+// Method Definition Index: 22425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TorchLightFlicker_Update_mB15D330CB3A43632E1921298B71F02924C88D98F (TorchLightFlicker_t682EA5233D5C65FF0B0D660A74B02AFDFAE4B2BB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24064,7 +24064,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 22423
+// Method Definition Index: 22426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TorchLightFlicker__ctor_mC5A6E7C6A64DD80EEE88DF7EFB0598A4E8901532 (TorchLightFlicker_t682EA5233D5C65FF0B0D660A74B02AFDFAE4B2BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24090,7 +24090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TorchLightFlicker__ctor_mC5A6E7C6A64DD80
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22424
+// Method Definition Index: 22427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3MobSyncCheck_Install_mE9D76BF500F08D13869B987B3EC080625A34AA36 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24189,7 +24189,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 22425
+// Method Definition Index: 22428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metin3MobSyncCheck_Run_mE967B7189A5EECD9F996C2E1C716C0C7C7010C83 (Metin3MobSyncCheck_t589EE6D8B0E9788975B15375639663E9D3020889* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24208,7 +24208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metin3MobSyncCheck_Run_mE967B7
 		return L_1;
 	}
 }
-// Method Definition Index: 22426
+// Method Definition Index: 22429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3MobSyncCheck_Finish_mD8F69574406DDEC0F4FA5C67BF2CF519A46C5B9F (Metin3MobSyncCheck_t589EE6D8B0E9788975B15375639663E9D3020889* __this, String_t* ___0_result, int32_t ___1_code, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24273,7 +24273,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 22427
+// Method Definition Index: 22430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3MobSyncCheck__ctor_mE4057285DE55B7D37421BD8A9E377065DD7936CE (Metin3MobSyncCheck_t589EE6D8B0E9788975B15375639663E9D3020889* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24289,7 +24289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3MobSyncCheck__ctor_mE4057285DE55B7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22428
+// Method Definition Index: 22431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input__ctor_mE55A3C4CF26673B67E36E33AE3795E58F2709A07 (Input_t68DE0EEE1CDC2B885C61AAB5E2080716FB8883ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24305,7 +24305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input__ctor_mE55A3C4CF26673B67E36E33AE37
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22429
+// Method Definition Index: 22432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mDBA13F57CAF8F817B9686AC9A0C4FEBDF2D02781 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24322,7 +24322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mDBA13F57CAF8F817B9686AC9
 		return;
 	}
 }
-// Method Definition Index: 22430
+// Method Definition Index: 22433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m80C834AFD409FE0A4A63885449457ECCD93D3AC0 (U3CU3Ec_t22DD60BA933307F9762F4FED16C2050F02B4DC2F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24330,7 +24330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m80C834AFD409FE0A4A6388544
 		return;
 	}
 }
-// Method Definition Index: 22431
+// Method Definition Index: 22434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunU3Eb__5_1_m8E397A99D3B0EA655C03269BB95EAF45506C6309 (U3CU3Ec_t22DD60BA933307F9762F4FED16C2050F02B4DC2F* __this, Metin2CharacterData_tDB16803E958F7636DF73FCD6939FB59BF59D1907* ___0_c, const RuntimeMethod* method) 
 {
 	{
@@ -24347,7 +24347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunU3Eb__5_1_m8E397A99D3B0EA6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22432
+// Method Definition Index: 22435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mF4687AF32FC25D619F50FB45EDE1269C9AB2B84E (U3CU3Ec__DisplayClass5_0_t491DA8562E50168457FDC194573821561242B914* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24355,7 +24355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mF4687AF3
 		return;
 	}
 }
-// Method Definition Index: 22433
+// Method Definition Index: 22436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRunU3Eb__0_mFAF1FD09E7592C1472B990BCC304CD900729BF6D (U3CU3Ec__DisplayClass5_0_t491DA8562E50168457FDC194573821561242B914* __this, bool ___0_ok, String_t* ___1_error, Metin2FrontendSaveData_t69D9ADAC14BA9180B95869DDF6600E2798967D39* ___2_data, const RuntimeMethod* method) 
 {
 	{
@@ -24370,7 +24370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRunU3Eb__0_m
 		return;
 	}
 }
-// Method Definition Index: 22434
+// Method Definition Index: 22437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRunU3Eb__2_m3E5EE11AE34E0A9BA48FA20ECD844FB30FAF9BA1 (U3CU3Ec__DisplayClass5_0_t491DA8562E50168457FDC194573821561242B914* __this, bool ___0_ok, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
@@ -24380,7 +24380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRunU3Eb__2_m
 		return;
 	}
 }
-// Method Definition Index: 22435
+// Method Definition Index: 22438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRunU3Eb__3_mF72937EEA30BD3D0CBDC8D1C1DF023F66BECA2E9 (U3CU3Ec__DisplayClass5_0_t491DA8562E50168457FDC194573821561242B914* __this, Metin2MobCombatant_t0734B7865BE70844F4803B09D12BA51F2EE992CB* ___0__, const RuntimeMethod* method) 
 {
 	{
@@ -24402,7 +24402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRunU3Eb__3_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22436
+// Method Definition Index: 22439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__5__ctor_mA0C9BA31BC20F92E61B07DBE213715D62D5E496F (U3CRunU3Ed__5_tAB31F73D2226FAAB81220B9F733EF9A902F0014B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -24412,14 +24412,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__5__ctor_mA0C9BA31BC20F92E61B
 		return;
 	}
 }
-// Method Definition Index: 22437
+// Method Definition Index: 22440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__5_System_IDisposable_Dispose_m83EC7BD032666EF6D7DA15ACB999E0BE7CFE565F (U3CRunU3Ed__5_tAB31F73D2226FAAB81220B9F733EF9A902F0014B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 22438
+// Method Definition Index: 22441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__5_MoveNext_m3CFE3D87D8D80D4ABA305DAEC4C043449CD09D2B (U3CRunU3Ed__5_tAB31F73D2226FAAB81220B9F733EF9A902F0014B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25573,7 +25573,7 @@ IL_0760:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 22439
+// Method Definition Index: 22442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEBEE60FBB9AC22DCC72E094EA127F4F2182BF954 (U3CRunU3Ed__5_tAB31F73D2226FAAB81220B9F733EF9A902F0014B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25581,7 +25581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__5_System_Collectio
 		return L_0;
 	}
 }
-// Method Definition Index: 22440
+// Method Definition Index: 22443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__5_System_Collections_IEnumerator_Reset_mABA88BD1788B79817F0BA93EFD8B12F08CA8A914 (U3CRunU3Ed__5_tAB31F73D2226FAAB81220B9F733EF9A902F0014B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25590,7 +25590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__5_System_Collections_IEnumer
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRunU3Ed__5_System_Collections_IEnumerator_Reset_mABA88BD1788B79817F0BA93EFD8B12F08CA8A914_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22441
+// Method Definition Index: 22444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__5_System_Collections_IEnumerator_get_Current_m38CB8172B630923B976C7B58B51F40F15F45D861 (U3CRunU3Ed__5_tAB31F73D2226FAAB81220B9F733EF9A902F0014B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25606,7 +25606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__5_System_Collectio
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22442
+// Method Definition Index: 22445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_RunEditorCheck_mFBE0BDF8D8F0FADB6175D98076F87AFAB8EEFB2D (String_t* ___0_resultPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25724,7 +25724,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 22443
+// Method Definition Index: 22446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Install_mD4C890CF0F97921FFF3ED68EA71822A88FBB124A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25857,7 +25857,7 @@ IL_003f:
 		return;
 	}
 }
-// Method Definition Index: 22444
+// Method Definition Index: 22447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Check_mA3B7384FAAFCA53EB25C9CC015EEEE661EF6B564 (bool ___0_condition, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	{
@@ -25882,7 +25882,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 22445
+// Method Definition Index: 22448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Field_mFA516EC0C0CB79CFEAAE20DFDD02DE612893ACF8 (RuntimeObject* ___0_obj, String_t* ___1_name, RuntimeObject* ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -25902,7 +25902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Field_mFA516EC0
 		return;
 	}
 }
-// Method Definition Index: 22446
+// Method Definition Index: 22449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Invoke_m5B6A4C066867873ED64AF55F8AC1557BB8FAF35C (RuntimeObject* ___0_obj, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	{
@@ -25922,7 +25922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Invoke_m5B6A4C0
 		return;
 	}
 }
-// Method Definition Index: 22447
+// Method Definition Index: 22450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metin3SkillPlaybackCheck_Run_mD883E074A3C57E653D682F6BAA5BDEA52628377D (Metin3SkillPlaybackCheck_t5C5E990270A86E0B69B0D077C55762D82A2E191D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25941,7 +25941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metin3SkillPlaybackCheck_Run_m
 		return L_1;
 	}
 }
-// Method Definition Index: 22448
+// Method Definition Index: 22451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metin3SkillPlaybackCheck_RunChecks_m214D35FA294DF084FD1576739310AABC296CF108 (Metin3SkillPlaybackCheck_t5C5E990270A86E0B69B0D077C55762D82A2E191D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25960,7 +25960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metin3SkillPlaybackCheck_RunCh
 		return L_1;
 	}
 }
-// Method Definition Index: 22449
+// Method Definition Index: 22452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Finish_m5F909EFCD8E899261679742E2458FCC10FA37B9E (Metin3SkillPlaybackCheck_t5C5E990270A86E0B69B0D077C55762D82A2E191D* __this, String_t* ___0_result, int32_t ___1_code, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26000,7 +26000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck_Finish_m5F909EF
 		return;
 	}
 }
-// Method Definition Index: 22450
+// Method Definition Index: 22453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck__ctor_m76E3BBDB92BECBC4F558CAF31CC5D201F35CD9B7 (Metin3SkillPlaybackCheck_t5C5E990270A86E0B69B0D077C55762D82A2E191D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26008,7 +26008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metin3SkillPlaybackCheck__ctor_m76E3BBDB
 		return;
 	}
 }
-// Method Definition Index: 22451
+// Method Definition Index: 22454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Metin3SkillPlaybackCheck_U3CRunChecksU3Eg__SpawnU7C9_0_mFE752C8B3177090654D12B610B6AEDF89AD86CA9 (Metin2MotionEvent_t1EC4643554F9920ADC44C1DFD57612543DDD627D* ___0_evt, U3CU3Ec__DisplayClass9_0_tB952843EA5AD995C6BAE1B8B979678278B3BF825* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26088,7 +26088,7 @@ IL_0042:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22452
+// Method Definition Index: 22455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m05260D8416C42A7148C6489E098679132DB2436F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26105,7 +26105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m05260D8416C42A7148C6489E
 		return;
 	}
 }
-// Method Definition Index: 22453
+// Method Definition Index: 22456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3BAE6AFE02373E498C4C5D54B4B6B09B58E377F0 (U3CU3Ec_tF7154AC8FBDE818DE040E6A07FC042F3967427BE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26113,7 +26113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3BAE6AFE02373E498C4C5D54B
 		return;
 	}
 }
-// Method Definition Index: 22454
+// Method Definition Index: 22457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunChecksU3Eb__9_1_m0BF7D3926E12082DC846B73415AC50D8BD58AE10 (U3CU3Ec_tF7154AC8FBDE818DE040E6A07FC042F3967427BE* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26133,7 +26133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunChecksU3Eb__9_1_m0BF7D3926
 		return L_2;
 	}
 }
-// Method Definition Index: 22455
+// Method Definition Index: 22458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunChecksU3Eb__9_2_mEF391C4394EBC1D8A4DC3E848C80F824B58A1941 (U3CU3Ec_tF7154AC8FBDE818DE040E6A07FC042F3967427BE* __this, Skill_t3BCA45B1BAE51C4545A7A5125A79051589783579 ___0_s, const RuntimeMethod* method) 
 {
 	{
@@ -26143,7 +26143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunChecksU3Eb__9_2_mEF391C439
 		return (bool)((((int32_t)L_1) == ((int32_t)((int32_t)50)))? 1 : 0);
 	}
 }
-// Method Definition Index: 22456
+// Method Definition Index: 22459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunChecksU3Eb__9_3_m8362CA9ACBC9ACCFDD533AB8F31543156DCA9067 (U3CU3Ec_tF7154AC8FBDE818DE040E6A07FC042F3967427BE* __this, Metin2MotionEvent_t1EC4643554F9920ADC44C1DFD57612543DDD627D* ___0_e, const RuntimeMethod* method) 
 {
 	{
@@ -26170,7 +26170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRunChecksU3Eb__9_3_m8362CA9AC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22457
+// Method Definition Index: 22460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_1__ctor_m069FDCA444A114965A68488AA858B87BEC1EDFE5 (U3CU3Ec__DisplayClass9_1_t662D60179103AC255C01F85D3CDF362274BFB705* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26178,7 +26178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_1__ctor_m069FDCA4
 		return;
 	}
 }
-// Method Definition Index: 22458
+// Method Definition Index: 22461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass9_1_U3CRunChecksU3Eb__4_mD8A856AC2A0E89AB0076CC4CB6079B0141DFBBDB (U3CU3Ec__DisplayClass9_1_t662D60179103AC255C01F85D3CDF362274BFB705* __this, Projectile_tD549E386AE698E968F2EBA0DCA538F645E05C272* ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -26203,7 +26203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass9_1_U3CRunChecksU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22459
+// Method Definition Index: 22462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__8__ctor_m23D1BCD8E29CBCEB0C6D9B3E49597962930BFFF2 (U3CRunU3Ed__8_tEA97F55A4C14890C0B23C42D388360D7780DF11E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -26213,14 +26213,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__8__ctor_m23D1BCD8E29CBCEB0C6
 		return;
 	}
 }
-// Method Definition Index: 22460
+// Method Definition Index: 22463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__8_System_IDisposable_Dispose_m9B15B6BF04E5C36F0DA30B462EF40EFEF17B1607 (U3CRunU3Ed__8_tEA97F55A4C14890C0B23C42D388360D7780DF11E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 22461
+// Method Definition Index: 22464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__8_MoveNext_m65D3DDA65D37404E9B7FD05426BBC189B4905030 (U3CRunU3Ed__8_tEA97F55A4C14890C0B23C42D388360D7780DF11E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26501,7 +26501,7 @@ IL_00de:
 		return L_31;
 	}
 }
-// Method Definition Index: 22462
+// Method Definition Index: 22465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC812127B5AA31035DDFD4576B309DB10A23057F0 (U3CRunU3Ed__8_tEA97F55A4C14890C0B23C42D388360D7780DF11E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26509,7 +26509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__8_System_Collectio
 		return L_0;
 	}
 }
-// Method Definition Index: 22463
+// Method Definition Index: 22466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__8_System_Collections_IEnumerator_Reset_mCBECE4D0BBE09A7DB7FF4730E0199EC7F420CCE2 (U3CRunU3Ed__8_tEA97F55A4C14890C0B23C42D388360D7780DF11E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26518,7 +26518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__8_System_Collections_IEnumer
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRunU3Ed__8_System_Collections_IEnumerator_Reset_mCBECE4D0BBE09A7DB7FF4730E0199EC7F420CCE2_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22464
+// Method Definition Index: 22467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__8_System_Collections_IEnumerator_get_Current_mDB45EDBDD859F8B5A8903B20DE7450599CDAE023 (U3CRunU3Ed__8_tEA97F55A4C14890C0B23C42D388360D7780DF11E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26534,7 +26534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__8_System_Collectio
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22465
+// Method Definition Index: 22468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9__ctor_m03454902CF752EB80B9C1D0FE244A72EC4BA833D (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -26544,7 +26544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9__ctor_m03454902CF752
 		return;
 	}
 }
-// Method Definition Index: 22466
+// Method Definition Index: 22469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9_System_IDisposable_Dispose_m2704D2113BB33A37D3C6D0D957A4ED1B3A38C8EA (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26593,7 +26593,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 22467
+// Method Definition Index: 22470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunChecksU3Ed__9_MoveNext_m5499B6EA4D994567746DE0F5D3918EECA45B9769 (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28802,7 +28802,7 @@ IL_1227:
 		return L_559;
 	}
 }
-// Method Definition Index: 22468
+// Method Definition Index: 22471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9_U3CU3Em__Finally1_m82F1EFC0B208A2603780AA96D4FFC1E87E7CBD82 (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28818,7 +28818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9_U3CU3Em__Finally1_m8
 		return;
 	}
 }
-// Method Definition Index: 22469
+// Method Definition Index: 22472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunChecksU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD5DD52368755C62B9ED4FDD3EFC7094DDD2B40B0 (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28826,7 +28826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunChecksU3Ed__9_System_Col
 		return L_0;
 	}
 }
-// Method Definition Index: 22470
+// Method Definition Index: 22473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9_System_Collections_IEnumerator_Reset_mB4ADFC52996A1638C875566B5B01BC65FDED630D (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28835,7 +28835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunChecksU3Ed__9_System_Collections_I
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRunChecksU3Ed__9_System_Collections_IEnumerator_Reset_mB4ADFC52996A1638C875566B5B01BC65FDED630D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 22471
+// Method Definition Index: 22474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunChecksU3Ed__9_System_Collections_IEnumerator_get_Current_m9F7EA7B985C3CAB4615FB531A7DC33266D1334F8 (U3CRunChecksU3Ed__9_t0A963A413F2D64F6FC1245D77F3C6838742F110C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28846,7 +28846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunChecksU3Ed__9_System_Col
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 41233
+// Method Definition Index: 41236
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -28872,7 +28872,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 41219
+// Method Definition Index: 41222
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28885,7 +28885,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m4
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))));
 	}
 }
-// Method Definition Index: 41228
+// Method Definition Index: 41231
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28899,7 +28899,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 41235
+// Method Definition Index: 41238
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -28922,7 +28922,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_9;
 	}
 }
-// Method Definition Index: 41232
+// Method Definition Index: 41235
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -28948,7 +28948,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 41229
+// Method Definition Index: 41232
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_down_mF62B2AE7C5AC31EAC9CB62797C7190C90A7A8599_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28962,7 +28962,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 41325
+// Method Definition Index: 41328
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -29013,7 +29013,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 41382
+// Method Definition Index: 41385
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29027,7 +29027,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 22287
+// Method Definition Index: 22290
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 MobileJoystick_get_Direction_mDE66832A76CF2E2DC6660643A987417308AF527A_inline (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29036,7 +29036,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 41364
+// Method Definition Index: 41367
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29047,7 +29047,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))));
 	}
 }
-// Method Definition Index: 39636
+// Method Definition Index: 39639
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
 {
 	{
@@ -29062,7 +29062,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BE
 		return;
 	}
 }
-// Method Definition Index: 41054
+// Method Definition Index: 41057
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -29077,7 +29077,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 41083
+// Method Definition Index: 41086
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
 {
 	{
@@ -29087,7 +29087,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 41349
+// Method Definition Index: 41352
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -29098,7 +29098,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 41271
+// Method Definition Index: 41274
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -29116,7 +29116,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_3;
 	}
 }
-// Method Definition Index: 39658
+// Method Definition Index: 39661
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29124,7 +29124,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926
 		return L_0;
 	}
 }
-// Method Definition Index: 39662
+// Method Definition Index: 39665
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29133,7 +29133,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA
 		return ((float)il2cpp_codegen_add(L_0, L_1));
 	}
 }
-// Method Definition Index: 39664
+// Method Definition Index: 39667
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29142,7 +29142,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD63
 		return ((float)il2cpp_codegen_add(L_0, L_1));
 	}
 }
-// Method Definition Index: 41195
+// Method Definition Index: 41198
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -29155,7 +29155,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 41327
+// Method Definition Index: 41330
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -29176,7 +29176,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 39660
+// Method Definition Index: 39663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29184,7 +29184,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE
 		return L_0;
 	}
 }
-// Method Definition Index: 66752
+// Method Definition Index: 66755
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29193,7 +29193,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 26396
+// Method Definition Index: 26399
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* Metin2PlayerState_get_Local_mCBE41F3CC4D8B3DC11016EC72B1EA8C212859074_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29208,7 +29208,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Metin2PlayerState_t0B2F15E774404A
 		return L_0;
 	}
 }
-// Method Definition Index: 24190
+// Method Definition Index: 24193
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get_Level_mAB1DE7AD160346994B70FD709F5093E5A696E608_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29223,7 +29223,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get
 		return L_0;
 	}
 }
-// Method Definition Index: 41311
+// Method Definition Index: 41314
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29260,7 +29260,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 24194
+// Method Definition Index: 24197
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get_Vitality_mD84EB0D44511BD01319F6C85AF8260C233723582_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29275,7 +29275,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get
 		return L_0;
 	}
 }
-// Method Definition Index: 24196
+// Method Definition Index: 24199
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get_Intelligence_mAF64DB7F984661165855D754E85770567367FCC6_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29290,7 +29290,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2GameplaySession_get
 		return L_0;
 	}
 }
-// Method Definition Index: 26416
+// Method Definition Index: 26419
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_MaxHp_m9FB9E2589E22DFC8A034F0012DEFCCE6C1BD4217_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29299,7 +29299,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Max
 		return L_0;
 	}
 }
-// Method Definition Index: 26418
+// Method Definition Index: 26421
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_MaxSp_m7609A97EE12DCEDBBDB50823C47755D0B10431F5_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29308,7 +29308,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Max
 		return L_0;
 	}
 }
-// Method Definition Index: 26415
+// Method Definition Index: 26418
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_CurrentHp_m1C4C58A2B9313AF95C4626B896B1EA3947772E4E_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29317,7 +29317,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 26417
+// Method Definition Index: 26420
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_CurrentSp_m8C82FA59B7E79B1753D0C19300AE8DBE6CB314FD_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29326,7 +29326,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 26420
+// Method Definition Index: 26423
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_MaxStamina_m1476818344C8B6FB8D83462EDF84B37D10BD85C0_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29335,7 +29335,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Max
 		return L_0;
 	}
 }
-// Method Definition Index: 26419
+// Method Definition Index: 26422
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_CurrentStamina_m7D90CECDFD686ACAF026B3FD3ECFBFFF6EEBAD22_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29344,7 +29344,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 41309
+// Method Definition Index: 41312
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -29381,7 +29381,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 41320
+// Method Definition Index: 41323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29406,7 +29406,7 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 26414
+// Method Definition Index: 26417
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_NextExperience_m135C5F6B057D5241D0A1FD8B6BCA01A4CB56AB61_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29415,7 +29415,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Nex
 		return L_0;
 	}
 }
-// Method Definition Index: 26413
+// Method Definition Index: 26416
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Experience_mD8AECCC08E26454D0AB2858F9C6D5E22044FACA3_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29424,7 +29424,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Metin2PlayerState_get_Exp
 		return L_0;
 	}
 }
-// Method Definition Index: 41326
+// Method Definition Index: 41329
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -29472,7 +29472,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 56235
+// Method Definition Index: 56238
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraData_set_renderShadows_m435F35FAAF4700DC51E6A806D2BEF8A01A3A010B_inline (UniversalAdditionalCameraData_t57B5D0F93C2D506E618E23187302C0FADE813B93* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29482,7 +29482,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraDat
 		return;
 	}
 }
-// Method Definition Index: 56262
+// Method Definition Index: 56265
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraData_set_renderPostProcessing_mDECCE7AC172D0C20AC42E6393A24D4841AA4E0F6_inline (UniversalAdditionalCameraData_t57B5D0F93C2D506E618E23187302C0FADE813B93* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29492,7 +29492,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalAdditionalCameraDat
 		return;
 	}
 }
-// Method Definition Index: 67632
+// Method Definition Index: 67635
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813_inline (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29501,7 +29501,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2E
 		return L_0;
 	}
 }
-// Method Definition Index: 41384
+// Method Definition Index: 41387
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29515,7 +29515,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 41383
+// Method Definition Index: 41386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29529,7 +29529,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 39641
+// Method Definition Index: 39644
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29537,7 +29537,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_x_mB267B718E0D067F
 		return L_0;
 	}
 }
-// Method Definition Index: 39643
+// Method Definition Index: 39646
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29545,7 +29545,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_y_mC733E8D49F3CE21
 		return L_0;
 	}
 }
-// Method Definition Index: 39654
+// Method Definition Index: 39657
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29553,7 +29553,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C72
 		return L_0;
 	}
 }
-// Method Definition Index: 39652
+// Method Definition Index: 39655
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29561,7 +29561,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D6755137
 		return L_0;
 	}
 }
-// Method Definition Index: 68348
+// Method Definition Index: 68351
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEventData_get_pointerId_m81DDB468147FE75C1474C9C6C35753BB53A21275_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29570,7 +29570,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEventData_get_poin
 		return L_0;
 	}
 }
-// Method Definition Index: 68350
+// Method Definition Index: 68353
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29579,7 +29579,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 39656
+// Method Definition Index: 39659
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -29594,7 +29594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_2;
 	}
 }
-// Method Definition Index: 41375
+// Method Definition Index: 41378
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -29613,7 +29613,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_6;
 	}
 }
-// Method Definition Index: 41363
+// Method Definition Index: 41366
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29633,7 +29633,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59
 		return ((float)L_4);
 	}
 }
-// Method Definition Index: 41354
+// Method Definition Index: 41357
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -29671,7 +29671,7 @@ IL_004c:
 		return;
 	}
 }
-// Method Definition Index: 41355
+// Method Definition Index: 41358
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29680,7 +29680,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 41335
+// Method Definition Index: 41338
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline (float ___0_a, float ___1_b, float ___2_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -29718,7 +29718,7 @@ IL_0023:
 		return L_8;
 	}
 }
-// Method Definition Index: 22288
+// Method Definition Index: 22291
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MobileJoystick_set_Direction_mA47DADBDDE86071AB9C37409F1E690960128F1F7_inline (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29728,7 +29728,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MobileJoystick_set_Direction
 		return;
 	}
 }
-// Method Definition Index: 34867
+// Method Definition Index: 34870
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29743,7 +29743,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mouse_t9A9CC4636FA9CDBAD7FB7A02DB
 		return L_0;
 	}
 }
-// Method Definition Index: 34859
+// Method Definition Index: 34862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29752,7 +29752,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 34904
+// Method Definition Index: 34907
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* Pointer_get_position_m4286004169788483EEDA6AF833CEFDB04FEDF3D8_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29761,7 +29761,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 41371
+// Method Definition Index: 41374
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -29791,7 +29791,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 41324
+// Method Definition Index: 41327
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -29842,7 +29842,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 41216
+// Method Definition Index: 41219
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_ClampMagnitude_mF83675F19744F58E97CF24D8359A810634DC031F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, float ___1_maxLength, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29920,7 +29920,7 @@ IL_0065:
 		return L_24;
 	}
 }
-// Method Definition Index: 34840
+// Method Definition Index: 34843
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29935,7 +29935,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B43952
 		return L_0;
 	}
 }
-// Method Definition Index: 34855
+// Method Definition Index: 34858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_leftButton_m1015BCBE6BE30B1D1D2702736A4E64120F6B5DFB_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29944,7 +29944,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 41381
+// Method Definition Index: 41384
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -29962,7 +29962,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_4;
 	}
 }
-// Method Definition Index: 22405
+// Method Definition Index: 22408
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MobRuntimeData_get_IsDead_m2F6F99A956AB6FCF43AC7E2299D0452F5C9B2EAB_inline (MobRuntimeData_t2DB6E6CFCF4D7A71B95A38332F3FD4F22A98D7B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29971,7 +29971,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MobRuntimeData_get_IsDead_m2
 		return L_0;
 	}
 }
-// Method Definition Index: 41217
+// Method Definition Index: 41220
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29993,7 +29993,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 		return ((float)L_6);
 	}
 }
-// Method Definition Index: 41208
+// Method Definition Index: 41211
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30002,7 +30002,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 41258
+// Method Definition Index: 41261
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30016,7 +30016,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_1;
 	}
 }
-// Method Definition Index: 41274
+// Method Definition Index: 41277
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_from, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_to, float ___2_maxDegreesDelta, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -30059,7 +30059,7 @@ IL_0034:
 		return L_8;
 	}
 }
-// Method Definition Index: 41270
+// Method Definition Index: 41273
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30072,7 +30072,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_2;
 	}
 }
-// Method Definition Index: 41207
+// Method Definition Index: 41210
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -30114,7 +30114,7 @@ IL_0065:
 		return;
 	}
 }
-// Method Definition Index: 41225
+// Method Definition Index: 41228
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30128,7 +30128,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 39586
+// Method Definition Index: 39589
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds_Encapsulate_m7C70C382B9380A8C962074C78E189B53CE8F7A22_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_bounds, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30147,7 +30147,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds_Encapsulate_m7C70C382
 		return;
 	}
 }
-// Method Definition Index: 39570
+// Method Definition Index: 39573
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_center_m5B05F81CB835EB6DD8628FDA24B638F477984DC3_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30155,7 +30155,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 39572
+// Method Definition Index: 39575
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30198,7 +30198,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t6268F19CA34879176
 		return L_0;
 	}
 }
-// Method Definition Index: 67345
+// Method Definition Index: 67348
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_uiScaleMode_m064C83FFA35E2AED4E9FA7D5EC1AD19630D8FC2A_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30209,7 +30209,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_uiScaleMode
 		return;
 	}
 }
-// Method Definition Index: 67353
+// Method Definition Index: 67356
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_screenMatchMode_m926C437B408D2F2CA4900723BEEEE09504A6768F_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30220,7 +30220,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_screenMatch
 		return;
 	}
 }
-// Method Definition Index: 67355
+// Method Definition Index: 67358
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_matchWidthOrHeight_m44635DC3E4424255C312814C325A48E37E6B6E30_inline (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30231,7 +30231,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasScaler_set_matchWidthO
 		return;
 	}
 }
-// Method Definition Index: 41076
+// Method Definition Index: 41079
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_clear_m02E023A7D396B973288B3915F6F24FBF7E0DC81D_inline (const RuntimeMethod* method) 
 {
 	{
@@ -30241,7 +30241,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 22938
+// Method Definition Index: 22941
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Metin3OnlineClient_t01C1CBC8157FB9716C5BC0A30A5C8A519B31C0A5* Metin3OnlineClient_get_Instance_m75542AC1A556E4EED965A724F655CC74C1F2EFAB_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30257,7 +30257,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Metin3OnlineClient_t01C1CBC8157FB
 		return L_0;
 	}
 }
-// Method Definition Index: 41224
+// Method Definition Index: 41227
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30271,7 +30271,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 41260
+// Method Definition Index: 41263
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30285,7 +30285,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 25679
+// Method Definition Index: 25682
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Metin2MobCombatant_get_SharedLife_mBE52054475349B67C3E1999224F972EB44CA16AE_inline (Metin2MobCombatant_t0734B7865BE70844F4803B09D12BA51F2EE992CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30294,7 +30294,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Metin2MobCombatant_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 41055
+// Method Definition Index: 41058
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
 {
 	{
@@ -30308,7 +30308,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F187
 		return;
 	}
 }
-// Method Definition Index: 41231
+// Method Definition Index: 41234
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30322,7 +30322,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 41215
+// Method Definition Index: 41218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30370,7 +30370,7 @@ IL_0040:
 		return L_19;
 	}
 }
-// Method Definition Index: 41226
+// Method Definition Index: 41229
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30384,7 +30384,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 41240
+// Method Definition Index: 41243
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30393,7 +30393,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B
 		return L_0;
 	}
 }
-// Method Definition Index: 26443
+// Method Definition Index: 26446
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Metin2PlayerState_get_IsDead_m9B109C55D9680B8DB8A646D6F56ABDB7F2156DB6_inline (Metin2PlayerState_t0B2F15E774404A19F5E492FDFD88C0A92AA2A63E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30564,7 +30564,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mB
 		return L_0;
 	}
 }
-// Method Definition Index: 41206
+// Method Definition Index: 41209
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30628,7 +30628,7 @@ IL_0050:
 		return L_14;
 	}
 }
-// Method Definition Index: 41268
+// Method Definition Index: 41271
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Angle_m6F61044E1B167471D24A2B26A85AF2C064F46BC9_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -30677,7 +30677,7 @@ IL_003c:
 		return L_9;
 	}
 }
-// Method Definition Index: 41307
+// Method Definition Index: 41310
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -30714,7 +30714,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 41250
+// Method Definition Index: 41253
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_SlerpUnclamped_m6EE729E421AF8BF8672942540951427AF8AC856C_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	{
@@ -30726,7 +30726,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_3;
 	}
 }
-// Method Definition Index: 39576
+// Method Definition Index: 39579
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30752,7 +30752,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 39578
+// Method Definition Index: 39581
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_max_m6446F2AB97C1E57CA89467B9DE52D4EB61F1CB09_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30778,7 +30778,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 39585
+// Method Definition Index: 39588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds_Encapsulate_m96221CB8E1B1226A2D066DF6F7F7B84CB5B9BF70_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_point, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30806,7 +30806,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds_Encapsulate_m96221CB8
 		return;
 	}
 }
-// Method Definition Index: 41241
+// Method Definition Index: 41244
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30884,7 +30884,7 @@ IL_005a:
 		return L_20;
 	}
 }
-// Method Definition Index: 41266
+// Method Definition Index: 41269
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_m80E67A0F9F1FD9EAD0C8EEF7D5396ADF612FA105_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, const RuntimeMethod* method) 
 {
 	{
@@ -30907,7 +30907,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_m80E67A0F9F1
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
 	}
 }
-// Method Definition Index: 41265
+// Method Definition Index: 41268
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) 
 {
 	{
@@ -30915,7 +30915,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m
 		return (bool)((((float)L_0) > ((float)(0.999998987f)))? 1 : 0);
 	}
 }
-// Method Definition Index: 41221
+// Method Definition Index: 41224
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Min_m8E66B8A553166603505B72F5011ED9E0A2CB1413_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_rhs, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30947,7 +30947,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_15;
 	}
 }
-// Method Definition Index: 41223
+// Method Definition Index: 41226
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Max_m60E53C4131016B84E7E592A8D950DADA96F526EC_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_rhs, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30979,7 +30979,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_15;
 	}
 }
-// Method Definition Index: 39583
+// Method Definition Index: 39586
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds_SetMinMax_m42AF5C7723187A09BACEB4AF46292F8BDEFFDE56_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_min, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_max, const RuntimeMethod* method) 
 {
 	{
