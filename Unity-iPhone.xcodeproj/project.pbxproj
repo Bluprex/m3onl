@@ -48,7 +48,6 @@
 		475B26F38A3A652C6174529D /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 679ACDCF6D14CA6FE6F81479 /* IUnityInterface.h */; };
 		4A4BE9532DDD3BA9A064B13C /* UnityAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F83B23D496299923A2010A3 /* UnityAppController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DC8D302BE7CC8F1438DD4B4 /* UnityAppController+ViewHandling.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05F2FCF5D8AF780A2BE2CF95 /* UnityAppController+ViewHandling.mm */; };
-		4F014A9FA939779F4CD621F2 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4044B2BB8E5EEF7C2E0996 /* UniformTypeIdentifiers.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4F5A16F099B10B63253FD72A /* UnityViewControllerBase+iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2CED23EF972B06324B644C0 /* UnityViewControllerBase+iOS.mm */; };
 		4F64D20983E647B2C4E6D9F8 /* UnityView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3A26B03E97BE656523702E7 /* UnityView.mm */; };
 		4FCE7984EBAEDBF31CE79AC3 /* UnityViewControllerBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8927F6252708C4E90FDD6C76 /* UnityViewControllerBase.mm */; };
@@ -97,6 +96,7 @@
 		9D9DE4EA221D84E60049D9A1 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		9E277B346B541C2D072C5489 /* IUnityGraphicsMetal.h in Headers */ = {isa = PBXBuildFile; fileRef = 894C1B251937BE1BC2B4D36C /* IUnityGraphicsMetal.h */; };
 		9F663AA99BF011B867E22F34 /* UnityViewControllerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE771C3E5C50BFE1CC0E1B7 /* UnityViewControllerListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFA42B6A209674692A2DCCB /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B4380B1BC8913392779E0 /* UniformTypeIdentifiers.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A0289E65B28D0F1FCE1AAE9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C87A34237BDAAD4758D5B4 /* AVFoundation.framework */; };
 		A2DA744A04AAF5E04726BB28 /* UnityAppController+UnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 107ED7BB920065C4558EECC2 /* UnityAppController+UnityInterface.h */; };
 		A4E8229B1D9502E9F8C502D1 /* UnityWebRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77A48A2BB7401CA008A09B2F /* UnityWebRequest.mm */; };
@@ -372,6 +372,7 @@
 		4236EC67EED4A1C54CC291EC /* iPhone_Sensors.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = iPhone_Sensors.mm; path = Classes/iPhone_Sensors.mm; sourceTree = SOURCE_ROOT; };
 		43289C428F36A64040F01B14 /* mscorlib__8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__8.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__8.cpp; sourceTree = SOURCE_ROOT; };
 		43835334F8F7D3225E515DE9 /* UnityViewControllerBase+tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnityViewControllerBase+tvOS.h"; path = "Classes/UI/UnityViewControllerBase+tvOS.h"; sourceTree = SOURCE_ROOT; };
+		438B4380B1BC8913392779E0 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		439D39F1FC43F7B0A6C04FFF /* Generics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics.cpp; sourceTree = SOURCE_ROOT; };
 		444A6E27F397365C367A0E17 /* Assembly-CSharp__21.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__21.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__21.cpp"; sourceTree = SOURCE_ROOT; };
 		4454F9EC8AB4825E5144289E /* Generics__126.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__126.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__126.cpp; sourceTree = SOURCE_ROOT; };
@@ -810,7 +811,6 @@
 		FAFD07214C9BFA3D385DC8FA /* UnityEngine.AdaptivePerformanceModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AdaptivePerformanceModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AdaptivePerformanceModule.cpp; sourceTree = SOURCE_ROOT; };
 		FAFE6F25F97E0825A99B77C2 /* Generics__4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__4.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__4.cpp; sourceTree = SOURCE_ROOT; };
 		FB086F6145558D70FC612B3B /* UnityRendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityRendering.h; path = Classes/Unity/UnityRendering.h; sourceTree = SOURCE_ROOT; };
-		FC4044B2BB8E5EEF7C2E0996 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		FCA5FE8B92B32260C9A32E3F /* UnityEngine.UnityWebRequestAudioModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UnityWebRequestAudioModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestAudioModule.cpp; sourceTree = SOURCE_ROOT; };
 		FCA9DD68EAACB2845E55C381 /* Generics__130.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__130.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__130.cpp; sourceTree = SOURCE_ROOT; };
 		FCDB29CB220336A9EACC1FB5 /* Unity.InputSystem__6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.InputSystem__6.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.InputSystem__6.cpp; sourceTree = SOURCE_ROOT; };
@@ -870,7 +870,7 @@
 				59AFA8F6DB1E25099CCAFB89 /* SystemConfiguration.framework in Frameworks */,
 				D7C2D97F0F5BA8BF5205A09C /* UIKit.framework in Frameworks */,
 				574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */,
-				4F014A9FA939779F4CD621F2 /* UniformTypeIdentifiers.framework in Frameworks */,
+				9FFA42B6A209674692A2DCCB /* UniformTypeIdentifiers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,7 +976,7 @@
 				E997E8735A09F89C0365D60D /* SystemConfiguration.framework */,
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
 				9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */,
-				FC4044B2BB8E5EEF7C2E0996 /* UniformTypeIdentifiers.framework */,
+				438B4380B1BC8913392779E0 /* UniformTypeIdentifiers.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -2076,7 +2076,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -2118,7 +2118,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;
@@ -2162,7 +2162,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -2215,7 +2215,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2260,7 +2260,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -2302,7 +2302,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -2346,7 +2346,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -2392,7 +2392,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -2434,7 +2434,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -2478,7 +2478,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -2699,7 +2699,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2776,7 +2776,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2853,7 +2853,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2932,7 +2932,7 @@
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
 				UNITY_RUNTIME_VERSION = 6000.3.6f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2978,7 +2978,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -3022,7 +3022,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "c6dcbbe3-2142-427a-b666-0f0688e2b0cb";
-				USYM_UPLOAD_AUTH_TOKEN = 4efe1a28a2d16ac00b531d613f180b7a850c4a60d6dcc6a9ed4929ec373142de;
+				USYM_UPLOAD_AUTH_TOKEN = "";
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;
